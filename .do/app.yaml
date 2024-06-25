@@ -1,7 +1,10 @@
 name: tts-voices-info
 services:
   - name: web
-    image: python:3.11  # Use the appropriate base image
+    github:
+      repo: AceCentre/Correct-A-Sentence
+      branch: main
+    image: python:3.11.4  # Use the appropriate base image
     build_command: |
       apt-get update && apt-get install -y portaudio19-dev
       pip install -r requirements.txt

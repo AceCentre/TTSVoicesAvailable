@@ -12,9 +12,11 @@
 
  # Define a build argument to pass the GOOGLE_CREDS_JSON value
  ARG GOOGLE_CREDS_JSON
+ ARG GOOGLE_CREDS_PATH
  # Set the environment variable from the build argument
  ENV GOOGLE_CREDS_JSON=${GOOGLE_CREDS_JSON}
-
+ ENV GOOGLE_CREDS_PATH=${GOOGLE_CREDS_PATH}
+ 
  # Install any needed packages specified in requirements.txt
  RUN python create_google_creds.py
  RUN pip install -r requirements.txt

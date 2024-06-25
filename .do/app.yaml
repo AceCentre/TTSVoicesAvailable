@@ -8,8 +8,8 @@ services:
     build_command: |
       apt-get update && apt-get install -y portaudio19-dev
       pip install -r requirements.txt
-    run_command: |
       python create_google_creds.py
+    run_command: |
       python main.py
     environment:
       GOOGLE_CREDS_JSON: ${GOOGLE_CREDS_JSON}  # Ensure this is set in your DigitalOcean app settings
@@ -17,6 +17,11 @@ services:
     envs:
       - key: GOOGLE_CREDS_JSON
         value: ${GOOGLE_CREDS_JSON}
+    buildpacks:
+      - digitalocean/python-appdetect
+      - heroku/python
+      - digitalocean/procfile
+      - digitalocean/custom
 
 static_sites: []
 jobs: []

@@ -19,40 +19,40 @@ services:
         value: ${GOOGLE_CREDS_JSON}
       - key: WATSON_API_KEY
         scope: RUN_AND_BUILD_TIME
-        value: {WATSON_API_KEY}
+        value: "${WATSON_API_KEY}"
       - key: WATSON_API_URL
         scope: RUN_AND_BUILD_TIME
-        value: {WATSON_API_URL}
+        value: "${WATSON_API_URL}"
       - key: WATSON_REGION
         scope: RUN_AND_BUILD_TIME
-        value: {WATSON_REGION}
+        value: "${WATSON_REGION}"
       - key: WATSON_INSTANCE_ID
         scope: RUN_AND_BUILD_TIME
-        value: {WATSON_INSTANCE_ID}
+        value: "${WATSON_INSTANCE_ID}"
       - key: MICROSOFT_TOKEN
         scope: RUN_AND_BUILD_TIME
-        value: {MICROSOFT_TOKEN}
+        value: "${MICROSOFT_TOKEN}"
       - key: MICROSOFT_REGION
         scope: RUN_AND_BUILD_TIME
-        value: {MICROSOFT_REGION}
+        value: "${MICROSOFT_REGION}"
       - key: GOOGLE_CREDS_PATH
         scope: RUN_AND_BUILD_TIME
-        value: ttsandtranslate-7dd2e2d80d42.json
+        value: "ttsandtranslate-7dd2e2d80d42.json"
       - key: POLLY_REGION
         scope: RUN_AND_BUILD_TIME
-        value: us-east-1
+        value: "us-east-1"
       - key: POLLY_AWS_KEY_ID
         scope: RUN_AND_BUILD_TIME
-        value: {POLLY_AWS_KEY_ID}
+        value: "${POLLY_AWS_KEY_ID}"
       - key: POLLY_AWS_ACCESS_KEY
         scope: RUN_AND_BUILD_TIME
-        value: {POLLY_AWS_ACCESS_KEY}
+        value: "${POLLY_AWS_ACCESS_KEY}"
       - key: ELEVENLABS_API_KEY
         scope: RUN_AND_BUILD_TIME
-        value: {ELEVENLABS_API_KEY}
+        value: "${ELEVENLABS_API_KEY}"
       - key: WITAI_TOKEN
         scope: RUN_AND_BUILD_TIME
-        value: {WITAI_TOKEN}
+        value: "${WITAI_TOKEN}"
     source_dir: .  # Make sure this points to your application's source directory
 static_sites: []
 jobs: []

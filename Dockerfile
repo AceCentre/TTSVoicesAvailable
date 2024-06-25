@@ -10,6 +10,10 @@
  # Copy the current directory contents into the container at /app
  ADD . /app
 
+ # Print current working directory and list files for debugging
+ RUN echo "Current working directory:" && pwd
+ RUN echo "List files in /app directory:" && ls -la /app
+
  # Define a build argument to pass the GOOGLE_CREDS_JSON value
  ARG GOOGLE_CREDS_JSON
  ARG GOOGLE_CREDS_PATH
@@ -19,6 +23,12 @@
  
  # Install any needed packages specified in requirements.txt
  RUN python create_google_creds.py
+
+ # Print current working directory and list files for debugging
+ RUN echo "Current working directory:" && pwd
+ RUN echo "List files in /app directory:" && ls -la /app
+
+
  RUN pip install -r requirements.txt
 
  # Expose port 8000 to the world outside this container

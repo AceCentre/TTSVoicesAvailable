@@ -1,0 +1,24 @@
+FROM python:3.11.4
+
+ARG GOOGLE_CREDS_JSON
+ARG WATSON_API_KEY
+ARG WATSON_REGION
+ARG WATSON_INSTANCE_ID
+ARG MICROSOFT_TOKEN
+ARG MICROSOFT_REGION
+ARG GOOGLE_CREDS_PATH
+ARG POLLY_REGION
+ARG POLLY_AWS_KEY_ID
+ARG POLLY_AWS_ACCESS_KEY
+ARG ELEVENLABLS_API_KEY
+ARG WITAI_TOKEN
+
+WORKDIR /app
+COPY . .
+
+RUN apt-get update && \
+    apt-get install -y portaudio19-dev
+RUN pip install -r requirements.txt
+RUN python create_google_creds.py
+
+CMD uvicorn main:app --host 0.0.0.0 --port 8080

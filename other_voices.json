@@ -441,5 +441,330 @@
     "voices": [
       {"name": "HanHan", "gender": "Female"}
     ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["uk-UA"],
+    "voices": [
+      {
+        "name": "UkrVox",
+        "version": "4.2",
+        "download_link": "https://dl2.topfiles.net/files/2/2939/50089/ZlZJVG7csHtDdDJCM0F2cGp1aFp2cDBMTUVDKzd2MWxtRERuWjhkUjNNRkljZz06OuzMpyA1Hwe0JmE6-C8fvq4/ukrvox_4.2.exe",
+        "file_size": "29.07 MB",
+        "compatible_os": "Windows XP+"
+      }
+    ]
+  },
+  {
+    "engine": "anReader",
+    "software": "Other",
+    "language_codes": ["sr-RS"],
+    "voices": [
+      {
+        "name": "Snezana Act",
+        "version": "4.2.8",
+        "download_link": "https://anreader.alfanum.co.rs/download/4.2/anReader_4.2.8_Snezana_Act.exe",
+        "file_size": "~567 MB",
+        "additional_info": "Request a test serial number as described in the Licensing by serial section."
+      },
+      {
+        "name": "Snezana IDXEG Hasp",
+        "version": "4.2.8",
+        "download_link": "https://anreader.alfanum.co.rs/download/4.2/anReader_4.2.8_Snezana_IDXEG_Hasp.exe",
+        "file_size": "~565 MB",
+        "additional_info": "Requires HASP4.zip for XP/Vista, Hdd32.zip for Windows 7+"
+      },
+      {
+        "name": "Snezana KAYMK Hasp",
+        "version": "4.2.8",
+        "download_link": "https://anreader.alfanum.co.rs/download/4.2/anReader_4.2.8_Snezana_KAYMK_Hasp.exe",
+        "file_size": "~569 MB",
+        "additional_info": "Requires sentinel_ldk_run-time_cmd_line.zip, Sentinel LDK Run-time setup.zip for Windows 10/11"
+      }
+    ]
+  },
+  {
+    "engine": "anReader",
+    "software": "Other",
+    "language_codes": ["hr-HR"],
+    "voices": [
+      {
+        "name": "Marica Act",
+        "version": "4.2.8",
+        "download_link": "https://anreader.alfanum.co.rs/download/4.2/anReader_4.2.8_Marica_Act.exe",
+        "file_size": "~237 MB",
+        "additional_info": "Request a test serial number as described in the Licensing via serial number section."
+      },
+      {
+        "name": "Marica IDXEG Hasp",
+        "version": "4.2.8",
+        "download_link": "https://anreader.alfanum.co.rs/download/4.2/anReader_4.2.8_Marica_IDXEG_Hasp.exe",
+        "file_size": "~235 MB",
+        "additional_info": "Requires HASP4.zip for XP/Vista, Hdd32.zip for Windows 7+"
+      },
+      {
+        "name": "Marica KAYMK Hasp",
+        "version": "4.2.8",
+        "download_link": "https://anreader.alfanum.co.rs/download/4.2/anReader_4.2.8_Marica_KAYMK_Hasp.exe",
+        "file_size": "~239 MB",
+        "additional_info": "Requires sentinel_ldk_run-time_cmd_line.zip, Sentinel LDK Run-time setup.zip for Windows 10/11"
+      }
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["en-GB"],
+    "voices": [
+      {"name": "William", "accent_region": "Southern English", "type": "English Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Sarah", "accent_region": "Southern English", "type": "English Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Amy", "accent_region": "Southern English", "type": "English Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Lily Child", "accent_region": "Southern English", "type": "Southern English Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Ben Child", "accent_region": "Southern English", "type": "Southern English Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Jack", "accent_region": "Southern English", "type": "English Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Giles", "accent_region": "Southern English", "type": "English Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Lauren", "accent_region": "Southern English", "type": "English Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["en-US"],
+    "voices": [
+      {"name": "Andy Child", "accent_region": "American English", "type": "US Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Nathan", "accent_region": "American English", "type": "US Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Carolyn", "accent_region": "American English", "type": "US Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Megan", "accent_region": "American English", "type": "US Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Jordan Child", "accent_region": "American English", "type": "US Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Isabella", "accent_region": "American English", "type": "US Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Adam", "accent_region": "American English", "type": "US Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Katherine", "accent_region": "American English", "type": "US Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Hannah", "accent_region": "American English", "type": "US Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Ana", "accent_region": "American Spanish", "type": "American Spanish Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["en-GB-scotland"],
+    "voices": [
+      {"name": "Stuart", "accent_region": "Scottish English", "type": "Scottish Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Andrew Child", "accent_region": "Scottish English", "type": "Scottish Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Mairi Child", "accent_region": "Scottish English", "type": "Scottish Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Kirsty", "accent_region": "Scottish English", "type": "Scottish Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Heather", "accent_region": "Scottish English", "type": "Scottish Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["en-GB-ireland"],
+    "voices": [
+      {"name": "Caitlin", "accent_region": "Irish English", "type": "Irish Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Peig", "accent_region": "Irish", "type": "Irish Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["en-GB-north"],
+    "voices": [
+      {"name": "Jess", "accent_region": "Northern English", "type": "Northern English Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["en-GB-welsh"],
+    "voices": [
+      {"name": "Seren", "accent_region": "Welsh English", "type": "Welsh Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Gethin", "accent_region": "Welsh English", "type": "Welsh Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Owain", "accent_region": "Welsh English", "type": "Welsh Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Catrin", "accent_region": "Welsh English", "type": "Welsh Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Rhodri", "accent_region": "Welsh English", "type": "Welsh Teenage", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Rhian", "accent_region": "Welsh English", "type": "Welsh Teenage", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Ffion", "accent_region": "Welsh English", "type": "Welsh Teenage", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Tomos", "accent_region": "Welsh English", "type": "Welsh Teenage", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["en-GB-welsh"],
+    "voices": [
+      {"name": "Seren", "accent_region": "Welsh", "type": "Cymraeg/Welsh Child", "personal_use_price": "£4.99", "commercial_use_price": "£299.99"},
+      {"name": "Catrin", "accent_region": "Welsh", "type": "Cymraeg/Welsh Child", "personal_use_price": "£4.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["no-NO"],
+    "voices": [
+      {"name": "Clara", "accent_region": "Norwegian", "type": "Norwegian Bokmål", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Magnus", "accent_region": "Norwegian", "type": "Norwegian Bokmål", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Hulda", "accent_region": "Norwegian", "type": "Norwegian Nynorsk", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["zh-CN"],
+    "voices": [
+      {"name": "Mailin", "accent_region": "Mandarin Chinese", "type": "Mandarin Chinese", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["it-IT"],
+    "voices": [
+      {"name": "Francesco", "accent_region": "Italian", "type": "Italian Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Nicoletta", "accent_region": "Italian", "type": "Italian Child", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Dario", "accent_region": "Italian", "type": "Italian Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Laura", "accent_region": "Italian", "type": "Italian Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["da-DK"],
+    "voices": [
+      {"name": "Marie", "accent_region": "Danish", "type": "Danish Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Lars", "accent_region": "Danish", "type": "Danish", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["lt-LT"],
+    "voices": [
+      {"name": "Eglė", "accent_region": "Lithuanian", "type": "Lithuanian", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Mantas", "accent_region": "Lithuanian", "type": "Lithuanian", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["de-DE"],
+    "voices": [
+      {"name": "Leopold", "accent_region": "Austrian German", "type": "Austrian Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Gudrun", "accent_region": "German", "type": "German Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Alex", "accent_region": "German", "type": "German Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["pt-PT"],
+    "voices": [
+      {"name": "Lúcia", "accent_region": "Portuguese", "type": "Portuguese", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["pt-BR"],
+    "voices": [
+      {"name": "Gabriel", "accent_region": "Brazilian Portuguese", "type": "Brazilian Portuguese Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["es-ES"],
+    "voices": [
+      {"name": "Sara", "accent_region": "Spanish", "type": "Spanish Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["pl-PL"],
+    "voices": [
+      {"name": "Pola", "accent_region": "Polish", "type": "Polish Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["fr-FR"],
+    "voices": [
+      {"name": "Laurent", "accent_region": "French", "type": "French Male", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"},
+      {"name": "Suzanne", "accent_region": "French", "type": "French Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["fr-CA"],
+    "voices": [
+      {"name": "Florence", "accent_region": "French Canadian", "type": "Florence voice", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["ro-RO"],
+    "voices": [
+      {"name": "Daria", "accent_region": "Romanian", "type": "Romanian Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["ja-JP"],
+    "voices": [
+      {"name": "Yuki", "accent_region": "Japanese", "type": "Japanese Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["ca-ES"],
+    "voices": [
+      {"name": "Rita", "accent_region": "Catalan", "type": "Catalan Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["ga-IE"],
+    "voices": [
+      {"name": "Ceitidh", "accent_region": "Scottish Gaelic", "type": "Scottish Gaelic Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["sv-SE"],
+    "voices": [
+      {"name": "Ylva", "accent_region": "Swedish", "type": "Swedish Female", "personal_use_price": "£25.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["en-GB-novelty"],
+    "voices": [
+      {"name": "Demon", "accent_region": "Novelty Voice", "type": "Demon", "personal_use_price": "£10.99", "commercial_use_price": "£299.99"},
+      {"name": "Robot", "accent_region": "Novelty Voice", "type": "Robot", "personal_use_price": "£10.99", "commercial_use_price": "£299.99"},
+      {"name": "Pixie", "accent_region": "Novelty Voice", "type": "Pixie", "personal_use_price": "£10.99", "commercial_use_price": "£299.99"},
+      {"name": "Goblin", "accent_region": "Novelty Voice", "type": "Goblin", "personal_use_price": "£10.99", "commercial_use_price": "£299.99"},
+      {"name": "Ghost", "accent_region": "Novelty Voice", "type": "Ghost", "personal_use_price": "£10.99", "commercial_use_price": "£299.99"},
+      {"name": "Nicole the Sexy French Voice", "accent_region": "Sexy French", "type": "Nicole the Sexy French Voice", "personal_use_price": "£10.99", "commercial_use_price": "£299.99"}
+    ]
+  },
+  {
+    "engine": "CereProc",
+    "software": "Other",
+    "language_codes": ["en-GB"],
+    "voices": [
+      {"name": "Dodo", "accent_region": "Glasgow", "type": "Glasgow Male", "personal_use_price": "£10.99", "commercial_use_price": "£299.99"},
+      {"name": "Claire", "accent_region": "Lancashire", "type": "Lancashire Female", "personal_use_price": "£10.99", "commercial_use_price": "£299.99"},
+      {"name": "Sue", "accent_region": "West Midlands - Black Country", "type": "West Midlands Female", "personal_use_price": "£10.99", "commercial_use_price": "£299.99"}
+    ]
   }
+  
 ]

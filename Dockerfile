@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.11.4
+FROM python:3.11.4 AS builder
 
 # Set the working directory to /app
 WORKDIR /app
@@ -24,7 +24,7 @@ RUN python create_google_creds.py
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Create a new stage for the runtime
+# Stage 2: Runtime Stage
 FROM python:3.11.4-slim AS runtime
 
 # Set the working directory to /app
@@ -34,6 +34,7 @@ WORKDIR /app
 COPY --from=builder /app /app
 COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
 COPY --from=builder /usr/local/bin /usr/local/bin
+
 
 # Expose port 8000 to the world outside this container
 EXPOSE 8000

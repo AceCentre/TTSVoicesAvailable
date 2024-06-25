@@ -16,7 +16,7 @@ def get_voices(engine=None, lang_code=None, software=None):
         params['lang_code'] = lang_code
     if software:
         params['software'] = software
-    response = requests.get("http://127.0.0.1:8000/voices", params=params)
+    response = requests.get("https://ttsvoices.acecentre.net/voices", params=params)
     return response.json()
 
 # Function to aggregate voices by language

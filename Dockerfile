@@ -10,6 +10,11 @@
  # Copy the current directory contents into the container at /app
  ADD . /app
 
+ # Define a build argument to pass the GOOGLE_CREDS_JSON value
+ ARG GOOGLE_CREDS_JSON
+ # Set the environment variable from the build argument
+ ENV GOOGLE_CREDS_JSON=${GOOGLE_CREDS_JSON}
+
  # Install any needed packages specified in requirements.txt
  RUN python create_google_creds.py
  RUN pip install -r requirements.txt

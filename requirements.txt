@@ -1,0 +1,4 @@
+#python==3.11.4(python.org)
+Flask
+git+https://github.com/willwade/py3-tts#egg=py3-tts
+git+https://github.com/willwade/tts-wrapper#egg=tts-wrapper[google,watson,microsoft,polly,elevenlabs,mms]

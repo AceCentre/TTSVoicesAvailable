@@ -1,0 +1,445 @@
+[
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["en-AU"],
+    "voices": [
+      {"name": "Lisa", "gender": "Female"},
+      {"name": "Tyler", "gender": "Male"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["en-IN"],
+    "voices": [
+      {"name": "Deepa", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Vocalizer",
+    "software": "MindExpress",
+    "language_codes": ["en-IE"],
+    "voices": [
+      {"name": "Moira", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["en-SC"],
+    "voices": [
+      {"name": "Rhona", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["en-GB"],
+    "voices": [
+      {"name": "Lucy", "gender": "Female"},
+      {"name": "Rachel", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["nl-BE"],
+    "voices": [
+      {"name": "Sofie", "gender": "Female"},
+      {"name": "Zoe", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["fr-CA"],
+    "voices": [
+      {"name": "Louise", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["de-DE"],
+    "voices": [
+      {"name": "Claudia", "gender": "Female"},
+      {"name": "Julia", "gender": "Female"},
+      {"name": "Sarah", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["el-GR"],
+    "voices": [
+      {"name": "Dimitris", "gender": "Male"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["it-IT"],
+    "voices": [
+      {"name": "Chiara", "gender": "Female"},
+      {"name": "Fabiana", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["no-NO"],
+    "voices": [
+      {"name": "Bente", "gender": "Female"},
+      {"name": "Kari", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["pl-PL"],
+    "voices": [
+      {"name": "Ania", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["pt-PT"],
+    "voices": [
+      {"name": "Celia", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["pt-BR"],
+    "voices": [
+      {"name": "Marcia", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["ru-RU"],
+    "voices": [
+      {"name": "Alyona", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["es-ES"],
+    "voices": [
+      {"name": "Ines", "gender": "Female"},
+      {"name": "Maria", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["es-MX"],
+    "voices": [
+      {"name": "Rosa", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["sv-SE"],
+    "voices": [
+      {"name": "Elin", "gender": "Female"},
+      {"name": "Emma", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["tr-TR"],
+    "voices": [
+      {"name": "Ipek", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "Acapela",
+    "software": "MindExpress",
+    "language_codes": ["uk-UA"],
+    "voices": [
+      {"name": "Dmytro", "gender": "Male"}
+    ]
+  },
+  {
+    "engine": "RHVoice",
+    "software": "Other",
+    "language_codes": ["ky-KG"],
+    "voices": [
+      {"name": "Azamat", "gender": "Male"},
+      {"name": "Nazgul", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "RHVoice",
+    "software": "Other",
+    "language_codes": ["mk-MK"],
+    "voices": [
+      {"name": "Kiko", "gender": "Male"},
+      {"name": "Suze", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "RHVoice",
+    "software": "Other",
+    "language_codes": ["ru-RU"],
+    "voices": [
+      {"name": "Aleksandr", "gender": "Male"},
+      {"name": "Anna", "gender": "Female"},
+      {"name": "Elena", "gender": "Female"},
+      {"name": "Irina", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "RHVoice",
+    "software": "Other",
+    "language_codes": ["sr-RS"],
+    "voices": [
+      {"name": "Dragana", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "RHVoice",
+    "software": "Other",
+    "language_codes": ["tt-RU"],
+    "voices": [
+      {"name": "Talgat", "gender": "Male"}
+    ]
+  },
+  {
+    "engine": "RHVoice",
+    "software": "Other",
+    "language_codes": ["uk-UA"],
+    "voices": [
+      {"name": "Anatol", "gender": "Male"},
+      {"name": "Natalia", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "RHVoice",
+    "software": "Other",
+    "language_codes": ["uz-UZ"],
+    "voices": [
+      {"name": "Sevinch", "gender": "Female"},
+      {"name": "Islom", "gender": "Male"},
+      {"name": "Dil’navoz", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["ca-ES"],
+    "voices": [
+      {"name": "Herena", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["da-DK"],
+    "voices": [
+      {"name": "Helle", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["de-DE"],
+    "voices": [
+      {"name": "Hedda", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["en-AU"],
+    "voices": [
+      {"name": "Hayley", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["en-CA"],
+    "voices": [
+      {"name": "Heather", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["en-GB"],
+    "voices": [
+      {"name": "Hazel", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["en-IN"],
+    "voices": [
+      {"name": "Heera", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["en-US"],
+    "voices": [
+      {"name": "Helen", "gender": "Female"},
+      {"name": "Zira Pro", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["es-ES"],
+    "voices": [
+      {"name": "Helena", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["es-MX"],
+    "voices": [
+      {"name": "Hilda", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["fi-FI"],
+    "voices": [
+      {"name": "Heidi", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["fr-CA"],
+    "voices": [
+      {"name": "Harmonie", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["fr-FR"],
+    "voices": [
+      {"name": "Hortense", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["it-IT"],
+    "voices": [
+      {"name": "Lucia", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["ja-JP"],
+    "voices": [
+      {"name": "Haruka", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["ko-KR"],
+    "voices": [
+      {"name": "Heami", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["nb-NO"],
+    "voices": [
+      {"name": "Hulda", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["nl-NL"],
+    "voices": [
+      {"name": "Hanna", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["pl-PL"],
+    "voices": [
+      {"name": "Paulina", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["pt-BR"],
+    "voices": [
+      {"name": "Heloisa", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["pt-PT"],
+    "voices": [
+      {"name": "Helia", "gender": "Female"},
+      {"name": "Helia 16k", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["ru-RU"],
+    "voices": [
+      {"name": "Elena", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["sv-SE"],
+    "voices": [
+      {"name": "Hedvig", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["zh-CN"],
+    "voices": [
+      {"name": "HuiHui", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["zh-HK"],
+    "voices": [
+      {"name": "HunYee", "gender": "Female"}
+    ]
+  },
+  {
+    "engine": "SAPI",
+    "software": "Other",
+    "language_codes": ["zh-TW"],
+    "voices": [
+      {"name": "HanHan", "gender": "Female"}
+    ]
+  }
+]

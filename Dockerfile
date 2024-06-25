@@ -19,6 +19,5 @@ COPY . .
 RUN apt-get update && \
     apt-get install -y portaudio19-dev
 RUN pip install -r requirements.txt
-RUN python create_google_creds.py
 
 CMD uvicorn main:app --host 0.0.0.0 --port 8080

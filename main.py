@@ -1,11 +1,12 @@
 from fastapi import FastAPI, Query, HTTPException
-from pydantic import BaseModel
 from typing import List, Optional, Dict, Any
+from pydantic import BaseModel
 from tts_wrapper import PollyTTS, PollyClient, GoogleTTS, GoogleClient, MicrosoftTTS, MicrosoftClient, WatsonTTS, WatsonClient, ElevenLabsTTS, ElevenLabsClient, WitAiTTS, WitAiClient, MMSTTS, MMSClient
 import os
 import json
 from datetime import datetime, timedelta
 import logging
+from fuzzysearch import find_near_matches
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -17,13 +18,30 @@ app = FastAPI()
 cache = {}
 
 # List of engines for dropdown
-engines_list = ["polly", "google", "microsoft", "watson", "elevenlabs", "witai", "mms", "other"]
+engines_list = ["polly", "google", "microsoft", "watson", "elevenlabs", "witai", "mms", "acapela", "other"]
 
 class Voice(BaseModel):
     id: str
     language_codes: List[str]
     name: str
     gender: Optional[str] = None
+
+def load_acapela_voices(json_file='acapela_voices.json'):
+    with open(json_file, 'r') as file:
+        data = json.load(file)
+    voices = []
+    for entry in data:
+        for demo in entry['demos']:
+            voices.append({
+                "id": f"{entry['name']}-{demo['quality']}",
+                "language_codes": [demo['lang']],
+                "name": entry['name'],
+                "gender": entry['gender'],
+                "age": demo['age'],
+                "quality": demo['quality'],
+                "mp3": demo['mp3']
+            })
+    return voices
 
 def get_client(engine: str):
     logger.info(f"Creating client for engine: {engine}")
@@ -88,7 +106,10 @@ def filter_voices(voices: List[Dict[str, Any]], lang_code: Optional[str] = None,
     if lang_code:
         filtered_voices = [voice for voice in filtered_voices if lang_code in voice['language_codes']]
     if lang_name:
-        filtered_voices = [voice for voice in filtered_voices if lang_name in voice.get('language', '')]
+        filtered_voices = [
+            voice for voice in filtered_voices 
+            if any(find_near_matches(lang_name.lower(), lang.lower(), max_l_dist=1) for lang in voice.get('language', ''))
+        ]
     if name:
         filtered_voices = [voice for voice in filtered_voices if name.lower() in voice['name'].lower()]
     if gender:
@@ -110,6 +131,7 @@ def get_cached_voices(engine: str):
 @app.get("/voices", response_model=List[Voice])
 def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code: Optional[str] = None, lang_name: Optional[str] = None, name: Optional[str] = None, gender: Optional[str] = None, page: Optional[int] = 1, page_size: Optional[int] = 50):
     other_voices_file = 'other_voices.json'
+    acapela_voices_file = 'acapela_voices.json'
 
     if engine:
         voices = get_cached_voices(engine.lower())
@@ -117,6 +139,8 @@ def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code
             if engine.lower() == 'other':
                 with open(other_voices_file, 'r') as file:
                     voices = json.load(file)
+            elif engine.lower() == 'acapela':
+                voices = load_acapela_voices(acapela_voices_file)
             else:
                 tts = get_tts(engine.lower())
                 if not tts:
@@ -131,6 +155,8 @@ def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code
                 if eng == 'other':
                     with open(other_voices_file, 'r') as file:
                         eng_voices = json.load(file)
+                elif eng == 'acapela':
+                    eng_voices = load_acapela_voices(acapela_voices_file)
                 else:
                     tts = get_tts(eng)
                     if tts:

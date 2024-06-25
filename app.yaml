@@ -1,0 +1,20 @@
+name: tts-voices-info
+services:
+  - name: web
+    image: python:3.11  # Use the appropriate base image
+    build_command: |
+      apt-get update && apt-get install -y portaudio19-dev
+      pip install -r requirements.txt
+    run_command: |
+      python create_google_creds.py
+      python main.py
+    environment:
+      GOOGLE_CREDS_JSON: ${GOOGLE_CREDS_JSON}  # Ensure this is set in your DigitalOcean app settings
+    source_dir: .  # Make sure this points to your application's source directory
+    envs:
+      - key: GOOGLE_CREDS_JSON
+        value: ${GOOGLE_CREDS_JSON}
+
+static_sites: []
+jobs: []
+databases: []

@@ -1,6 +1,0 @@
-name: TTS-Voices-Info
-services:
-- name: web
-  github:
-    repo: AceCentre/TTSVoicesAvailable
-    branch: main

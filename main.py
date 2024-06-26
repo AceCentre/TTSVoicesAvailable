@@ -25,22 +25,39 @@ class Voice(BaseModel):
     language_codes: List[str]
     name: str
     gender: Optional[str] = None
+    engine: str
 
-def load_acapela_voices(json_file='acapela_voices.json'):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
+def load_voices_from_source(engine: str):
+    other_voices_file = 'misc-misc.json'
+    acapela_voices_file = 'acapela-acapela.json'
     voices = []
-    for entry in data:
-        for demo in entry['demos']:
-            voices.append({
-                "id": f"{entry['name']}-{demo['quality']}",
-                "language_codes": [demo['lang']],
-                "name": entry['name'],
-                "gender": entry['gender'],
-                "age": demo['age'],
-                "quality": demo['quality'],
-                "mp3": demo['mp3']
-            })
+    if engine == 'other':
+        with open(other_voices_file, 'r') as file:
+            voices_raw = json.load(file)
+            voices = [{"engine": item.get("engine", engine), **item} for item in voices_raw]
+    elif engine == 'acapela':
+        with open(acapela_voices_file, 'r') as file:
+            voices_raw = json.load(file)
+            voices = [{"engine": 'acapela', **voice} for voice in voices_raw]
+    else:
+        tts = get_tts(engine)
+        if tts:
+            try:
+                voices_raw = tts.get_voices()
+                voices = [{"engine": engine, **voice} for voice in voices_raw]
+                print(voices)
+            except Exception as e:
+                # Log the error for debugging purposes. Adjust logging as needed.
+                logging.info(f"Failed to get voices for engine {engine}: {e}")
+                # Optionally, return an empty list or a specific error message for this engine.
+                voices = [{
+                "id": "error",
+                "language_codes": [],
+                "name": "Error fetching voices",
+                "engine": engine
+                }]
+        else:
+            raise HTTPException(status_code=400, detail="Invalid engine")
     return voices
 
 def get_client(engine: str):
@@ -49,7 +66,6 @@ def get_client(engine: str):
         region = os.getenv('POLLY_REGION')
         aws_key_id = os.getenv('POLLY_AWS_KEY_ID')
         aws_access_key = os.getenv('POLLY_AWS_ACCESS_KEY')
-        logger.info(f"Polly credentials - Region: {region}, Key ID: {aws_key_id}")
         return PollyClient(credentials=(region, aws_key_id, aws_access_key))
     elif engine == 'google':
         creds_path = os.getenv('GOOGLE_CREDS_PATH')
@@ -58,8 +74,10 @@ def get_client(engine: str):
         if not google_creds_json:
             raise ValueError("GOOGLE_CREDS_JSON environment variable is not set")
     
-        with open(creds_path, "w") as f:
-            f.write(google_creds_json)
+        is_development = os.getenv('DEVELOPMENT') == 'True'
+        if not is_development:
+            with open(creds_path, "w") as f:
+                f.write(google_creds_json)
 
         logger.info(f"Google credentials path: {creds_path}")
         return GoogleClient(credentials=(creds_path))
@@ -137,39 +155,27 @@ def get_cached_voices(engine: str):
     return None
 
 @app.get("/voices", response_model=List[Voice])
-def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code: Optional[str] = None, lang_name: Optional[str] = None, name: Optional[str] = None, gender: Optional[str] = None, page: Optional[int] = 1, page_size: Optional[int] = 50):
-    other_voices_file = 'other_voices.json'
-    acapela_voices_file = 'acapela_voices.json'
-
+def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code: Optional[str] = None, lang_name: Optional[str] = None, name: Optional[str] = None, gender: Optional[str] = None, page: Optional[int] = 1, page_size: Optional[int] = 50, ignore_cache: Optional[bool] = False):
+    voices = []
     if engine:
-        voices = get_cached_voices(engine.lower())
+        if not ignore_cache:
+            voices = get_cached_voices(engine.lower())
         if not voices:
-            if engine.lower() == 'other':
-                with open(other_voices_file, 'r') as file:
-                    voices = json.load(file)
-            elif engine.lower() == 'acapela':
-                voices = load_acapela_voices(acapela_voices_file)
-            else:
-                tts = get_tts(engine.lower())
-                if not tts:
-                    raise HTTPException(status_code=400, detail="Invalid engine")
-                voices = tts.get_voices()
-            cache_voices(engine.lower(), voices)
+            voices = load_voices_from_source(engine.lower())
+            if not ignore_cache:
+                cache_voices(engine.lower(), voices)
     else:
-        voices = []
         for eng in engines_list:
-            eng_voices = get_cached_voices(eng)
+            if not ignore_cache:
+                eng_voices = get_cached_voices(eng)
             if not eng_voices:
-                if eng == 'other':
-                    with open(other_voices_file, 'r') as file:
-                        eng_voices = json.load(file)
-                elif eng == 'acapela':
-                    eng_voices = load_acapela_voices(acapela_voices_file)
-                else:
-                    tts = get_tts(eng)
-                    if tts:
-                        eng_voices = tts.get_voices()
-                cache_voices(eng, eng_voices)
+                try:
+                    eng_voices = load_voices_from_source(eng)
+                except Exception as e:
+                    logger.error(f"Failed to fetch voices for engine {engine}: {e}")
+                    continue
+                if not ignore_cache:
+                    cache_voices(eng, eng_voices)
             voices.extend(eng_voices)
 
     filtered_voices = filter_voices(voices, lang_code, lang_name, name, gender)
@@ -181,5 +187,11 @@ def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code
     return [Voice(**voice) for voice in paginated_voices]
 
 if __name__ == '__main__':
+    is_development = os.getenv('DEVELOPMENT') == 'True'
+    if is_development:
+        print("Loading credentials")
+        from load_credentials import load_credentials
+        load_credentials()
+
     import uvicorn
     uvicorn.run(app, host='127.0.0.1', port=8000)

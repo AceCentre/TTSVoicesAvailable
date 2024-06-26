@@ -1,0 +1,1212 @@
+[
+    {
+        "id": "jalal-standard",
+        "language_codes": [
+            "ac-ac"
+        ],
+        "name": "Jalal",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/arabic-Jalal-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "leila-standard",
+        "language_codes": [
+            "ac-ac"
+        ],
+        "name": "Leila",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/arabic-leila-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "medhi-standard",
+        "language_codes": [
+            "ac-ac"
+        ],
+        "name": "Medhi",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/arabic-mehdi-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "nizar-standard",
+        "language_codes": [
+            "ac-ac"
+        ],
+        "name": "Nizar",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/arabic-nizar-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "salma-standard",
+        "language_codes": [
+            "ac-ac"
+        ],
+        "name": "Salma",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/arabic-salma-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "laia-standard",
+        "language_codes": [
+            "es-ct"
+        ],
+        "name": "Laia",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/07/catalan-laia-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "lulu-standard",
+        "language_codes": [
+            "cn"
+        ],
+        "name": "Lulu",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/07/chinese-lulu-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "eliska-standard",
+        "language_codes": [
+            "cz"
+        ],
+        "name": "Eliska",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/07/czech-eliska-standard-1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "mette-standard",
+        "language_codes": [
+            "dk"
+        ],
+        "name": "Mette",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/dad_mette1.6.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "rasmus-standard",
+        "language_codes": [
+            "dk"
+        ],
+        "name": "Rasmus",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/dad_rasmus2.1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "christina-premium",
+        "language_codes": [
+            "be"
+        ],
+        "name": "Christina",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/dub_christina-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "jeroen-standard",
+        "language_codes": [
+            "be"
+        ],
+        "name": "Jeroen",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/dub_jeroen7.1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "sofie-standard",
+        "language_codes": [
+            "be"
+        ],
+        "name": "Sofie",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/dub_sofie10.1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "zoe-standard",
+        "language_codes": [
+            "be"
+        ],
+        "name": "Zoe",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/dub_zoe6.1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "daan-standard",
+        "language_codes": [
+            "nl"
+        ],
+        "name": "Daan",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/dun_daan5.3.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "femke-standard",
+        "language_codes": [
+            "nl"
+        ],
+        "name": "Femke",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/dun_femke9.2.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "jasmijn-standard",
+        "language_codes": [
+            "nl"
+        ],
+        "name": "Jasmijn",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/dun_jasmijn5.5.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "max-standard",
+        "language_codes": [
+            "nl"
+        ],
+        "name": "Max",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/dun_max7.5.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "merel-premium",
+        "language_codes": [
+            "nl"
+        ],
+        "name": "Merel",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/dun-merel-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "tessa-premium",
+        "language_codes": [
+            "nl"
+        ],
+        "name": "Tessa",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/dutchnl-tessabtob-premium.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "thijs-premium",
+        "language_codes": [
+            "nl"
+        ],
+        "name": "Thijs",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/dun-thijs-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "nizar-standard",
+        "language_codes": [
+            "ac-ac"
+        ],
+        "name": "Nizar",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/eng_nizareng4.0.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "liam-premium",
+        "language_codes": [
+            "au"
+        ],
+        "name": "Liam",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/en-au-liam-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "lisa-standard",
+        "language_codes": [
+            "au"
+        ],
+        "name": "Lisa",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/en_au_lisa3.0.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "olivia-premium",
+        "language_codes": [
+            "au"
+        ],
+        "name": "Olivia",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/en-au-olivia-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "tyler-standard",
+        "language_codes": [
+            "au"
+        ],
+        "name": "Tyler",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/en_au_tyler4.0.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "julian-premium",
+        "language_codes": [
+            "en-ca"
+        ],
+        "name": "Julian",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/01/canadian-english-premium-julian.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "victoria-premium",
+        "language_codes": [
+            "en-ca"
+        ],
+        "name": "Victoria",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/01/canadian-english-premium-victoria.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "deepa-standard",
+        "language_codes": [
+            "in"
+        ],
+        "name": "Deepa",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/en_in_deepa4.0.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "rhona-standard",
+        "language_codes": [
+            "gb-sct"
+        ],
+        "name": "Rhona",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/en_sct_rhona3.1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "harry-premium",
+        "language_codes": [
+            "gb"
+        ],
+        "name": "Harry",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/en-uk-harry-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "lucy-standard",
+        "language_codes": [
+            "gb"
+        ],
+        "name": "Lucy",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/05/en-uk-lucy-standard-1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "peter-standard",
+        "language_codes": [
+            "gb"
+        ],
+        "name": "Peter",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/eng_peter5.3.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "rachel-standard",
+        "language_codes": [
+            "gb"
+        ],
+        "name": "Rachel",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/08/ENUK_Rachel.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "rosie-premium",
+        "language_codes": [
+            "gb"
+        ],
+        "name": "Rosie",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/en-uk-rosie-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "sophia-premium",
+        "language_codes": [
+            "gb"
+        ],
+        "name": "Sophia",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/en-uk-sophia-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "darius-standard",
+        "language_codes": [
+            "us"
+        ],
+        "name": "Darius",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2023/03/enus-darius-transport.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "emilioenglish-premium",
+        "language_codes": [
+            "us"
+        ],
+        "name": "EmilioEnglish",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/03/en-sp-us-emilio-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "lily-premium",
+        "language_codes": [
+            "us"
+        ],
+        "name": "Lily",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/03/en-us-lily-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "tamira-standard",
+        "language_codes": [
+            "us"
+        ],
+        "name": "Tamira",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/06/Tamira-now-available-3.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "taylor-premium",
+        "language_codes": [
+            "us"
+        ],
+        "name": "Taylor",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/05/en-us-taylor-premium.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "will-standard",
+        "language_codes": [
+            "us"
+        ],
+        "name": "Will",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2022/04/neural-enus-will-elearning.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "hanna-standard",
+        "language_codes": [
+            "fo"
+        ],
+        "name": "Hanna",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2020/06/Faroese-hanna.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "hanus-standard",
+        "language_codes": [
+            "fo"
+        ],
+        "name": "Hanus",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2020/06/Faroese-hanus.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "sanna-standard",
+        "language_codes": [
+            "fi"
+        ],
+        "name": "Sanna",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/fif_sanna5.2.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "anais-standard",
+        "language_codes": [
+            "fr"
+        ],
+        "name": "Anais",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/french-anais-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "antoine-standard",
+        "language_codes": [
+            "fr"
+        ],
+        "name": "Antoine",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/french-antoine-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "bruno-standard",
+        "language_codes": [
+            "fr"
+        ],
+        "name": "Bruno",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/french-bruno-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "claire-standard",
+        "language_codes": [
+            "fr"
+        ],
+        "name": "Claire",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/french-claire-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "manon-standard",
+        "language_codes": [
+            "fr"
+        ],
+        "name": "Manon",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/french-manon-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "valentin-premium",
+        "language_codes": [
+            "fr"
+        ],
+        "name": "Valentin",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/fr-valentin-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "louise-standard",
+        "language_codes": [
+            "ac-qc"
+        ],
+        "name": "Louise",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/frenchcanada-louise-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "anthony-standard",
+        "language_codes": [
+            "ac-qc"
+        ],
+        "name": "Anthony",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2022/11/fr-ca-anthony-navigation.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "victoire-premium",
+        "language_codes": [
+            "ac-qc"
+        ],
+        "name": "Victoire",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/01/canadian-french-premium-victoire.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "julien-premium",
+        "language_codes": [
+            "ac-qc"
+        ],
+        "name": "Julien",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/01/canadian-french-premium-julien.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "andreas-standard",
+        "language_codes": [
+            "de"
+        ],
+        "name": "Andreas",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/ged_andreas3.2.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "anke-premium",
+        "language_codes": [
+            "de"
+        ],
+        "name": "Anke",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/german-anke-premium.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "claudia-standard",
+        "language_codes": [
+            "de"
+        ],
+        "name": "Claudia",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/german-claudia-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "jonas-premium",
+        "language_codes": [
+            "de"
+        ],
+        "name": "Jonas",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/de-jonas-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "julia-standard",
+        "language_codes": [
+            "de"
+        ],
+        "name": "Julia",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/ged_julia4.2.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "klaus-standard",
+        "language_codes": [
+            "de"
+        ],
+        "name": "Klaus",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/ged_klaus4.10.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "lea-premium",
+        "language_codes": [
+            "de"
+        ],
+        "name": "Lea",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/de-lea-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "sarah-standard",
+        "language_codes": [
+            "de"
+        ],
+        "name": "Sarah",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/ged_sarah5.6.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "dimitris-standard",
+        "language_codes": [
+            "gr"
+        ],
+        "name": "Dimitris",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/grg_dimitris2.0.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "vidhi-standard",
+        "language_codes": [
+            "hi"
+        ],
+        "name": "Vidhi",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/12/hindi-vidhi-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "alessio-premium",
+        "language_codes": [
+            "it"
+        ],
+        "name": "Alessio",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/it-alessio-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "aurora-premium",
+        "language_codes": [
+            "it"
+        ],
+        "name": "Aurora",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/it-aurora-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "barbara-standard",
+        "language_codes": [
+            "it"
+        ],
+        "name": "Barbara",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/it-barbara-premium-acapela.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "chiara-standard",
+        "language_codes": [
+            "it"
+        ],
+        "name": "Chiara",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/italian-chiara-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "fabiana-standard",
+        "language_codes": [
+            "it"
+        ],
+        "name": "Fabiana",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/italian-fabiana-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "vittorio-standard",
+        "language_codes": [
+            "it"
+        ],
+        "name": "Vittorio",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/italian-vittorio-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "sakura-standard",
+        "language_codes": [
+            "jp"
+        ],
+        "name": "Sakura",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/ja_jp_sakura1.1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "minji-standard",
+        "language_codes": [
+            "kr"
+        ],
+        "name": "Minji",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/ko_kr_minji1.1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "bente-standard",
+        "language_codes": [
+            "no"
+        ],
+        "name": "Bente",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2023/03/enus-darius-transport.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "elias-premium",
+        "language_codes": [
+            "no"
+        ],
+        "name": "Elias",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/03/no-elias-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "emilie-premium",
+        "language_codes": [
+            "no"
+        ],
+        "name": "Emilie",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/03/no-emilie-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "ida-premium",
+        "language_codes": [
+            "no"
+        ],
+        "name": "Ida",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/05/non_ida_HQ_02-transport_01.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "kari-standard",
+        "language_codes": [
+            "no"
+        ],
+        "name": "Kari",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2018/07/non_kari5.3.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "olav-standard",
+        "language_codes": [
+            "no"
+        ],
+        "name": "Olav",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2018/07/non_olav3.2.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "ania-standard",
+        "language_codes": [
+            "pl"
+        ],
+        "name": "Ania",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/06/polish-ania-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "gosia-standard",
+        "language_codes": [
+            "pl"
+        ],
+        "name": "Gosia",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/06/polish-gosia-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "piotr-standard",
+        "language_codes": [
+            "pl"
+        ],
+        "name": "Piotr",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/06/polish-piotr-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "antek-neural",
+        "language_codes": [
+            "pl"
+        ],
+        "name": "Antek",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/06/polish-antek-neural.mp3",
+        "quality": "Neural"
+    },
+    {
+        "id": "hania-neural",
+        "language_codes": [
+            "pl"
+        ],
+        "name": "Hania",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/06/polish-hania-neural.mp3",
+        "quality": "Neural"
+    },
+    {
+        "id": "julka-neural",
+        "language_codes": [
+            "pl"
+        ],
+        "name": "Julka",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/06/polish-julka-neural.mp3",
+        "quality": "Neural"
+    },
+    {
+        "id": "kuba-neural",
+        "language_codes": [
+            "pl"
+        ],
+        "name": "Kuba",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2024/06/polish-kuba-neural.mp3",
+        "quality": "Neural"
+    },
+    {
+        "id": "celia-standard",
+        "language_codes": [
+            "pt"
+        ],
+        "name": "Celia",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/poe_celia3.3.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "isabel-standard",
+        "language_codes": [
+            "pt"
+        ],
+        "name": "Isabel",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/poe-isabel-acapela.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "gabriela-premium",
+        "language_codes": [
+            "br"
+        ],
+        "name": "Gabriela",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/pob-gabriela-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "marcia-standard",
+        "language_codes": [
+            "br"
+        ],
+        "name": "Marcia",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/pob_marcia2.0.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "sergio-standard",
+        "language_codes": [
+            "br"
+        ],
+        "name": "Sergio",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2022/11/pob-sergio-customer-interaction.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "alyona-standard",
+        "language_codes": [
+            "ru"
+        ],
+        "name": "Alyona",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/rur_alyona4.2.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "lena-premium",
+        "language_codes": [
+            "ru"
+        ],
+        "name": "Lena",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/05/rur_lena_HQ_01-customerinteraction_01.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "biera-standard",
+        "language_codes": [
+            "ac-si"
+        ],
+        "name": "Biera",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/SamiNorth_Biera.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "elle-standard",
+        "language_codes": [
+            "ac-si"
+        ],
+        "name": "Elle",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/SamiNorth_Elle.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "ana-premium",
+        "language_codes": [
+            "es"
+        ],
+        "name": "Ana",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/sp-ana-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "antonio-standard",
+        "language_codes": [
+            "es"
+        ],
+        "name": "Antonio",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/sps_antonio5.1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "elena-premium",
+        "language_codes": [
+            "es"
+        ],
+        "name": "Elena",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/sp-elena-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "ines-standard",
+        "language_codes": [
+            "es"
+        ],
+        "name": "Ines",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/sps_ines4.0.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "maria-standard",
+        "language_codes": [
+            "es"
+        ],
+        "name": "Maria",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/sps_maria7.2.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "emilio-premium",
+        "language_codes": [
+            "us"
+        ],
+        "name": "Emilio",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/spus-en-emilio-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "rodrigo-standard",
+        "language_codes": [
+            "us"
+        ],
+        "name": "Rodrigo",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/spanishus-rodrigo-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "rosa-standard",
+        "language_codes": [
+            "us"
+        ],
+        "name": "Rosa",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/spanishus-rosa-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "valeria-premium",
+        "language_codes": [
+            "us"
+        ],
+        "name": "Valeria",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/spus-en-valeria-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "elin-standard",
+        "language_codes": [
+            "se"
+        ],
+        "name": "Elin",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/sws_elin6.2.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "emil-standard",
+        "language_codes": [
+            "se"
+        ],
+        "name": "Emil",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/swedish-emil-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "emma-standard",
+        "language_codes": [
+            "se"
+        ],
+        "name": "Emma",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/sws_emma6.5.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "erik-standard",
+        "language_codes": [
+            "se"
+        ],
+        "name": "Erik",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/sws_erik5.2.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "filip-premium",
+        "language_codes": [
+            "se"
+        ],
+        "name": "Filip",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/sw-filip-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "freja-premium",
+        "language_codes": [
+            "se"
+        ],
+        "name": "Freja",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/03/sw-freja-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "kal-(göteburg)-standard",
+        "language_codes": [
+            "se"
+        ],
+        "name": "Kal (Göteburg)",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/gb_se_kal3.1.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "mia-(scania)-standard",
+        "language_codes": [
+            "se"
+        ],
+        "name": "Mia (Scania)",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/sc_se_mia3.0.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "samuel-standard",
+        "language_codes": [
+            "fi"
+        ],
+        "name": "Samuel",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2018/07/sv_fi_samuel2.0.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "ipek-standard",
+        "language_codes": [
+            "tr"
+        ],
+        "name": "Ipek",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2023/08/turkish-ipek-standard.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "zeynep-standard",
+        "language_codes": [
+            "tr"
+        ],
+        "name": "Zeynep",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com/wp-content/uploads/2021/05/turkish-zeynep03_01.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "bente-standard",
+        "language_codes": [
+            ""
+        ],
+        "name": "Bente",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2023/03/enus-darius-transport.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "elias-premium",
+        "language_codes": [
+            ""
+        ],
+        "name": "Elias",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/03/no-elias-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "emilie-premium",
+        "language_codes": [
+            ""
+        ],
+        "name": "Emilie",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/03/no-emilie-child-premium-acapela.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "ida-premium",
+        "language_codes": [
+            ""
+        ],
+        "name": "Ida",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/05/non_ida_HQ_02-transport_01.mp3",
+        "quality": "Premium"
+    },
+    {
+        "id": "kari-standard",
+        "language_codes": [
+            ""
+        ],
+        "name": "Kari",
+        "gender": "Female",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2018/07/non_kari5.3.mp3",
+        "quality": "Standard"
+    },
+    {
+        "id": "olav-standard",
+        "language_codes": [
+            ""
+        ],
+        "name": "Olav",
+        "gender": "Male",
+        "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2018/07/non_olav3.2.mp3",
+        "quality": "Standard"
+    }
+]

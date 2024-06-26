@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Query, HTTPException
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Union
 from pydantic import BaseModel
 from tts_wrapper import PollyTTS, PollyClient, GoogleTTS, GoogleClient, MicrosoftTTS, MicrosoftClient, WatsonTTS, WatsonClient, ElevenLabsTTS, ElevenLabsClient, WitAiTTS, WitAiClient, MMSTTS, MMSClient
 import os
@@ -26,8 +26,7 @@ class Voice(BaseModel):
     name: str
     gender: Optional[str] = None
     engine: str
-    latitude: float = 0.0  # Default value 0.0
-    longitude: float = 0.0  # Default value 0.0
+    lat_longs: List[Dict[str, Union[str, float]]] = []  # List of dictionaries for language code and lat-long pairs
 
 def load_geo_data():
     with open('geo-data.json', 'r') as file:
@@ -68,13 +67,14 @@ def load_voices_from_source(engine: str):
     # Add geographical data to each voice
     updated_voices = []
     for voice in voices:
-        updated_voice = voice.copy()  # Create a copy of the voice
+        lat_longs = []
         for lang_code in voice.get("language_codes", []):
             lat, long = find_geo_info(lang_code, geo_data)
-            updated_voice["latitude"] = lat
-            updated_voice["longitude"] = long
-            break  # Assuming we use the first matching language code
+            lat_longs.append({"language_code": lang_code, "latitude": lat, "longitude": long})
+        updated_voice = voice.copy()  # Create a copy of the voice
+        updated_voice["lat_longs"] = lat_longs
         updated_voices.append(updated_voice)  # Add the updated voice to the list
+    
     return updated_voices
 
 def get_client(engine: str):

@@ -26,11 +26,25 @@ class Voice(BaseModel):
     name: str
     gender: Optional[str] = None
     engine: str
+    latitude: float = 0.0  # Default value 0.0
+    longitude: float = 0.0  # Default value 0.0
+
+def load_geo_data():
+    with open('geo-data.json', 'r') as file:
+        return json.load(file)
+
+def find_geo_info(language_code, geo_data):
+    for item in geo_data:
+        if item["language_code"] == language_code:
+            return item["latitude"], item["longitude"]
+    return 0.0, 0.0  # Default values if no match is found
 
 def load_voices_from_source(engine: str):
     other_voices_file = 'misc-misc.json'
     acapela_voices_file = 'acapela-acapela.json'
     voices = []
+    geo_data = load_geo_data()  # Load geographical data
+
     if engine == 'other':
         with open(other_voices_file, 'r') as file:
             voices_raw = json.load(file)
@@ -45,20 +59,23 @@ def load_voices_from_source(engine: str):
             try:
                 voices_raw = tts.get_voices()
                 voices = [{"engine": engine, **voice} for voice in voices_raw]
-                print(voices)
             except Exception as e:
-                # Log the error for debugging purposes. Adjust logging as needed.
                 logging.info(f"Failed to get voices for engine {engine}: {e}")
-                # Optionally, return an empty list or a specific error message for this engine.
-                voices = [{
-                "id": "error",
-                "language_codes": [],
-                "name": "Error fetching voices",
-                "engine": engine
-                }]
+                voices = [{"id": "error", "language_codes": [], "name": "Error fetching voices", "engine": engine}]
         else:
             raise HTTPException(status_code=400, detail="Invalid engine")
-    return voices
+
+    # Add geographical data to each voice
+    updated_voices = []
+    for voice in voices:
+        updated_voice = voice.copy()  # Create a copy of the voice
+        for lang_code in voice.get("language_codes", []):
+            lat, long = find_geo_info(lang_code, geo_data)
+            updated_voice["latitude"] = lat
+            updated_voice["longitude"] = long
+            break  # Assuming we use the first matching language code
+        updated_voices.append(updated_voice)  # Add the updated voice to the list
+    return updated_voices
 
 def get_client(engine: str):
     logger.info(f"Creating client for engine: {engine}")
@@ -68,19 +85,15 @@ def get_client(engine: str):
         aws_access_key = os.getenv('POLLY_AWS_ACCESS_KEY')
         return PollyClient(credentials=(region, aws_key_id, aws_access_key))
     elif engine == 'google':
-        creds_path = os.getenv('GOOGLE_CREDS_PATH')
-
-        google_creds_json = os.getenv("GOOGLE_CREDS_JSON")
-        if not google_creds_json:
-            raise ValueError("GOOGLE_CREDS_JSON environment variable is not set")
+        google_creds_path = os.getenv("GOOGLE_CREDS_PATH")
+        if not google_creds_path:
+            raise ValueError("GOOGLE_CREDS_PATH environment variable is not set")
+        else:
+            if not os.path.exists(google_creds_path):
+                raise ValueError(f"Google credentials file not found at {google_creds_path}")
     
-        is_development = os.getenv('DEVELOPMENT') == 'True'
-        if not is_development:
-            with open(creds_path, "w") as f:
-                f.write(google_creds_json)
-
-        logger.info(f"Google credentials path: {creds_path}")
-        return GoogleClient(credentials=(creds_path))
+        logger.info(f"Google credentials path: {google_creds_path}")
+        return GoogleClient(credentials=(google_creds_path))
     elif engine == 'microsoft':
         token = os.getenv('MICROSOFT_TOKEN')
         region = os.getenv('MICROSOFT_REGION')

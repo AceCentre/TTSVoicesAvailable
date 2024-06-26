@@ -1,5 +1,5 @@
 # use it like this
-# cat ttsandtranslate-7dd2e2d80d42.json | jq -c .
+# jq -c '@json' ttsandtranslate-7dd2e2d80d42.json
 
 import os
 

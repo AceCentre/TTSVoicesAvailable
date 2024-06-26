@@ -180,9 +180,13 @@ def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code
 
     filtered_voices = filter_voices(voices, lang_code, lang_name, name, gender)
 
-    start = (page - 1) * page_size
-    end = start + page_size
-    paginated_voices = filtered_voices[start:end]
+    #If page_size is 0, return all voices without pagination.
+    if page_size == 0:
+        paginated_voices = filtered_voices
+    else:
+        start = (page - 1) * page_size
+        end = start + page_size
+        paginated_voices = filtered_voices[start:end]
 
     return [Voice(**voice) for voice in paginated_voices]
 

@@ -15,3 +15,12 @@ To-Do
 see docs at https://ttsvoices.acecentre.net/docs 
 
 **NB: In requirements we are using our github versions of tts-wrapper. This breaks!**
+
+## Random TTS engines not supported by wrapper
+
+Some engines are not supported by tts-wrapper. As such we have to dump our own JSON files with their details in this repo. 
+
+- Acapela is scraped using previews/get_acapela.py
+- A random selection of others are in misc-misc.json
+- We could do with rethinking this part. Its not fun adding more or keeping this up-to-date 
+

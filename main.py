@@ -22,11 +22,10 @@ engines_list = ["polly", "google", "microsoft", "watson", "elevenlabs", "witai",
 
 class Voice(BaseModel):
     id: str
-    language_codes: List[str]
     name: str
     gender: Optional[str] = None
     engine: str
-    lat_longs: List[Dict[str, Union[str, float]]] = []  # List of dictionaries for language code and lat-long pairs
+    languages: List[Dict[str, Union[str, float]]] = []  # List of dictionaries for language code and lat-long pairs
 
 def load_geo_data():
     with open('geo-data.json', 'r') as file:
@@ -35,8 +34,8 @@ def load_geo_data():
 def find_geo_info(language_code, geo_data):
     for item in geo_data:
         if item["language_code"] == language_code:
-            return item["latitude"], item["longitude"]
-    return 0.0, 0.0  # Default values if no match is found
+            return item["latitude"], item["longitude"], item["language"]
+    return 0.0, 0.0, 'Unknown' # Default values if no match is found
 
 def load_voices_from_source(engine: str):
     other_voices_file = 'misc-misc.json'
@@ -67,12 +66,12 @@ def load_voices_from_source(engine: str):
     # Add geographical data to each voice
     updated_voices = []
     for voice in voices:
-        lat_longs = []
+        languages = []
         for lang_code in voice.get("language_codes", []):
-            lat, long = find_geo_info(lang_code, geo_data)
-            lat_longs.append({"language_code": lang_code, "latitude": lat, "longitude": long})
+            lat, long, language = find_geo_info(lang_code, geo_data)
+            languages.append({"language_code": lang_code, "latitude": lat, "longitude": long, "language": language})
         updated_voice = voice.copy()  # Create a copy of the voice
-        updated_voice["lat_longs"] = lat_longs
+        updated_voice["languages"] = languages
         updated_voices.append(updated_voice)  # Add the updated voice to the list
     
     return updated_voices

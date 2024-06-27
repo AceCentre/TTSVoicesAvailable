@@ -3,7 +3,7 @@
         "language_code": "fr-BE",
         "latitude": 50.503887,
         "longitude": 4.469936,
-        "language": null,
+        "language": "French (Belgium)",
         "country": "Belgium",
         "region": null
     },
@@ -11,7 +11,7 @@
         "language_code": "en-US",
         "latitude": 37.09024,
         "longitude": -95.712891,
-        "language": null,
+        "language": "English (United States)",
         "country": "United States",
         "region": null
     },
@@ -19,7 +19,7 @@
         "language_code": "tr-TR",
         "latitude": 38.963745,
         "longitude": 35.243322,
-        "language": null,
+        "language": "Turkish",
         "country": "T\u00fcrkiye",
         "region": null
     },
@@ -27,7 +27,7 @@
         "language_code": "sv-SE",
         "latitude": 60.12816100000001,
         "longitude": 18.643501,
-        "language": null,
+        "language": "Swedish",
         "country": "Sweden",
         "region": null
     },
@@ -35,7 +35,7 @@
         "language_code": "ru-RU",
         "latitude": 61.52401,
         "longitude": 105.318756,
-        "language": null,
+        "language": "Russian",
         "country": "Russian Federation",
         "region": null
     },
@@ -43,7 +43,7 @@
         "language_code": "ro-RO",
         "latitude": 45.943161,
         "longitude": 24.96676,
-        "language": null,
+        "language": "Romanian",
         "country": "Romania",
         "region": null
     },
@@ -51,7 +51,7 @@
         "language_code": "pt-PT",
         "latitude": 39.39987199999999,
         "longitude": -8.224454,
-        "language": null,
+        "language": "Portuguese (Portugal)",
         "country": "Portugal",
         "region": null
     },
@@ -59,7 +59,7 @@
         "language_code": "pt-BR",
         "latitude": -14.235004,
         "longitude": -51.92528,
-        "language": null,
+        "language": "Portuguese (Brazil)",
         "country": "Brazil",
         "region": null
     },
@@ -67,7 +67,7 @@
         "language_code": "pl-PL",
         "latitude": 51.919438,
         "longitude": 19.145136,
-        "language": null,
+        "language": "Polish",
         "country": "Poland",
         "region": null
     },
@@ -75,7 +75,7 @@
         "language_code": "nl-BE",
         "latitude": 50.503887,
         "longitude": 4.469936,
-        "language": null,
+        "language": "Dutch (Belgium)",
         "country": "Belgium",
         "region": null
     },
@@ -83,7 +83,7 @@
         "language_code": "nl-NL",
         "latitude": 52.132633,
         "longitude": 5.291265999999999,
-        "language": null,
+        "language": "Dutch (Netherlands)",
         "country": "Netherlands",
         "region": null
     },
@@ -91,7 +91,7 @@
         "language_code": "nb-NO",
         "latitude": 60.47202399999999,
         "longitude": 8.468945999999999,
-        "language": null,
+        "language": "Norwegian (Bokm\u00e5l)",
         "country": "Norway",
         "region": null
     },
@@ -99,7 +99,7 @@
         "language_code": "ko-KR",
         "latitude": 35.907757,
         "longitude": 127.766922,
-        "language": null,
+        "language": "Korean (Korea)",
         "country": "Korea, Republic of",
         "region": null
     },
@@ -107,7 +107,7 @@
         "language_code": "ja-JP",
         "latitude": 36.204824,
         "longitude": 138.252924,
-        "language": null,
+        "language": "Japanese (Japan)",
         "country": "Japan",
         "region": null
     },
@@ -115,7 +115,7 @@
         "language_code": "it-IT",
         "latitude": 41.87194,
         "longitude": 12.56738,
-        "language": null,
+        "language": "Italian",
         "country": "Italy",
         "region": null
     },
@@ -123,7 +123,7 @@
         "language_code": "is-IS",
         "latitude": 64.963051,
         "longitude": -19.020835,
-        "language": null,
+        "language": "Icelandic",
         "country": "Iceland",
         "region": null
     },
@@ -131,7 +131,7 @@
         "language_code": "fr-FR",
         "latitude": 46.227638,
         "longitude": 2.213749,
-        "language": null,
+        "language": "French",
         "country": "France",
         "region": null
     },
@@ -139,7 +139,7 @@
         "language_code": "fr-CA",
         "latitude": 56.130366,
         "longitude": -106.346771,
-        "language": null,
+        "language": "French (Canada)",
         "country": "Canada",
         "region": null
     },
@@ -147,7 +147,7 @@
         "language_code": "es-US",
         "latitude": 37.09024,
         "longitude": -95.712891,
-        "language": null,
+        "language": "Spanish (United States)",
         "country": "United States",
         "region": null
     },
@@ -155,7 +155,7 @@
         "language_code": "es-MX",
         "latitude": 23.634501,
         "longitude": -102.552784,
-        "language": null,
+        "language": "Spanish (Mexico)",
         "country": "Mexico",
         "region": null
     },
@@ -163,7 +163,7 @@
         "language_code": "es-ES",
         "latitude": 40.46366700000001,
         "longitude": -3.74922,
-        "language": null,
+        "language": "Spanish",
         "country": "Spain",
         "region": null
     },
@@ -171,7 +171,7 @@
         "language_code": "en-GB-WLS",
         "latitude": 55.378051,
         "longitude": -3.435973,
-        "language": null,
+        "language": "English (United Kingdom - Wales)",
         "country": "United Kingdom",
         "region": null
     },
@@ -179,7 +179,7 @@
         "language_code": "en-NZ",
         "latitude": -40.900557,
         "longitude": 174.885971,
-        "language": null,
+        "language": "English (New Zealand)",
         "country": "New Zealand",
         "region": null
     },
@@ -187,7 +187,7 @@
         "language_code": "en-ZA",
         "latitude": -30.559482,
         "longitude": 22.937506,
-        "language": null,
+        "language": "English (South Africa)",
         "country": "South Africa",
         "region": null
     },
@@ -195,7 +195,7 @@
         "language_code": "en-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "English (India)",
         "country": "India",
         "region": null
     },
@@ -203,7 +203,7 @@
         "language_code": "en-GB",
         "latitude": 55.378051,
         "longitude": -3.435973,
-        "language": null,
+        "language": "English (United Kingdom)",
         "country": "United Kingdom",
         "region": null
     },
@@ -211,7 +211,7 @@
         "language_code": "en-AU",
         "latitude": -25.274398,
         "longitude": 133.775136,
-        "language": null,
+        "language": "English (Australia)",
         "country": "Australia",
         "region": null
     },
@@ -219,7 +219,7 @@
         "language_code": "de-DE",
         "latitude": 51.165691,
         "longitude": 10.451526,
-        "language": null,
+        "language": "German",
         "country": "Germany",
         "region": null
     },
@@ -227,7 +227,7 @@
         "language_code": "da-DK",
         "latitude": 56.26392,
         "longitude": 9.501785,
-        "language": null,
+        "language": "Danish (Denmark)",
         "country": "Denmark",
         "region": null
     },
@@ -235,7 +235,7 @@
         "language_code": "cy-GB",
         "latitude": 55.378051,
         "longitude": -3.435973,
-        "language": null,
+        "language": "Welsh (United Kingdom)",
         "country": "United Kingdom",
         "region": null
     },
@@ -243,7 +243,7 @@
         "language_code": "cmn-CN",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Chinese (Mandarin) in China",
         "country": "China",
         "region": null
     },
@@ -251,7 +251,7 @@
         "language_code": "ar-AE",
         "latitude": 23.424076,
         "longitude": 53.847818,
-        "language": null,
+        "language": "Arabic (United Arab Emirates)",
         "country": "United Arab Emirates",
         "region": null
     },
@@ -259,7 +259,7 @@
         "language_code": "ca-ES",
         "latitude": 40.46366700000001,
         "longitude": -3.74922,
-        "language": null,
+        "language": "Catalan (Catalonia, Spain)",
         "country": "Spain",
         "region": null
     },
@@ -267,7 +267,7 @@
         "language_code": "de-AT",
         "latitude": 47.516231,
         "longitude": 14.550072,
-        "language": null,
+        "language": "German (Austria)",
         "country": "Austria",
         "region": null
     },
@@ -275,7 +275,7 @@
         "language_code": "yue-CN",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Cantonese (Simplified Chinese) Spoken in China (Yue Chinese)",
         "country": "China",
         "region": null
     },
@@ -283,7 +283,7 @@
         "language_code": "fi-FI",
         "latitude": 61.92410999999999,
         "longitude": 25.748151,
-        "language": null,
+        "language": "Finnish",
         "country": "Finland",
         "region": null
     },
@@ -291,7 +291,7 @@
         "language_code": "en-IE",
         "latitude": 53.77975540000001,
         "longitude": -7.3055309,
-        "language": null,
+        "language": "English (Ireland)",
         "country": "Ireland",
         "region": null
     },
@@ -299,7 +299,7 @@
         "language_code": "af-ZA",
         "latitude": -30.559482,
         "longitude": 22.937506,
-        "language": null,
+        "language": "Afrikaans (South Africa)",
         "country": "South Africa",
         "region": null
     },
@@ -307,7 +307,7 @@
         "language_code": "am-ET",
         "latitude": 9.145000000000001,
         "longitude": 40.489673,
-        "language": null,
+        "language": "Amharic (Ethiopia)",
         "country": "Ethiopia",
         "region": null
     },
@@ -315,7 +315,7 @@
         "language_code": "ar-BH",
         "latitude": 26.0667,
         "longitude": 50.5577,
-        "language": null,
+        "language": "Arabic (Bahrain)",
         "country": "Bahrain",
         "region": null
     },
@@ -323,7 +323,7 @@
         "language_code": "ar-DZ",
         "latitude": 28.033886,
         "longitude": 1.659626,
-        "language": null,
+        "language": "Arabic (Algeria)",
         "country": "Algeria",
         "region": null
     },
@@ -331,7 +331,7 @@
         "language_code": "ar-EG",
         "latitude": 26.820553,
         "longitude": 30.802498,
-        "language": null,
+        "language": "Arabic (Egypt)",
         "country": "Egypt",
         "region": null
     },
@@ -339,7 +339,7 @@
         "language_code": "ar-IQ",
         "latitude": 33.223191,
         "longitude": 43.679291,
-        "language": null,
+        "language": "Arabic (Iraq)",
         "country": "Iraq",
         "region": null
     },
@@ -347,7 +347,7 @@
         "language_code": "ar-JO",
         "latitude": 30.585164,
         "longitude": 36.238414,
-        "language": null,
+        "language": "Arabic",
         "country": "Jordan",
         "region": null
     },
@@ -355,7 +355,7 @@
         "language_code": "ar-KW",
         "latitude": 29.31166,
         "longitude": 47.481766,
-        "language": null,
+        "language": "Arabic (Kuwait)",
         "country": "Kuwait",
         "region": null
     },
@@ -363,7 +363,7 @@
         "language_code": "ar-LB",
         "latitude": 33.854721,
         "longitude": 35.862285,
-        "language": null,
+        "language": "Arabic",
         "country": "Lebanon",
         "region": null
     },
@@ -371,7 +371,7 @@
         "language_code": "ar-LY",
         "latitude": 26.3351,
         "longitude": 17.228331,
-        "language": null,
+        "language": "Arabic (Libya)",
         "country": "Libya",
         "region": null
     },
@@ -379,7 +379,7 @@
         "language_code": "ar-MA",
         "latitude": 31.791702,
         "longitude": -7.092619999999999,
-        "language": null,
+        "language": "Arabic (Morocco)",
         "country": "Morocco",
         "region": null
     },
@@ -387,7 +387,7 @@
         "language_code": "ar-OM",
         "latitude": 21.4735329,
         "longitude": 55.975413,
-        "language": null,
+        "language": "Arabic (Oman)",
         "country": "Oman",
         "region": null
     },
@@ -395,7 +395,7 @@
         "language_code": "ar-QA",
         "latitude": 25.354826,
         "longitude": 51.183884,
-        "language": null,
+        "language": "Arabic (Qatar)",
         "country": "Qatar",
         "region": null
     },
@@ -403,7 +403,7 @@
         "language_code": "ar-SA",
         "latitude": 23.885942,
         "longitude": 45.079162,
-        "language": null,
+        "language": "Arabic (Saudi Arabia)",
         "country": "Saudi Arabia",
         "region": null
     },
@@ -411,7 +411,7 @@
         "language_code": "ar-SY",
         "latitude": 34.80207499999999,
         "longitude": 38.996815,
-        "language": null,
+        "language": "Arabic (Syrian Arabic)",
         "country": "Syrian Arab Republic",
         "region": null
     },
@@ -419,7 +419,7 @@
         "language_code": "ar-TN",
         "latitude": 33.886917,
         "longitude": 9.537499,
-        "language": null,
+        "language": "Arabic",
         "country": "Tunisia",
         "region": null
     },
@@ -427,7 +427,7 @@
         "language_code": "ar-YE",
         "latitude": 15.552727,
         "longitude": 48.516388,
-        "language": null,
+        "language": "Arabic (Yemen)",
         "country": "Yemen",
         "region": null
     },
@@ -435,7 +435,7 @@
         "language_code": "az-AZ",
         "latitude": 40.143105,
         "longitude": 47.576927,
-        "language": null,
+        "language": "Azerbaijani (Azerbaijan)",
         "country": "Azerbaijan",
         "region": null
     },
@@ -443,7 +443,7 @@
         "language_code": "bg-BG",
         "latitude": 42.733883,
         "longitude": 25.48583,
-        "language": null,
+        "language": "Bulgarian",
         "country": "Bulgaria",
         "region": null
     },
@@ -451,7 +451,7 @@
         "language_code": "bn-BD",
         "latitude": 23.684994,
         "longitude": 90.356331,
-        "language": null,
+        "language": "Bengali (Bangladesh)",
         "country": "Bangladesh",
         "region": null
     },
@@ -459,7 +459,7 @@
         "language_code": "bn-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "Bengali (India)",
         "country": "India",
         "region": null
     },
@@ -467,7 +467,7 @@
         "language_code": "bs-BA",
         "latitude": 43.915886,
         "longitude": 17.679076,
-        "language": null,
+        "language": "Bosnian (Bosnia and Herzegovina)",
         "country": "Bosnia and Herzegovina",
         "region": null
     },
@@ -475,7 +475,7 @@
         "language_code": "cs-CZ",
         "latitude": 49.81749199999999,
         "longitude": 15.472962,
-        "language": null,
+        "language": "Czech (Czech Republic)",
         "country": "Czechia",
         "region": null
     },
@@ -483,7 +483,7 @@
         "language_code": "de-CH",
         "latitude": 46.818188,
         "longitude": 8.227511999999999,
-        "language": null,
+        "language": "German (Switzerland)",
         "country": "Switzerland",
         "region": null
     },
@@ -491,7 +491,7 @@
         "language_code": "el-GR",
         "latitude": 39.074208,
         "longitude": 21.824312,
-        "language": null,
+        "language": "Greek",
         "country": "Greece",
         "region": null
     },
@@ -499,7 +499,7 @@
         "language_code": "en-CA",
         "latitude": 56.130366,
         "longitude": -106.346771,
-        "language": null,
+        "language": "English (Canada)",
         "country": "Canada",
         "region": null
     },
@@ -507,7 +507,7 @@
         "language_code": "en-HK",
         "latitude": 22.3193039,
         "longitude": 114.1693611,
-        "language": null,
+        "language": "English (Hong Kong)",
         "country": "Hong Kong",
         "region": null
     },
@@ -515,7 +515,7 @@
         "language_code": "en-KE",
         "latitude": -0.023559,
         "longitude": 37.906193,
-        "language": null,
+        "language": "English (Kenya)",
         "country": "Kenya",
         "region": null
     },
@@ -523,7 +523,7 @@
         "language_code": "en-NG",
         "latitude": 9.081999,
         "longitude": 8.675277,
-        "language": null,
+        "language": "English (Nigeria)",
         "country": "Nigeria",
         "region": null
     },
@@ -531,7 +531,7 @@
         "language_code": "en-PH",
         "latitude": 12.879721,
         "longitude": 121.774017,
-        "language": null,
+        "language": "English (Philippines)",
         "country": "Philippines",
         "region": null
     },
@@ -539,7 +539,7 @@
         "language_code": "en-SG",
         "latitude": 1.352083,
         "longitude": 103.819836,
-        "language": null,
+        "language": "English (Singapore)",
         "country": "Singapore",
         "region": null
     },
@@ -547,7 +547,7 @@
         "language_code": "en-TZ",
         "latitude": -6.369028,
         "longitude": 34.888822,
-        "language": null,
+        "language": "English (Tanzania)",
         "country": "Tanzania, United Republic of",
         "region": null
     },
@@ -555,7 +555,7 @@
         "language_code": "es-AR",
         "latitude": -38.416097,
         "longitude": -63.61667199999999,
-        "language": null,
+        "language": "Spanish (Argentina)",
         "country": "Argentina",
         "region": null
     },
@@ -563,7 +563,7 @@
         "language_code": "es-BO",
         "latitude": -16.290154,
         "longitude": -63.58865299999999,
-        "language": null,
+        "language": "Spanish (Bolivia)",
         "country": "Bolivia, Plurinational State of",
         "region": null
     },
@@ -571,7 +571,7 @@
         "language_code": "es-CL",
         "latitude": -35.675147,
         "longitude": -71.542969,
-        "language": null,
+        "language": "Spanish (Chile)",
         "country": "Chile",
         "region": null
     },
@@ -579,7 +579,7 @@
         "language_code": "es-CO",
         "latitude": 4.570868,
         "longitude": -74.297333,
-        "language": null,
+        "language": "Spanish (Colombia)",
         "country": "Colombia",
         "region": null
     },
@@ -587,7 +587,7 @@
         "language_code": "es-CR",
         "latitude": 9.748916999999999,
         "longitude": -83.753428,
-        "language": null,
+        "language": "Spanish (Costa Rica)",
         "country": "Costa Rica",
         "region": null
     },
@@ -595,7 +595,7 @@
         "language_code": "es-CU",
         "latitude": 21.521757,
         "longitude": -77.781167,
-        "language": null,
+        "language": "Spanish (Cuba)",
         "country": "Cuba",
         "region": null
     },
@@ -603,7 +603,7 @@
         "language_code": "es-DO",
         "latitude": 18.735693,
         "longitude": -70.162651,
-        "language": null,
+        "language": "Spanish (Dominican Republic)",
         "country": "Dominican Republic",
         "region": null
     },
@@ -611,7 +611,7 @@
         "language_code": "es-EC",
         "latitude": -1.831239,
         "longitude": -78.18340599999999,
-        "language": null,
+        "language": "Spanish (Ecuador)",
         "country": "Ecuador",
         "region": null
     },
@@ -619,7 +619,7 @@
         "language_code": "es-GQ",
         "latitude": 1.650801,
         "longitude": 10.267895,
-        "language": null,
+        "language": "Spanish (Equatorial Guinea)",
         "country": "Equatorial Guinea",
         "region": null
     },
@@ -627,7 +627,7 @@
         "language_code": "es-GT",
         "latitude": 15.783471,
         "longitude": -90.23075899999999,
-        "language": null,
+        "language": "Spanish (Guatemala)",
         "country": "Guatemala",
         "region": null
     },
@@ -635,7 +635,7 @@
         "language_code": "es-HN",
         "latitude": 15.199999,
         "longitude": -86.241905,
-        "language": null,
+        "language": "Spanish (Honduras)",
         "country": "Honduras",
         "region": null
     },
@@ -643,7 +643,7 @@
         "language_code": "es-NI",
         "latitude": 12.865416,
         "longitude": -85.207229,
-        "language": null,
+        "language": "Spanish (Nicaragua)",
         "country": "Nicaragua",
         "region": null
     },
@@ -651,7 +651,7 @@
         "language_code": "es-PA",
         "latitude": 8.537981,
         "longitude": -80.782127,
-        "language": null,
+        "language": "Spanish (Panama)",
         "country": "Panama",
         "region": null
     },
@@ -659,7 +659,7 @@
         "language_code": "es-PE",
         "latitude": -9.189967,
         "longitude": -75.015152,
-        "language": null,
+        "language": "Spanish (Peru)",
         "country": "Peru",
         "region": null
     },
@@ -667,7 +667,7 @@
         "language_code": "es-PR",
         "latitude": 18.220833,
         "longitude": -66.590149,
-        "language": null,
+        "language": "Spanish (Puerto Rico)",
         "country": "Puerto Rico",
         "region": null
     },
@@ -675,7 +675,7 @@
         "language_code": "es-PY",
         "latitude": -23.442503,
         "longitude": -58.443832,
-        "language": null,
+        "language": "Spanish (Paraguay)",
         "country": "Paraguay",
         "region": null
     },
@@ -683,7 +683,7 @@
         "language_code": "es-SV",
         "latitude": 13.794185,
         "longitude": -88.89653,
-        "language": null,
+        "language": "Spanish (El Salvador)",
         "country": "El Salvador",
         "region": null
     },
@@ -691,7 +691,7 @@
         "language_code": "es-UY",
         "latitude": -32.522779,
         "longitude": -55.765835,
-        "language": null,
+        "language": "Spanish (Uruguay)",
         "country": "Uruguay",
         "region": null
     },
@@ -699,7 +699,7 @@
         "language_code": "es-VE",
         "latitude": 6.42375,
         "longitude": -66.58973,
-        "language": null,
+        "language": "Spanish (Venezuela)",
         "country": "Venezuela, Bolivarian Republic of",
         "region": null
     },
@@ -707,7 +707,7 @@
         "language_code": "et-EE",
         "latitude": 58.595272,
         "longitude": 25.013607,
-        "language": null,
+        "language": "Estonian",
         "country": "Estonia",
         "region": null
     },
@@ -715,7 +715,7 @@
         "language_code": "eu-ES",
         "latitude": 40.46366700000001,
         "longitude": -3.74922,
-        "language": null,
+        "language": "Basque",
         "country": "Spain",
         "region": null
     },
@@ -723,7 +723,7 @@
         "language_code": "fa-IR",
         "latitude": 32.427908,
         "longitude": 53.688046,
-        "language": null,
+        "language": "Farsi (Persian)",
         "country": "Iran, Islamic Republic of",
         "region": null
     },
@@ -731,7 +731,7 @@
         "language_code": "fil-PH",
         "latitude": 12.879721,
         "longitude": 121.774017,
-        "language": null,
+        "language": "Filipino (Philippines)",
         "country": "Philippines",
         "region": null
     },
@@ -739,7 +739,7 @@
         "language_code": "fr-CH",
         "latitude": 46.818188,
         "longitude": 8.227511999999999,
-        "language": null,
+        "language": "French (Switzerland)",
         "country": "Switzerland",
         "region": null
     },
@@ -747,7 +747,7 @@
         "language_code": "ga-IE",
         "latitude": 53.77975540000001,
         "longitude": -7.3055309,
-        "language": null,
+        "language": "Irish (Ireland)",
         "country": "Ireland",
         "region": null
     },
@@ -755,7 +755,7 @@
         "language_code": "gl-ES",
         "latitude": 40.46366700000001,
         "longitude": -3.74922,
-        "language": null,
+        "language": "Galician (gl) spoken in Spain (ES)",
         "country": "Spain",
         "region": null
     },
@@ -763,7 +763,7 @@
         "language_code": "gu-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "Gujarati (India)",
         "country": "India",
         "region": null
     },
@@ -771,7 +771,7 @@
         "language_code": "he-IL",
         "latitude": 31.046051,
         "longitude": 34.851612,
-        "language": null,
+        "language": "Hebrew (Israel)",
         "country": "Israel",
         "region": null
     },
@@ -779,7 +779,7 @@
         "language_code": "hi-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "Hindi (India)",
         "country": "India",
         "region": null
     },
@@ -787,7 +787,7 @@
         "language_code": "hr-HR",
         "latitude": 45.1,
         "longitude": 15.2,
-        "language": null,
+        "language": "Croatian",
         "country": "Croatia",
         "region": null
     },
@@ -795,7 +795,7 @@
         "language_code": "hu-HU",
         "latitude": 47.162494,
         "longitude": 19.503304,
-        "language": null,
+        "language": "Hungarian",
         "country": "Hungary",
         "region": null
     },
@@ -803,7 +803,7 @@
         "language_code": "hy-AM",
         "latitude": 40.069099,
         "longitude": 45.038189,
-        "language": null,
+        "language": "Armenian",
         "country": "Armenia",
         "region": null
     },
@@ -811,7 +811,7 @@
         "language_code": "id-ID",
         "latitude": -0.789275,
         "longitude": 113.921327,
-        "language": null,
+        "language": "Indonesian",
         "country": "Indonesia",
         "region": null
     },
@@ -819,7 +819,7 @@
         "language_code": "jv-ID",
         "latitude": -0.789275,
         "longitude": 113.921327,
-        "language": null,
+        "language": "Javanese (Indonesia)",
         "country": "Indonesia",
         "region": null
     },
@@ -827,7 +827,7 @@
         "language_code": "ka-GE",
         "latitude": 42.315407,
         "longitude": 43.35689199999999,
-        "language": null,
+        "language": "Georgian",
         "country": "Georgia",
         "region": null
     },
@@ -835,7 +835,7 @@
         "language_code": "kk-KZ",
         "latitude": 48.019573,
         "longitude": 66.923684,
-        "language": null,
+        "language": "Kazakh",
         "country": "Kazakhstan",
         "region": null
     },
@@ -843,7 +843,7 @@
         "language_code": "km-KH",
         "latitude": 12.565679,
         "longitude": 104.990963,
-        "language": null,
+        "language": "Khmer",
         "country": "Cambodia",
         "region": null
     },
@@ -851,7 +851,7 @@
         "language_code": "kn-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "Kannada (India)",
         "country": "India",
         "region": null
     },
@@ -859,7 +859,7 @@
         "language_code": "lo-LA",
         "latitude": 19.85627,
         "longitude": 102.495496,
-        "language": null,
+        "language": "Unknown",
         "country": "Lao People's Democratic Republic",
         "region": null
     },
@@ -867,7 +867,7 @@
         "language_code": "lt-LT",
         "latitude": 55.169438,
         "longitude": 23.881275,
-        "language": null,
+        "language": "Lithuanian",
         "country": "Lithuania",
         "region": null
     },
@@ -875,7 +875,7 @@
         "language_code": "lv-LV",
         "latitude": 56.879635,
         "longitude": 24.603189,
-        "language": null,
+        "language": "Latvian (Latvia)",
         "country": "Latvia",
         "region": null
     },
@@ -883,7 +883,7 @@
         "language_code": "mk-MK",
         "latitude": 41.608635,
         "longitude": 21.745275,
-        "language": null,
+        "language": "Macedonian",
         "country": "North Macedonia",
         "region": null
     },
@@ -891,7 +891,7 @@
         "language_code": "ml-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "Malayalam (India)",
         "country": "India",
         "region": null
     },
@@ -899,7 +899,7 @@
         "language_code": "mn-MN",
         "latitude": 46.862496,
         "longitude": 103.846656,
-        "language": null,
+        "language": "Mongolian",
         "country": "Mongolia",
         "region": null
     },
@@ -907,7 +907,7 @@
         "language_code": "mr-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "Unknown",
         "country": "India",
         "region": null
     },
@@ -915,7 +915,7 @@
         "language_code": "ms-MY",
         "latitude": 4.210484,
         "longitude": 101.975766,
-        "language": null,
+        "language": "Malaysian (Malay)",
         "country": "Malaysia",
         "region": null
     },
@@ -923,7 +923,7 @@
         "language_code": "mt-MT",
         "latitude": 35.937496,
         "longitude": 14.375416,
-        "language": null,
+        "language": "Maltese",
         "country": "Malta",
         "region": null
     },
@@ -931,7 +931,7 @@
         "language_code": "my-MM",
         "latitude": 21.916221,
         "longitude": 95.955974,
-        "language": null,
+        "language": "Burmese",
         "country": "Myanmar",
         "region": null
     },
@@ -939,7 +939,7 @@
         "language_code": "ne-NP",
         "latitude": 28.394857,
         "longitude": 84.12400799999999,
-        "language": null,
+        "language": "Unknown",
         "country": "Nepal",
         "region": null
     },
@@ -947,7 +947,7 @@
         "language_code": "ps-AF",
         "latitude": 33.93911,
         "longitude": 67.709953,
-        "language": null,
+        "language": "Pashto (Afghanistan)",
         "country": "Afghanistan",
         "region": null
     },
@@ -955,7 +955,7 @@
         "language_code": "si-LK",
         "latitude": 7.873053999999999,
         "longitude": 80.77179699999999,
-        "language": null,
+        "language": "Sinhala (Sri Lanka)",
         "country": "Sri Lanka",
         "region": null
     },
@@ -963,7 +963,7 @@
         "language_code": "sk-SK",
         "latitude": 48.669026,
         "longitude": 19.699024,
-        "language": null,
+        "language": "Slovak (Slovakia)",
         "country": "Slovakia",
         "region": null
     },
@@ -971,7 +971,7 @@
         "language_code": "sl-SI",
         "latitude": 46.151241,
         "longitude": 14.995463,
-        "language": null,
+        "language": "Slovenian (Slovenia)",
         "country": "Slovenia",
         "region": null
     },
@@ -979,7 +979,7 @@
         "language_code": "so-SO",
         "latitude": 5.152149,
         "longitude": 46.199616,
-        "language": null,
+        "language": "Somali",
         "country": "Somalia",
         "region": null
     },
@@ -987,7 +987,7 @@
         "language_code": "sq-AL",
         "latitude": 41.153332,
         "longitude": 20.168331,
-        "language": null,
+        "language": "Albanian",
         "country": "Albania",
         "region": null
     },
@@ -995,7 +995,7 @@
         "language_code": "sr-Latn-RS",
         "latitude": 44.016521,
         "longitude": 21.005859,
-        "language": null,
+        "language": "Serbian (Latin, Serbia)",
         "country": "Serbia",
         "region": null
     },
@@ -1003,7 +1003,7 @@
         "language_code": "sr-RS",
         "latitude": 44.016521,
         "longitude": 21.005859,
-        "language": null,
+        "language": "Serbian",
         "country": "Serbia",
         "region": null
     },
@@ -1011,7 +1011,7 @@
         "language_code": "su-ID",
         "latitude": -0.789275,
         "longitude": 113.921327,
-        "language": null,
+        "language": "Sundanese",
         "country": "Indonesia",
         "region": null
     },
@@ -1019,7 +1019,7 @@
         "language_code": "sw-KE",
         "latitude": -0.023559,
         "longitude": 37.906193,
-        "language": null,
+        "language": "Swahili (Kenya)",
         "country": "Kenya",
         "region": null
     },
@@ -1027,7 +1027,7 @@
         "language_code": "sw-TZ",
         "latitude": -6.369028,
         "longitude": 34.888822,
-        "language": null,
+        "language": "Swahili (Tanzania)",
         "country": "Tanzania, United Republic of",
         "region": null
     },
@@ -1035,7 +1035,7 @@
         "language_code": "ta-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "Tamil (India)",
         "country": "India",
         "region": null
     },
@@ -1043,7 +1043,7 @@
         "language_code": "ta-LK",
         "latitude": 7.873053999999999,
         "longitude": 80.77179699999999,
-        "language": null,
+        "language": "Tamil",
         "country": "Sri Lanka",
         "region": null
     },
@@ -1051,7 +1051,7 @@
         "language_code": "ta-MY",
         "latitude": 4.210484,
         "longitude": 101.975766,
-        "language": null,
+        "language": "Tamil (Tamil Nadu, Malaysia)",
         "country": "Malaysia",
         "region": null
     },
@@ -1059,7 +1059,7 @@
         "language_code": "ta-SG",
         "latitude": 1.352083,
         "longitude": 103.819836,
-        "language": null,
+        "language": "Tamil (Singapore)",
         "country": "Singapore",
         "region": null
     },
@@ -1067,7 +1067,7 @@
         "language_code": "te-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "Telugu (India)",
         "country": "India",
         "region": null
     },
@@ -1075,7 +1075,7 @@
         "language_code": "th-TH",
         "latitude": 15.870032,
         "longitude": 100.992541,
-        "language": null,
+        "language": "Thai",
         "country": "Thailand",
         "region": null
     },
@@ -1083,7 +1083,7 @@
         "language_code": "uk-UA",
         "latitude": 48.379433,
         "longitude": 31.16558,
-        "language": null,
+        "language": "Ukrainian",
         "country": "Ukraine",
         "region": null
     },
@@ -1091,7 +1091,7 @@
         "language_code": "ur-IN",
         "latitude": 20.593684,
         "longitude": 78.96288,
-        "language": null,
+        "language": "Urdu",
         "country": "India",
         "region": null
     },
@@ -1099,7 +1099,7 @@
         "language_code": "ur-PK",
         "latitude": 30.375321,
         "longitude": 69.34511599999999,
-        "language": null,
+        "language": "Urdu (Pakistan)",
         "country": "Pakistan",
         "region": null
     },
@@ -1107,7 +1107,7 @@
         "language_code": "uz-UZ",
         "latitude": 41.377491,
         "longitude": 64.585262,
-        "language": null,
+        "language": "Uzbek",
         "country": "Uzbekistan",
         "region": null
     },
@@ -1115,7 +1115,7 @@
         "language_code": "vi-VN",
         "latitude": 14.058324,
         "longitude": 108.277199,
-        "language": null,
+        "language": "Vietnamese (Vietnam)",
         "country": "Viet Nam",
         "region": null
     },
@@ -1123,7 +1123,7 @@
         "language_code": "wuu-CN",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Wu Chinese (China)",
         "country": "China",
         "region": null
     },
@@ -1131,7 +1131,7 @@
         "language_code": "zh-CN",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Chinese (Simplified)",
         "country": "China",
         "region": null
     },
@@ -1139,7 +1139,7 @@
         "language_code": "zh-CN-henan",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Mandarin Chinese (Simplified), Henan dialect",
         "country": "China",
         "region": null
     },
@@ -1147,7 +1147,7 @@
         "language_code": "zh-CN-liaoning",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Chinese (Mandarin) - Liaoning dialect",
         "country": "China",
         "region": null
     },
@@ -1155,7 +1155,7 @@
         "language_code": "zh-CN-shaanxi",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Mandarin Chinese (Simplified) as spoken in the Shaanxi province of China.",
         "country": "China",
         "region": null
     },
@@ -1163,7 +1163,7 @@
         "language_code": "zh-CN-shandong",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Mandarin Chinese (Simplified) - Shandong dialect",
         "country": "China",
         "region": null
     },
@@ -1171,7 +1171,7 @@
         "language_code": "zh-CN-sichuan",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Sichuan dialect of Mandarin Chinese",
         "country": "China",
         "region": null
     },
@@ -1179,7 +1179,7 @@
         "language_code": "zh-HK",
         "latitude": 22.3193039,
         "longitude": 114.1693611,
-        "language": null,
+        "language": "Cantonese (Hong Kong)",
         "country": "Hong Kong",
         "region": null
     },
@@ -1187,7 +1187,7 @@
         "language_code": "zh-TW",
         "latitude": 35.86166,
         "longitude": 104.195397,
-        "language": null,
+        "language": "Chinese (Taiwan)",
         "country": "Taiwan, Province of China",
         "region": null
     },
@@ -1195,7 +1195,7 @@
         "language_code": "zu-ZA",
         "latitude": -30.559482,
         "longitude": 22.937506,
-        "language": null,
+        "language": "Zulu (South Africa)",
         "country": "South Africa",
         "region": null
     },
@@ -1203,7 +1203,7 @@
         "language_code": "es-LA",
         "latitude": 19.85627,
         "longitude": 102.495496,
-        "language": null,
+        "language": "Spanish (Latin America)",
         "country": "Lao People's Democratic Republic",
         "region": null
     },

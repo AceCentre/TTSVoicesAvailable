@@ -85,15 +85,21 @@ def get_client(engine: str):
         aws_access_key = os.getenv('POLLY_AWS_ACCESS_KEY')
         return PollyClient(credentials=(region, aws_key_id, aws_access_key))
     elif engine == 'google':
-        google_creds_path = os.getenv("GOOGLE_CREDS_PATH")
-        if not google_creds_path:
+        creds_path = os.getenv('GOOGLE_CREDS_PATH')
+        google_creds_json = os.getenv("GOOGLE_CREDS_JSON")
+
+        if not google_creds_json:
+            raise ValueError("GOOGLE_CREDS_JSON environment variable is not set")
+        
+        if not creds_path:
             raise ValueError("GOOGLE_CREDS_PATH environment variable is not set")
-        else:
-            if not os.path.exists(google_creds_path):
-                raise ValueError(f"Google credentials file not found at {google_creds_path}")
-    
-        logger.info(f"Google credentials path: {google_creds_path}")
-        return GoogleClient(credentials=(google_creds_path))
+
+        with open(creds_path, "w") as f:
+            f.write(google_creds_json)
+            f.close()
+
+        logger.info(f"Google credentials path: {creds_path}")
+        return GoogleClient(credentials=(creds_path))
     elif engine == 'microsoft':
         token = os.getenv('MICROSOFT_TOKEN')
         region = os.getenv('MICROSOFT_REGION')

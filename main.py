@@ -252,23 +252,18 @@ def update_engines_list(engines_list, tts_engines):
             engines_list.append(engine_name)
     return engines_list
 
+is_development = os.getenv('DEVELOPMENT') == 'True'
+if is_development:
+    logging.info("Loading credentials")
+    from load_credentials import load_credentials
+    load_credentials()
 
-if __name__ == "__main__":
-    is_development = os.getenv('DEVELOPMENT') == 'True'
-    if is_development:
-        logging.info("Loading credentials")
-        from load_credentials import load_credentials
-        load_credentials()
 
-    
-    tts_engines_directory = os.path.realpath("./tts-data")
-    tts_engines = load_tts_engines(tts_engines_directory)
-    engines_list = update_engines_list(engines_list, tts_engines)
-    
-    logger.info(f"Updated Engines List:{engines_list}")
-    
-    for engine_name, engine_data in tts_engines.items():
-        logger.info(f"Loaded TTS Engine: {engine_name} with data: {engine_data}")
+tts_engines_directory = os.path.realpath("./tts-data")
+tts_engines = load_tts_engines(tts_engines_directory)
+engines_list = update_engines_list(engines_list, tts_engines)
 
-    # Run the Uvicorn server
-    uvicorn.run(app, host='127.0.0.1', port=8080)
+logger.info(f"Updated Engines List:{engines_list}")
+
+for engine_name, engine_data in tts_engines.items():
+    logger.info(f"Loaded TTS Engine: {engine_name} with data: {engine_data}")

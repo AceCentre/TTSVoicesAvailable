@@ -1,62 +1,50 @@
 [
-    {
-        "id": "snezana-act",
-        "language_codes": [
-            "sr-RS"
-        ],
-        "name": "Snezana Act",
-        "gender": "M",
-        "engine": "anReader",
-        "software": "Other"
-    },
-    {
-        "id": "snezana-idxeg-hasp",
-        "language_codes": [
-            "sr-RS"
-        ],
-        "name": "Snezana IDXEG Hasp",
-        "gender": "M",
-        "engine": "anReader",
-        "software": "Other"
-    },
-    {
-        "id": "snezana-kaymk-hasp",
-        "language_codes": [
-            "sr-RS"
-        ],
-        "name": "Snezana KAYMK Hasp",
-        "gender": "M",
-        "engine": "anReader",
-        "software": "Other"
-    },
-    {
-        "id": "marica-act",
-        "language_codes": [
-            "hr-HR"
-        ],
-        "name": "Marica Act",
-        "gender": "M",
-        "engine": "anReader",
-        "software": "Other"
-    },
-    {
-        "id": "marica-idxeg-hasp",
-        "language_codes": [
-            "hr-HR"
-        ],
-        "name": "Marica IDXEG Hasp",
-        "gender": "M",
-        "engine": "anReader",
-        "software": "Other"
-    },
-    {
-        "id": "marica-kaymk-hasp",
-        "language_codes": [
-            "hr-HR"
-        ],
-        "name": "Marica KAYMK Hasp",
-        "gender": "M",
-        "engine": "anReader",
-        "software": "Other"
-    }
+  {
+    "id": "snezana-act",
+    "language_codes": ["sr-RS"],
+    "name": "Snezana Act",
+    "gender": "M",
+
+    "software": "Other"
+  },
+  {
+    "id": "snezana-idxeg-hasp",
+    "language_codes": ["sr-RS"],
+    "name": "Snezana IDXEG Hasp",
+    "gender": "M",
+
+    "software": "Other"
+  },
+  {
+    "id": "snezana-kaymk-hasp",
+    "language_codes": ["sr-RS"],
+    "name": "Snezana KAYMK Hasp",
+    "gender": "M",
+
+    "software": "Other"
+  },
+  {
+    "id": "marica-act",
+    "language_codes": ["hr-HR"],
+    "name": "Marica Act",
+    "gender": "M",
+
+    "software": "Other"
+  },
+  {
+    "id": "marica-idxeg-hasp",
+    "language_codes": ["hr-HR"],
+    "name": "Marica IDXEG Hasp",
+    "gender": "M",
+
+    "software": "Other"
+  },
+  {
+    "id": "marica-kaymk-hasp",
+    "language_codes": ["hr-HR"],
+    "name": "Marica KAYMK Hasp",
+    "gender": "M",
+
+    "software": "Other"
+  }
 ]

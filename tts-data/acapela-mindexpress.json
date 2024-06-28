@@ -1,292 +1,234 @@
 [
-    {
-        "id": "lisa",
-        "language_codes": [
-            "en-AU"
-        ],
-        "name": "Lisa",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "tyler",
-        "language_codes": [
-            "en-AU"
-        ],
-        "name": "Tyler",
-        "gender": "Male",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "deepa",
-        "language_codes": [
-            "en-IN"
-        ],
-        "name": "Deepa",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "moira",
-        "language_codes": [
-            "en-IE"
-        ],
-        "name": "Moira",
-        "gender": "Female",
-        "engine": "Vocalizer",
-        "software": "MindExpress"
-    },
-    {
-        "id": "rhona",
-        "language_codes": [
-            "en-SC"
-        ],
-        "name": "Rhona",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "lucy",
-        "language_codes": [
-            "en-GB"
-        ],
-        "name": "Lucy",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "rachel",
-        "language_codes": [
-            "en-GB"
-        ],
-        "name": "Rachel",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "sofie",
-        "language_codes": [
-            "nl-BE"
-        ],
-        "name": "Sofie",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "zoe",
-        "language_codes": [
-            "nl-BE"
-        ],
-        "name": "Zoe",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "louise",
-        "language_codes": [
-            "fr-CA"
-        ],
-        "name": "Louise",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "claudia",
-        "language_codes": [
-            "de-DE"
-        ],
-        "name": "Claudia",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "julia",
-        "language_codes": [
-            "de-DE"
-        ],
-        "name": "Julia",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "sarah",
-        "language_codes": [
-            "de-DE"
-        ],
-        "name": "Sarah",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "dimitris",
-        "language_codes": [
-            "el-GR"
-        ],
-        "name": "Dimitris",
-        "gender": "Male",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "chiara",
-        "language_codes": [
-            "it-IT"
-        ],
-        "name": "Chiara",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "fabiana",
-        "language_codes": [
-            "it-IT"
-        ],
-        "name": "Fabiana",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "bente",
-        "language_codes": [
-            "no-NO"
-        ],
-        "name": "Bente",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "kari",
-        "language_codes": [
-            "no-NO"
-        ],
-        "name": "Kari",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "ania",
-        "language_codes": [
-            "pl-PL"
-        ],
-        "name": "Ania",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "celia",
-        "language_codes": [
-            "pt-PT"
-        ],
-        "name": "Celia",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "marcia",
-        "language_codes": [
-            "pt-BR"
-        ],
-        "name": "Marcia",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "alyona",
-        "language_codes": [
-            "ru-RU"
-        ],
-        "name": "Alyona",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "ines",
-        "language_codes": [
-            "es-ES"
-        ],
-        "name": "Ines",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "maria",
-        "language_codes": [
-            "es-ES"
-        ],
-        "name": "Maria",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "rosa",
-        "language_codes": [
-            "es-MX"
-        ],
-        "name": "Rosa",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "elin",
-        "language_codes": [
-            "sv-SE"
-        ],
-        "name": "Elin",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "emma",
-        "language_codes": [
-            "sv-SE"
-        ],
-        "name": "Emma",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "ipek",
-        "language_codes": [
-            "tr-TR"
-        ],
-        "name": "Ipek",
-        "gender": "Female",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    },
-    {
-        "id": "dmytro",
-        "language_codes": [
-            "uk-UA"
-        ],
-        "name": "Dmytro",
-        "gender": "Male",
-        "engine": "Acapela",
-        "software": "MindExpress"
-    }
+  {
+    "id": "lisa",
+    "language_codes": ["en-AU"],
+    "name": "Lisa",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "tyler",
+    "language_codes": ["en-AU"],
+    "name": "Tyler",
+    "gender": "Male",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "deepa",
+    "language_codes": ["en-IN"],
+    "name": "Deepa",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "moira",
+    "language_codes": ["en-IE"],
+    "name": "Moira",
+    "gender": "Female",
+    "engine": "Vocalizer",
+    "software": "MindExpress"
+  },
+  {
+    "id": "rhona",
+    "language_codes": ["en-SC"],
+    "name": "Rhona",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "lucy",
+    "language_codes": ["en-GB"],
+    "name": "Lucy",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "rachel",
+    "language_codes": ["en-GB"],
+    "name": "Rachel",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "sofie",
+    "language_codes": ["nl-BE"],
+    "name": "Sofie",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "zoe",
+    "language_codes": ["nl-BE"],
+    "name": "Zoe",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "louise",
+    "language_codes": ["fr-CA"],
+    "name": "Louise",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "claudia",
+    "language_codes": ["de-DE"],
+    "name": "Claudia",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "julia",
+    "language_codes": ["de-DE"],
+    "name": "Julia",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "sarah",
+    "language_codes": ["de-DE"],
+    "name": "Sarah",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "dimitris",
+    "language_codes": ["el-GR"],
+    "name": "Dimitris",
+    "gender": "Male",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "chiara",
+    "language_codes": ["it-IT"],
+    "name": "Chiara",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "fabiana",
+    "language_codes": ["it-IT"],
+    "name": "Fabiana",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "bente",
+    "language_codes": ["no-NO"],
+    "name": "Bente",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "kari",
+    "language_codes": ["no-NO"],
+    "name": "Kari",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "ania",
+    "language_codes": ["pl-PL"],
+    "name": "Ania",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "celia",
+    "language_codes": ["pt-PT"],
+    "name": "Celia",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "marcia",
+    "language_codes": ["pt-BR"],
+    "name": "Marcia",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "alyona",
+    "language_codes": ["ru-RU"],
+    "name": "Alyona",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "ines",
+    "language_codes": ["es-ES"],
+    "name": "Ines",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "maria",
+    "language_codes": ["es-ES"],
+    "name": "Maria",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "rosa",
+    "language_codes": ["es-MX"],
+    "name": "Rosa",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "elin",
+    "language_codes": ["sv-SE"],
+    "name": "Elin",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "emma",
+    "language_codes": ["sv-SE"],
+    "name": "Emma",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "ipek",
+    "language_codes": ["tr-TR"],
+    "name": "Ipek",
+    "gender": "Female",
+
+    "software": "MindExpress"
+  },
+  {
+    "id": "dmytro",
+    "language_codes": ["uk-UA"],
+    "name": "Dmytro",
+    "gender": "Male",
+
+    "software": "MindExpress"
+  }
 ]

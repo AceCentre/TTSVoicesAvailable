@@ -12,6 +12,7 @@ import uvicorn
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 app = FastAPI()
 
@@ -58,7 +59,7 @@ def find_geo_info(language_code, geo_data):
     return 0.0, 0.0, 'Unknown' # Default values if no match is found
 
 def load_voices_from_source(engine: str):
-    tts_engines_directory = "./tts-data"
+    tts_engines_directory = os.path.realpath("./tts-data")
     voices = []
     geo_data = load_geo_data()  # Load geographical data
 
@@ -73,7 +74,6 @@ def load_voices_from_source(engine: str):
         if tts:
             try:
                 voices_raw = tts.get_voices()
-                print(voices_raw)
                 voices = [{"engine": engine, **voice} for voice in voices_raw]
             except Exception as e:
                 logging.info(f"Failed to get voices for engine {engine}: {e}")
@@ -232,14 +232,18 @@ def get_available_engines():
 
 
 def load_tts_engines(directory):
+    logger.info(f"Loading TTS engines from directory: {directory}")
     tts_engines = {}
     for filename in os.listdir(directory):
+        logger.info(f"Filename is: {filename}")
         if filename.endswith(".json"):
             filepath = os.path.join(directory, filename)
+            logger.info(f"Loading TTS engine from file: {filepath}")
             with open(filepath, 'r') as file:
                 engine_data = json.load(file)
                 engine_name = filename.replace('.json', '')
                 tts_engines[engine_name] = engine_data
+    logger.info("TTS engines loaded successfully")
     return tts_engines
 
 def update_engines_list(engines_list, tts_engines):
@@ -252,19 +256,19 @@ def update_engines_list(engines_list, tts_engines):
 if __name__ == "__main__":
     is_development = os.getenv('DEVELOPMENT') == 'True'
     if is_development:
-        print("Loading credentials")
+        logging.info("Loading credentials")
         from load_credentials import load_credentials
         load_credentials()
 
-
-    tts_engines_directory = "./tts-data"
+    
+    tts_engines_directory = os.path.realpath("./tts-data")
     tts_engines = load_tts_engines(tts_engines_directory)
     engines_list = update_engines_list(engines_list, tts_engines)
     
-    print("Updated Engines List:", engines_list)
+    logger.info(f"Updated Engines List:{engines_list}")
     
     for engine_name, engine_data in tts_engines.items():
-        print(f"Loaded TTS Engine: {engine_name} with data: {engine_data}")
+        logger.info(f"Loaded TTS Engine: {engine_name} with data: {engine_data}")
 
     # Run the Uvicorn server
-    uvicorn.run(app, host='127.0.0.1', port=8000)
+    uvicorn.run(app, host='127.0.0.1', port=8080)

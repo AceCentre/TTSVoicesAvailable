@@ -1,0 +1,152 @@
+[
+    {
+        "id": "azamat",
+        "language_codes": [
+            "ky-KG"
+        ],
+        "name": "Azamat",
+        "gender": "Male",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "nazgul",
+        "language_codes": [
+            "ky-KG"
+        ],
+        "name": "Nazgul",
+        "gender": "Female",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "kiko",
+        "language_codes": [
+            "mk-MK"
+        ],
+        "name": "Kiko",
+        "gender": "Male",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "suze",
+        "language_codes": [
+            "mk-MK"
+        ],
+        "name": "Suze",
+        "gender": "Female",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "aleksandr",
+        "language_codes": [
+            "ru-RU"
+        ],
+        "name": "Aleksandr",
+        "gender": "Male",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "anna",
+        "language_codes": [
+            "ru-RU"
+        ],
+        "name": "Anna",
+        "gender": "Female",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "elena",
+        "language_codes": [
+            "ru-RU"
+        ],
+        "name": "Elena",
+        "gender": "Female",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "irina",
+        "language_codes": [
+            "ru-RU"
+        ],
+        "name": "Irina",
+        "gender": "Female",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "dragana",
+        "language_codes": [
+            "sr-RS"
+        ],
+        "name": "Dragana",
+        "gender": "Female",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "talgat",
+        "language_codes": [
+            "tt-RU"
+        ],
+        "name": "Talgat",
+        "gender": "Male",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "anatol",
+        "language_codes": [
+            "uk-UA"
+        ],
+        "name": "Anatol",
+        "gender": "Male",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "natalia",
+        "language_codes": [
+            "uk-UA"
+        ],
+        "name": "Natalia",
+        "gender": "Female",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "sevinch",
+        "language_codes": [
+            "uz-UZ"
+        ],
+        "name": "Sevinch",
+        "gender": "Female",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "islom",
+        "language_codes": [
+            "uz-UZ"
+        ],
+        "name": "Islom",
+        "gender": "Male",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    },
+    {
+        "id": "dil’navoz",
+        "language_codes": [
+            "uz-UZ"
+        ],
+        "name": "Dil’navoz",
+        "gender": "Female",
+        "engine": "RHVoice",
+        "software": "SAPI"
+    }
+]

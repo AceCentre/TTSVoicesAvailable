@@ -7,6 +7,7 @@ import json
 from datetime import datetime, timedelta
 import logging
 from fuzzysearch import find_near_matches
+import uvicorn
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -17,8 +18,27 @@ app = FastAPI()
 # In-memory cache for voice data
 cache = {}
 
-# List of engines for dropdown
-engines_list = ["polly", "google", "microsoft", "watson", "elevenlabs", "witai", "mms", "acapela", "other"]
+# List of engines for dropdown - we update this im main
+engines_list = ["polly", "google", "microsoft", "watson", "elevenlabs", "witai", "mms"]
+
+
+def load_tts_engines(directory):
+    tts_engines = {}
+    for filename in os.listdir(directory):
+        if filename.endswith(".json"):
+            filepath = os.path.join(directory, filename)
+            with open(filepath, 'r') as file:
+                engine_data = json.load(file)
+                engine_name = filename.replace('.json', '')
+                tts_engines[engine_name] = engine_data
+    return tts_engines
+
+def update_engines_list(engines_list, tts_engines):
+    for engine_name in tts_engines.keys():
+        if engine_name not in engines_list:
+            engines_list.append(engine_name)
+    return engines_list
+
 
 class Voice(BaseModel):
     id: str
@@ -38,24 +58,22 @@ def find_geo_info(language_code, geo_data):
     return 0.0, 0.0, 'Unknown' # Default values if no match is found
 
 def load_voices_from_source(engine: str):
-    other_voices_file = 'misc-misc.json'
-    acapela_voices_file = 'acapela-acapela.json'
+    tts_engines_directory = "./tts-data"
     voices = []
     geo_data = load_geo_data()  # Load geographical data
 
-    if engine == 'other':
-        with open(other_voices_file, 'r') as file:
+    # Load the specific engine's JSON file if it exists
+    engine_file_path = os.path.join(tts_engines_directory, f"{engine}.json")
+    if os.path.isfile(engine_file_path):
+        with open(engine_file_path, 'r') as file:
             voices_raw = json.load(file)
-            voices = [{"engine": item.get("engine", engine), **item} for item in voices_raw]
-    elif engine == 'acapela':
-        with open(acapela_voices_file, 'r') as file:
-            voices_raw = json.load(file)
-            voices = [{"engine": 'acapela', **voice} for voice in voices_raw]
+            voices = [{"engine": engine, **item} for item in voices_raw]
     else:
         tts = get_tts(engine)
         if tts:
             try:
                 voices_raw = tts.get_voices()
+                print(voices_raw)
                 voices = [{"engine": engine, **voice} for voice in voices_raw]
             except Exception as e:
                 logging.info(f"Failed to get voices for engine {engine}: {e}")
@@ -208,12 +226,45 @@ def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code
 
     return [Voice(**voice) for voice in paginated_voices]
 
-if __name__ == '__main__':
+@app.get("/engines", response_model=List[str])
+def get_available_engines():
+    return engines_list
+
+
+def load_tts_engines(directory):
+    tts_engines = {}
+    for filename in os.listdir(directory):
+        if filename.endswith(".json"):
+            filepath = os.path.join(directory, filename)
+            with open(filepath, 'r') as file:
+                engine_data = json.load(file)
+                engine_name = filename.replace('.json', '')
+                tts_engines[engine_name] = engine_data
+    return tts_engines
+
+def update_engines_list(engines_list, tts_engines):
+    for engine_name in tts_engines.keys():
+        if engine_name not in engines_list:
+            engines_list.append(engine_name)
+    return engines_list
+
+
+if __name__ == "__main__":
     is_development = os.getenv('DEVELOPMENT') == 'True'
     if is_development:
         print("Loading credentials")
         from load_credentials import load_credentials
         load_credentials()
 
-    import uvicorn
+
+    tts_engines_directory = "./tts-data"
+    tts_engines = load_tts_engines(tts_engines_directory)
+    engines_list = update_engines_list(engines_list, tts_engines)
+    
+    print("Updated Engines List:", engines_list)
+    
+    for engine_name, engine_data in tts_engines.items():
+        print(f"Loaded TTS Engine: {engine_name} with data: {engine_data}")
+
+    # Run the Uvicorn server
     uvicorn.run(app, host='127.0.0.1', port=8000)

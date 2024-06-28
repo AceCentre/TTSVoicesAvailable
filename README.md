@@ -4,6 +4,8 @@
 
 Also a streamlit app to demo this. 
 
+Note: tts-data/**vendor**-**software**.json is a list of tts engines not supported by tts-wrapper. Add to that if you wish
+
 To-Do
 
 - Add Ivona, Nuance etc voices

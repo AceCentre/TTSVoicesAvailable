@@ -1,0 +1,292 @@
+[
+    {
+        "id": "herena",
+        "language_codes": [
+            "ca-ES"
+        ],
+        "name": "Herena",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "helle",
+        "language_codes": [
+            "da-DK"
+        ],
+        "name": "Helle",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hedda",
+        "language_codes": [
+            "de-DE"
+        ],
+        "name": "Hedda",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hayley",
+        "language_codes": [
+            "en-AU"
+        ],
+        "name": "Hayley",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "heather",
+        "language_codes": [
+            "en-CA"
+        ],
+        "name": "Heather",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hazel",
+        "language_codes": [
+            "en-GB"
+        ],
+        "name": "Hazel",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "heera",
+        "language_codes": [
+            "en-IN"
+        ],
+        "name": "Heera",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "helen",
+        "language_codes": [
+            "en-US"
+        ],
+        "name": "Helen",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "zira-pro",
+        "language_codes": [
+            "en-US"
+        ],
+        "name": "Zira Pro",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "helena",
+        "language_codes": [
+            "es-ES"
+        ],
+        "name": "Helena",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hilda",
+        "language_codes": [
+            "es-MX"
+        ],
+        "name": "Hilda",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "heidi",
+        "language_codes": [
+            "fi-FI"
+        ],
+        "name": "Heidi",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "harmonie",
+        "language_codes": [
+            "fr-CA"
+        ],
+        "name": "Harmonie",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hortense",
+        "language_codes": [
+            "fr-FR"
+        ],
+        "name": "Hortense",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "lucia",
+        "language_codes": [
+            "it-IT"
+        ],
+        "name": "Lucia",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "haruka",
+        "language_codes": [
+            "ja-JP"
+        ],
+        "name": "Haruka",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "heami",
+        "language_codes": [
+            "ko-KR"
+        ],
+        "name": "Heami",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hulda",
+        "language_codes": [
+            "nb-NO"
+        ],
+        "name": "Hulda",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hanna",
+        "language_codes": [
+            "nl-NL"
+        ],
+        "name": "Hanna",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "paulina",
+        "language_codes": [
+            "pl-PL"
+        ],
+        "name": "Paulina",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "heloisa",
+        "language_codes": [
+            "pt-BR"
+        ],
+        "name": "Heloisa",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "helia",
+        "language_codes": [
+            "pt-PT"
+        ],
+        "name": "Helia",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "helia-16k",
+        "language_codes": [
+            "pt-PT"
+        ],
+        "name": "Helia 16k",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "elena",
+        "language_codes": [
+            "ru-RU"
+        ],
+        "name": "Elena",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hedvig",
+        "language_codes": [
+            "sv-SE"
+        ],
+        "name": "Hedvig",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "huihui",
+        "language_codes": [
+            "zh-CN"
+        ],
+        "name": "HuiHui",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hunyee",
+        "language_codes": [
+            "zh-HK"
+        ],
+        "name": "HunYee",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "hanhan",
+        "language_codes": [
+            "zh-TW"
+        ],
+        "name": "HanHan",
+        "gender": "Female",
+        "engine": "SAPI",
+        "software": "Other"
+    },
+    {
+        "id": "ukrvox",
+        "language_codes": [
+            "uk-UA"
+        ],
+        "name": "UkrVox",
+        "gender": "Unknown Gender",
+        "engine": "SAPI",
+        "software": "Other"
+    }
+]

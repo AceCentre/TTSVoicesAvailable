@@ -12,7 +12,7 @@ import uvicorn
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 
 app = FastAPI()
 
@@ -54,7 +54,7 @@ def load_geo_data():
 
 def find_geo_info(language_code, geo_data):
     for item in geo_data:
-        if item["language_code"] == language_code:
+        if item["language_id"] == language_code:
             return item["latitude"], item["longitude"], item["language"]
     return 0.0, 0.0, 'Unknown' # Default values if no match is found
 

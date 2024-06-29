@@ -1,0 +1,1496 @@
+[
+    {
+        "id": "mariam",
+        "language_codes": [
+            "ARG"
+        ],
+        "name": "Mariam",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "laila",
+        "language_codes": [
+            "ARW"
+        ],
+        "name": "Laila",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "maged-ml",
+        "language_codes": [
+            "ARW"
+        ],
+        "name": "Maged-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "maged",
+        "language_codes": [
+            "ARW"
+        ],
+        "name": "Maged",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "tarik",
+        "language_codes": [
+            "ARW"
+        ],
+        "name": "Tarik",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "miren",
+        "language_codes": [
+            "BAE"
+        ],
+        "name": "Miren",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "paya",
+        "language_codes": [
+            "BEI"
+        ],
+        "name": "Paya",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "daria",
+        "language_codes": [
+            "BGB"
+        ],
+        "name": "Daria",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "jaya",
+        "language_codes": [
+            "BHI"
+        ],
+        "name": "Jaya",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "jordi",
+        "language_codes": [
+            "CAE"
+        ],
+        "name": "Jordi",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "montserrat",
+        "language_codes": [
+            "CAE"
+        ],
+        "name": "Montserrat",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "sinji-ml",
+        "language_codes": [
+            "CAH"
+        ],
+        "name": "Sinji-ml",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "iveta",
+        "language_codes": [
+            "CZC"
+        ],
+        "name": "Iveta",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "zuzana-ml",
+        "language_codes": [
+            "CZC"
+        ],
+        "name": "Zuzana-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "magnus",
+        "language_codes": [
+            "DAD"
+        ],
+        "name": "Magnus",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "sara",
+        "language_codes": [
+            "DAD"
+        ],
+        "name": "Sara",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "ellen",
+        "language_codes": [
+            "DUB"
+        ],
+        "name": "Ellen",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "claire-ml",
+        "language_codes": [
+            "DUN",
+            "ENG",
+            "FRF",
+            "GED",
+            "ITI",
+            "SPA"
+        ],
+        "name": "Claire-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "xander",
+        "language_codes": [
+            "DUN"
+        ],
+        "name": "Xander",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "karen",
+        "language_codes": [
+            "ENA"
+        ],
+        "name": "Karen",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "lee",
+        "language_codes": [
+            "ENA"
+        ],
+        "name": "Lee",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "lee",
+        "language_codes": [
+            "ENA"
+        ],
+        "name": "Lee",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "moira",
+        "language_codes": [
+            "ENE"
+        ],
+        "name": "Moira",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "daniel",
+        "language_codes": [
+            "ENG"
+        ],
+        "name": "Daniel",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "kate",
+        "language_codes": [
+            "ENG"
+        ],
+        "name": "Kate",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "malcolm",
+        "language_codes": [
+            "ENG"
+        ],
+        "name": "Malcolm",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "malcolm",
+        "language_codes": [
+            "ENG"
+        ],
+        "name": "Malcolm",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "oliver",
+        "language_codes": [
+            "ENG"
+        ],
+        "name": "Oliver",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "serena",
+        "language_codes": [
+            "ENG"
+        ],
+        "name": "Serena",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "serena",
+        "language_codes": [
+            "ENG"
+        ],
+        "name": "Serena",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "stephanie",
+        "language_codes": [
+            "ENG"
+        ],
+        "name": "Stephanie",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "isha-ml",
+        "language_codes": [
+            "ENI"
+        ],
+        "name": "Isha-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "rishi-ml",
+        "language_codes": [
+            "ENI"
+        ],
+        "name": "Rishi-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "sangeeta",
+        "language_codes": [
+            "ENI"
+        ],
+        "name": "Sangeeta",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "veena",
+        "language_codes": [
+            "ENI"
+        ],
+        "name": "Veena",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "fiona",
+        "language_codes": [
+            "ENS"
+        ],
+        "name": "Fiona",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "allison",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Allison",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "ava-ml",
+        "language_codes": [
+            "ENU",
+            "SPM",
+            "FRF"
+        ],
+        "name": "Ava-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "ava--ml",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Ava -ml",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "evan",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Evan",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "evan",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Evan",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "nathan",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Nathan",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "nathan",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Nathan",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "samantha",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Samantha",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "susan",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Susan",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "tom",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Tom",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "zoe-ml",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Zoe-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "zoe-ml",
+        "language_codes": [
+            "ENU"
+        ],
+        "name": "Zoe-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "tessa",
+        "language_codes": [
+            "ENZ"
+        ],
+        "name": "Tessa",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "dariush",
+        "language_codes": [
+            "FAI"
+        ],
+        "name": "Dariush",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "onni",
+        "language_codes": [
+            "FIF"
+        ],
+        "name": "Onni",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "satu",
+        "language_codes": [
+            "FIF"
+        ],
+        "name": "Satu",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "aude",
+        "language_codes": [
+            "FRB"
+        ],
+        "name": "Aude",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "amelie-ml",
+        "language_codes": [
+            "FRC"
+        ],
+        "name": "Amelie-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "amelie-ml",
+        "language_codes": [
+            "FRC"
+        ],
+        "name": "Amelie-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "chantal",
+        "language_codes": [
+            "FRC"
+        ],
+        "name": "Chantal",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "nicolas",
+        "language_codes": [
+            "FRC"
+        ],
+        "name": "Nicolas",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "audrey-ml",
+        "language_codes": [
+            "FRF",
+            "ENG",
+            "GED",
+            "ITI",
+            "SPE"
+        ],
+        "name": "Audrey-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "audrey-ml",
+        "language_codes": [
+            "FRF"
+        ],
+        "name": "Audrey-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "aurelie",
+        "language_codes": [
+            "FRF"
+        ],
+        "name": "Aurelie",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "thomas",
+        "language_codes": [
+            "FRF"
+        ],
+        "name": "Thomas",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "anna-ml",
+        "language_codes": [
+            "GED",
+            "ENG",
+            "FRF",
+            "SPA",
+            "ITI"
+        ],
+        "name": "Anna-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "anna-ml",
+        "language_codes": [
+            "GED"
+        ],
+        "name": "Anna-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "markus",
+        "language_codes": [
+            "GED"
+        ],
+        "name": "Markus",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "petra-ml",
+        "language_codes": [
+            "GED",
+            "ENG",
+            "FRF",
+            "SPA",
+            "IT"
+        ],
+        "name": "Petra-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "petra-ml",
+        "language_codes": [
+            "GED"
+        ],
+        "name": "Petra-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "viktor",
+        "language_codes": [
+            "GED"
+        ],
+        "name": "Viktor",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "yannick",
+        "language_codes": [
+            "GED"
+        ],
+        "name": "Yannick",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "carmela",
+        "language_codes": [
+            "GLE"
+        ],
+        "name": "Carmela",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "melina",
+        "language_codes": [
+            "GRG"
+        ],
+        "name": "Melina",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "nikos",
+        "language_codes": [
+            "GRG"
+        ],
+        "name": "Nikos",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "carmit",
+        "language_codes": [
+            "HEI"
+        ],
+        "name": "Carmit",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "kiyara-ml",
+        "language_codes": [
+            "HII"
+        ],
+        "name": "Kiyara-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "lekha",
+        "language_codes": [
+            "HII"
+        ],
+        "name": "Lekha",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "neel-ml",
+        "language_codes": [
+            "HII"
+        ],
+        "name": "Neel-ml",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "lana",
+        "language_codes": [
+            "HRH"
+        ],
+        "name": "Lana",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "mariska",
+        "language_codes": [
+            "HUH"
+        ],
+        "name": "Mariska",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "damayanti",
+        "language_codes": [
+            "IDI"
+        ],
+        "name": "Damayanti",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "alice-ml",
+        "language_codes": [
+            "ITI",
+            "ENG",
+            "GED",
+            "FRF",
+            "SPA"
+        ],
+        "name": "Alice-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "federica-ml",
+        "language_codes": [
+            "ITI",
+            "ENG",
+            "GED",
+            "FRF",
+            "SPA"
+        ],
+        "name": "Federica-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "luca",
+        "language_codes": [
+            "ITI"
+        ],
+        "name": "Luca",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "paola",
+        "language_codes": [
+            "ITI"
+        ],
+        "name": "Paola",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "ayane",
+        "language_codes": [
+            "JPJ"
+        ],
+        "name": "Ayane",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "daisuke",
+        "language_codes": [
+            "PJ"
+        ],
+        "name": "Daisuke",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "ichiro",
+        "language_codes": [
+            "JPJ"
+        ],
+        "name": "Ichiro",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "mizuki",
+        "language_codes": [
+            "JPJ"
+        ],
+        "name": "Mizuki",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "sakura",
+        "language_codes": [
+            "JPJ"
+        ],
+        "name": "Sakura",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "alpana",
+        "language_codes": [
+            "KAI"
+        ],
+        "name": "Alpana",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "sora",
+        "language_codes": [
+            "KOK"
+        ],
+        "name": "Sora",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "yuna-ml",
+        "language_codes": [
+            "KOK",
+            "ENU"
+        ],
+        "name": "Yuna-ml",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "yuna",
+        "language_codes": [
+            "KOK"
+        ],
+        "name": "Yuna",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "ananya",
+        "language_codes": [
+            "MAI"
+        ],
+        "name": "Ananya",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "amira",
+        "language_codes": [
+            "MSM"
+        ],
+        "name": "Amira",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "binbin-ml",
+        "language_codes": [
+            "MNC",
+            "ENU"
+        ],
+        "name": "Binbin-ml",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "lili-ml",
+        "language_codes": [
+            "MNC",
+            "ENU"
+        ],
+        "name": "Lili-ml",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "lili-ml-high",
+        "language_codes": [
+            "MNC",
+            "ENU"
+        ],
+        "name": "Lili-ml",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "lisheng-ml",
+        "language_codes": [
+            "MNC"
+        ],
+        "name": "Lisheng-ml",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "tiantian-ml",
+        "language_codes": [
+            "MNC",
+            "ENU"
+        ],
+        "name": "Tiantian-ml",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "tingting-ml",
+        "language_codes": [
+            "MNC"
+        ],
+        "name": "Tingting-ml",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "meijia-ml",
+        "language_codes": [
+            "MNT",
+            "ENU"
+        ],
+        "name": "Meijia-ml",
+        "gender": "Female",
+        "styles": "Neutral",
+        "quality": "xpremium"
+    },
+    {
+        "id": "amira",
+        "language_codes": [
+            "MSM"
+        ],
+        "name": "Amira",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "henrik",
+        "language_codes": [
+            "NON"
+        ],
+        "name": "Henrik",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "nora",
+        "language_codes": [
+            "NON"
+        ],
+        "name": "Nora",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "ewa",
+        "language_codes": [
+            "PLP"
+        ],
+        "name": "Ewa",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "krzysztof",
+        "language_codes": [
+            "PLP"
+        ],
+        "name": "Krzysztof",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "zosia",
+        "language_codes": [
+            "PLP"
+        ],
+        "name": "Zosia",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "felipe",
+        "language_codes": [
+            "PTB"
+        ],
+        "name": "Felipe",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "fernanda",
+        "language_codes": [
+            "PTB"
+        ],
+        "name": "Fernanda",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "luciana",
+        "language_codes": [
+            "PTB"
+        ],
+        "name": "Luciana",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "luciana",
+        "language_codes": [
+            "PTB"
+        ],
+        "name": "Luciana",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "catarina",
+        "language_codes": [
+            "PTP"
+        ],
+        "name": "Catarina",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "joana",
+        "language_codes": [
+            "PTP"
+        ],
+        "name": "Joana",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "joaquim",
+        "language_codes": [
+            "PTP"
+        ],
+        "name": "Joaquim",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "ioana",
+        "language_codes": [
+            "ROR"
+        ],
+        "name": "Ioana",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "katya-ml",
+        "language_codes": [
+            "RUR",
+            "ENG"
+        ],
+        "name": "Katya-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "milena",
+        "language_codes": [
+            "RUR"
+        ],
+        "name": "Milena",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "yuri",
+        "language_codes": [
+            "RUR"
+        ],
+        "name": "Yuri",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "laura",
+        "language_codes": [
+            "SKS"
+        ],
+        "name": "Laura",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "diego",
+        "language_codes": [
+            "SPA"
+        ],
+        "name": "Diego",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "isabela",
+        "language_codes": [
+            "SPA"
+        ],
+        "name": "Isabela",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "carlos",
+        "language_codes": [
+            "SPC"
+        ],
+        "name": "Carlos",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "soledad",
+        "language_codes": [
+            "SPC"
+        ],
+        "name": "Soledad",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "ximena",
+        "language_codes": [
+            "SPC"
+        ],
+        "name": "Ximena",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "jorge",
+        "language_codes": [
+            "SPE"
+        ],
+        "name": "Jorge",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "marisol-ml",
+        "language_codes": [
+            "SPE",
+            "ENG",
+            "GED",
+            "FRF",
+            "ITI"
+        ],
+        "name": "Marisol-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "marisol-ml-high",
+        "language_codes": [
+            "SPE"
+        ],
+        "name": "Marisol-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "monica-ml",
+        "language_codes": [
+            "SPE",
+            "ENG"
+        ],
+        "name": "Monica-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "francisca",
+        "language_codes": [
+            "SPL"
+        ],
+        "name": "Francisca",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "angelica",
+        "language_codes": [
+            "SPM"
+        ],
+        "name": "Angelica",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "javier",
+        "language_codes": [
+            "SPM"
+        ],
+        "name": "Javier",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "juan",
+        "language_codes": [
+            "SPM"
+        ],
+        "name": "Juan",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "paulina-ml",
+        "language_codes": [
+            "SPM",
+            "ENU",
+            "FRF"
+        ],
+        "name": "Paulina-ml",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "paulina-ml-high",
+        "language_codes": [
+            "SPM",
+            "ENU",
+            "FRF"
+        ],
+        "name": "Paulina-ml",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "alva",
+        "language_codes": [
+            "SWS"
+        ],
+        "name": "Alva",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "klara",
+        "language_codes": [
+            "SWS"
+        ],
+        "name": "Klara",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "oskar",
+        "language_codes": [
+            "SWS"
+        ],
+        "name": "Oskar",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "vani",
+        "language_codes": [
+            "TAI"
+        ],
+        "name": "Vani",
+        "gender": "Female",
+        "styles": "",
+        "quality": "xpremium"
+    },
+    {
+        "id": "geeta",
+        "language_codes": [
+            "TEI"
+        ],
+        "name": "Geeta",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "kanya",
+        "language_codes": [
+            "THT"
+        ],
+        "name": "Kanya",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium-high"
+    },
+    {
+        "id": "narisa",
+        "language_codes": [
+            "THT"
+        ],
+        "name": "Narisa",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "cem-ml",
+        "language_codes": [
+            "TRT",
+            "ENG"
+        ],
+        "name": "Cem-ml",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "yelda",
+        "language_codes": [
+            "TRT"
+        ],
+        "name": "Yelda",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "lesya",
+        "language_codes": [
+            "UKU"
+        ],
+        "name": "Lesya",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "empar",
+        "language_codes": [
+            "VAE"
+        ],
+        "name": "Empar",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    },
+    {
+        "id": "linh",
+        "language_codes": [
+            "VIV"
+        ],
+        "name": "Linh",
+        "gender": "Female",
+        "styles": "Neutral, Lively, Forceful, Apologetic",
+        "quality": "xpremium"
+    }
+]

@@ -2,7 +2,7 @@
     {
         "id": "mariam",
         "language_codes": [
-            "ARG"
+            "arb-146"
         ],
         "name": "Mariam",
         "gender": "Female",
@@ -12,7 +12,7 @@
     {
         "id": "laila",
         "language_codes": [
-            "ARW"
+            "ar-WW"
         ],
         "name": "Laila",
         "gender": "Female",
@@ -22,7 +22,7 @@
     {
         "id": "maged-ml",
         "language_codes": [
-            "ARW"
+            "ar-WW"
         ],
         "name": "Maged-ml",
         "gender": "Female",
@@ -32,7 +32,7 @@
     {
         "id": "maged",
         "language_codes": [
-            "ARW"
+            "ar-WW"
         ],
         "name": "Maged",
         "gender": "Female",
@@ -42,7 +42,7 @@
     {
         "id": "tarik",
         "language_codes": [
-            "ARW"
+            "ar-WW"
         ],
         "name": "Tarik",
         "gender": "Female",
@@ -52,7 +52,7 @@
     {
         "id": "miren",
         "language_codes": [
-            "BAE"
+            "eu-ES"
         ],
         "name": "Miren",
         "gender": "Female",
@@ -62,7 +62,7 @@
     {
         "id": "paya",
         "language_codes": [
-            "BEI"
+            "bn-IN"
         ],
         "name": "Paya",
         "gender": "Female",
@@ -72,7 +72,7 @@
     {
         "id": "daria",
         "language_codes": [
-            "BGB"
+            "bg-BG"
         ],
         "name": "Daria",
         "gender": "Female",
@@ -82,7 +82,7 @@
     {
         "id": "jaya",
         "language_codes": [
-            "BHI"
+            "bho-IN"
         ],
         "name": "Jaya",
         "gender": "Female",
@@ -92,7 +92,7 @@
     {
         "id": "jordi",
         "language_codes": [
-            "CAE"
+            "ca-ES"
         ],
         "name": "Jordi",
         "gender": "Female",
@@ -102,7 +102,7 @@
     {
         "id": "montserrat",
         "language_codes": [
-            "CAE"
+            "ca-ES"
         ],
         "name": "Montserrat",
         "gender": "Female",
@@ -112,7 +112,7 @@
     {
         "id": "sinji-ml",
         "language_codes": [
-            "CAH"
+            "zh-HK"
         ],
         "name": "Sinji-ml",
         "gender": "Female",
@@ -122,7 +122,7 @@
     {
         "id": "iveta",
         "language_codes": [
-            "CZC"
+            "cs-CZ"
         ],
         "name": "Iveta",
         "gender": "Female",
@@ -132,7 +132,7 @@
     {
         "id": "zuzana-ml",
         "language_codes": [
-            "CZC"
+            "cs-CZ"
         ],
         "name": "Zuzana-ml",
         "gender": "Female",
@@ -142,7 +142,7 @@
     {
         "id": "magnus",
         "language_codes": [
-            "DAD"
+            "da-DK"
         ],
         "name": "Magnus",
         "gender": "Female",
@@ -152,7 +152,7 @@
     {
         "id": "sara",
         "language_codes": [
-            "DAD"
+            "da-DK"
         ],
         "name": "Sara",
         "gender": "Female",
@@ -162,7 +162,7 @@
     {
         "id": "ellen",
         "language_codes": [
-            "DUB"
+            "nl-BE"
         ],
         "name": "Ellen",
         "gender": "Female",
@@ -172,12 +172,12 @@
     {
         "id": "claire-ml",
         "language_codes": [
-            "DUN",
-            "ENG",
-            "FRF",
-            "GED",
-            "ITI",
-            "SPA"
+            "nl-NL",
+            "en-GB",
+            "fr-FR",
+            "de-DE",
+            "it-IT",
+            "es-AR"
         ],
         "name": "Claire-ml",
         "gender": "Female",
@@ -187,7 +187,7 @@
     {
         "id": "xander",
         "language_codes": [
-            "DUN"
+            "nl-NL"
         ],
         "name": "Xander",
         "gender": "Female",
@@ -197,7 +197,7 @@
     {
         "id": "karen",
         "language_codes": [
-            "ENA"
+            "en-AU"
         ],
         "name": "Karen",
         "gender": "Female",
@@ -207,7 +207,7 @@
     {
         "id": "lee",
         "language_codes": [
-            "ENA"
+            "en-AU"
         ],
         "name": "Lee",
         "gender": "Female",
@@ -217,7 +217,7 @@
     {
         "id": "lee",
         "language_codes": [
-            "ENA"
+            "en-AU"
         ],
         "name": "Lee",
         "gender": "Female",
@@ -227,7 +227,7 @@
     {
         "id": "moira",
         "language_codes": [
-            "ENE"
+            "en-IE"
         ],
         "name": "Moira",
         "gender": "Female",
@@ -237,7 +237,7 @@
     {
         "id": "daniel",
         "language_codes": [
-            "ENG"
+            "en-GB"
         ],
         "name": "Daniel",
         "gender": "Female",
@@ -247,7 +247,7 @@
     {
         "id": "kate",
         "language_codes": [
-            "ENG"
+            "en-GB"
         ],
         "name": "Kate",
         "gender": "Female",
@@ -257,7 +257,7 @@
     {
         "id": "malcolm",
         "language_codes": [
-            "ENG"
+            "en-GB"
         ],
         "name": "Malcolm",
         "gender": "Female",
@@ -267,7 +267,7 @@
     {
         "id": "malcolm",
         "language_codes": [
-            "ENG"
+            "en-GB"
         ],
         "name": "Malcolm",
         "gender": "Female",
@@ -277,7 +277,7 @@
     {
         "id": "oliver",
         "language_codes": [
-            "ENG"
+            "en-GB"
         ],
         "name": "Oliver",
         "gender": "Female",
@@ -287,7 +287,7 @@
     {
         "id": "serena",
         "language_codes": [
-            "ENG"
+            "en-GB"
         ],
         "name": "Serena",
         "gender": "Female",
@@ -297,7 +297,7 @@
     {
         "id": "serena",
         "language_codes": [
-            "ENG"
+            "en-GB"
         ],
         "name": "Serena",
         "gender": "Female",
@@ -307,7 +307,7 @@
     {
         "id": "stephanie",
         "language_codes": [
-            "ENG"
+            "en-GB"
         ],
         "name": "Stephanie",
         "gender": "Female",
@@ -317,7 +317,7 @@
     {
         "id": "isha-ml",
         "language_codes": [
-            "ENI"
+            "en-IN"
         ],
         "name": "Isha-ml",
         "gender": "Female",
@@ -327,7 +327,7 @@
     {
         "id": "rishi-ml",
         "language_codes": [
-            "ENI"
+            "en-IN"
         ],
         "name": "Rishi-ml",
         "gender": "Female",
@@ -337,7 +337,7 @@
     {
         "id": "sangeeta",
         "language_codes": [
-            "ENI"
+            "en-IN"
         ],
         "name": "Sangeeta",
         "gender": "Female",
@@ -347,7 +347,7 @@
     {
         "id": "veena",
         "language_codes": [
-            "ENI"
+            "en-IN"
         ],
         "name": "Veena",
         "gender": "Female",
@@ -357,7 +357,7 @@
     {
         "id": "fiona",
         "language_codes": [
-            "ENS"
+            "en-GB-SCT"
         ],
         "name": "Fiona",
         "gender": "Female",
@@ -367,7 +367,7 @@
     {
         "id": "allison",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Allison",
         "gender": "Female",
@@ -377,9 +377,9 @@
     {
         "id": "ava-ml",
         "language_codes": [
-            "ENU",
-            "SPM",
-            "FRF"
+            "en-US",
+            "es-MX",
+            "fr-FR"
         ],
         "name": "Ava-ml",
         "gender": "Female",
@@ -389,7 +389,7 @@
     {
         "id": "ava--ml",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Ava -ml",
         "gender": "Female",
@@ -399,7 +399,7 @@
     {
         "id": "evan",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Evan",
         "gender": "Female",
@@ -409,7 +409,7 @@
     {
         "id": "evan",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Evan",
         "gender": "Female",
@@ -419,7 +419,7 @@
     {
         "id": "nathan",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Nathan",
         "gender": "Female",
@@ -429,7 +429,7 @@
     {
         "id": "nathan",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Nathan",
         "gender": "Female",
@@ -439,7 +439,7 @@
     {
         "id": "samantha",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Samantha",
         "gender": "Female",
@@ -449,7 +449,7 @@
     {
         "id": "susan",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Susan",
         "gender": "Female",
@@ -459,7 +459,7 @@
     {
         "id": "tom",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Tom",
         "gender": "Female",
@@ -469,7 +469,7 @@
     {
         "id": "zoe-ml",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Zoe-ml",
         "gender": "Female",
@@ -479,7 +479,7 @@
     {
         "id": "zoe-ml",
         "language_codes": [
-            "ENU"
+            "en-US"
         ],
         "name": "Zoe-ml",
         "gender": "Female",
@@ -489,7 +489,7 @@
     {
         "id": "tessa",
         "language_codes": [
-            "ENZ"
+            "en-ZA"
         ],
         "name": "Tessa",
         "gender": "Female",
@@ -499,7 +499,7 @@
     {
         "id": "dariush",
         "language_codes": [
-            "FAI"
+            "fa-IR"
         ],
         "name": "Dariush",
         "gender": "Female",
@@ -509,7 +509,7 @@
     {
         "id": "onni",
         "language_codes": [
-            "FIF"
+            "fi-FI"
         ],
         "name": "Onni",
         "gender": "Female",
@@ -519,7 +519,7 @@
     {
         "id": "satu",
         "language_codes": [
-            "FIF"
+            "fi-FI"
         ],
         "name": "Satu",
         "gender": "Female",
@@ -529,7 +529,7 @@
     {
         "id": "aude",
         "language_codes": [
-            "FRB"
+            "fr-BE"
         ],
         "name": "Aude",
         "gender": "Female",
@@ -539,7 +539,7 @@
     {
         "id": "amelie-ml",
         "language_codes": [
-            "FRC"
+            "fr-CA"
         ],
         "name": "Amelie-ml",
         "gender": "Female",
@@ -549,7 +549,7 @@
     {
         "id": "amelie-ml",
         "language_codes": [
-            "FRC"
+            "fr-CA"
         ],
         "name": "Amelie-ml",
         "gender": "Female",
@@ -559,7 +559,7 @@
     {
         "id": "chantal",
         "language_codes": [
-            "FRC"
+            "fr-CA"
         ],
         "name": "Chantal",
         "gender": "Female",
@@ -569,7 +569,7 @@
     {
         "id": "nicolas",
         "language_codes": [
-            "FRC"
+            "fr-CA"
         ],
         "name": "Nicolas",
         "gender": "Female",
@@ -579,11 +579,11 @@
     {
         "id": "audrey-ml",
         "language_codes": [
-            "FRF",
-            "ENG",
-            "GED",
-            "ITI",
-            "SPE"
+            "fr-FR",
+            "en-GB",
+            "de-DE",
+            "it-IT",
+            "es-ES"
         ],
         "name": "Audrey-ml",
         "gender": "Female",
@@ -593,7 +593,7 @@
     {
         "id": "audrey-ml",
         "language_codes": [
-            "FRF"
+            "fr-FR"
         ],
         "name": "Audrey-ml",
         "gender": "Female",
@@ -603,7 +603,7 @@
     {
         "id": "aurelie",
         "language_codes": [
-            "FRF"
+            "fr-FR"
         ],
         "name": "Aurelie",
         "gender": "Female",
@@ -613,7 +613,7 @@
     {
         "id": "thomas",
         "language_codes": [
-            "FRF"
+            "fr-FR"
         ],
         "name": "Thomas",
         "gender": "Female",
@@ -623,11 +623,11 @@
     {
         "id": "anna-ml",
         "language_codes": [
-            "GED",
-            "ENG",
-            "FRF",
-            "SPA",
-            "ITI"
+            "de-DE",
+            "en-GB",
+            "fr-FR",
+            "es-AR",
+            "it-IT"
         ],
         "name": "Anna-ml",
         "gender": "Female",
@@ -637,7 +637,7 @@
     {
         "id": "anna-ml",
         "language_codes": [
-            "GED"
+            "de-DE"
         ],
         "name": "Anna-ml",
         "gender": "Female",
@@ -647,7 +647,7 @@
     {
         "id": "markus",
         "language_codes": [
-            "GED"
+            "de-DE"
         ],
         "name": "Markus",
         "gender": "Female",
@@ -657,11 +657,11 @@
     {
         "id": "petra-ml",
         "language_codes": [
-            "GED",
-            "ENG",
-            "FRF",
-            "SPA",
-            "IT"
+            "de-DE",
+            "en-GB",
+            "fr-FR",
+            "es-AR",
+            "it-IT"
         ],
         "name": "Petra-ml",
         "gender": "Female",
@@ -671,7 +671,7 @@
     {
         "id": "petra-ml",
         "language_codes": [
-            "GED"
+            "de-DE"
         ],
         "name": "Petra-ml",
         "gender": "Female",
@@ -681,7 +681,7 @@
     {
         "id": "viktor",
         "language_codes": [
-            "GED"
+            "de-DE"
         ],
         "name": "Viktor",
         "gender": "Female",
@@ -691,7 +691,7 @@
     {
         "id": "yannick",
         "language_codes": [
-            "GED"
+            "de-DE"
         ],
         "name": "Yannick",
         "gender": "Female",
@@ -701,7 +701,7 @@
     {
         "id": "carmela",
         "language_codes": [
-            "GLE"
+            "gl-ES"
         ],
         "name": "Carmela",
         "gender": "Female",
@@ -711,7 +711,7 @@
     {
         "id": "melina",
         "language_codes": [
-            "GRG"
+            "el-GR"
         ],
         "name": "Melina",
         "gender": "Female",
@@ -721,7 +721,7 @@
     {
         "id": "nikos",
         "language_codes": [
-            "GRG"
+            "el-GR"
         ],
         "name": "Nikos",
         "gender": "Female",
@@ -731,7 +731,7 @@
     {
         "id": "carmit",
         "language_codes": [
-            "HEI"
+            "he-IS"
         ],
         "name": "Carmit",
         "gender": "Female",
@@ -741,7 +741,7 @@
     {
         "id": "kiyara-ml",
         "language_codes": [
-            "HII"
+            "hi-IN"
         ],
         "name": "Kiyara-ml",
         "gender": "Female",
@@ -751,7 +751,7 @@
     {
         "id": "lekha",
         "language_codes": [
-            "HII"
+            "hi-IN"
         ],
         "name": "Lekha",
         "gender": "Female",
@@ -761,7 +761,7 @@
     {
         "id": "neel-ml",
         "language_codes": [
-            "HII"
+            "hi-IN"
         ],
         "name": "Neel-ml",
         "gender": "Female",
@@ -771,7 +771,7 @@
     {
         "id": "lana",
         "language_codes": [
-            "HRH"
+            "hr-HR"
         ],
         "name": "Lana",
         "gender": "Female",
@@ -781,7 +781,7 @@
     {
         "id": "mariska",
         "language_codes": [
-            "HUH"
+            "hu-HU"
         ],
         "name": "Mariska",
         "gender": "Female",
@@ -791,7 +791,7 @@
     {
         "id": "damayanti",
         "language_codes": [
-            "IDI"
+            "id-ID"
         ],
         "name": "Damayanti",
         "gender": "Female",
@@ -801,11 +801,11 @@
     {
         "id": "alice-ml",
         "language_codes": [
-            "ITI",
-            "ENG",
-            "GED",
-            "FRF",
-            "SPA"
+            "it-IT",
+            "en-GB",
+            "de-DE",
+            "fr-FR",
+            "es-AR"
         ],
         "name": "Alice-ml",
         "gender": "Female",
@@ -815,11 +815,11 @@
     {
         "id": "federica-ml",
         "language_codes": [
-            "ITI",
-            "ENG",
-            "GED",
-            "FRF",
-            "SPA"
+            "it-IT",
+            "en-GB",
+            "de-DE",
+            "fr-FR",
+            "es-AR"
         ],
         "name": "Federica-ml",
         "gender": "Female",
@@ -829,7 +829,7 @@
     {
         "id": "luca",
         "language_codes": [
-            "ITI"
+            "it-IT"
         ],
         "name": "Luca",
         "gender": "Female",
@@ -839,7 +839,7 @@
     {
         "id": "paola",
         "language_codes": [
-            "ITI"
+            "it-IT"
         ],
         "name": "Paola",
         "gender": "Female",
@@ -849,7 +849,7 @@
     {
         "id": "ayane",
         "language_codes": [
-            "JPJ"
+            "ja-JP"
         ],
         "name": "Ayane",
         "gender": "Female",
@@ -859,7 +859,7 @@
     {
         "id": "daisuke",
         "language_codes": [
-            "PJ"
+            "pt-PT"
         ],
         "name": "Daisuke",
         "gender": "Female",
@@ -869,7 +869,7 @@
     {
         "id": "ichiro",
         "language_codes": [
-            "JPJ"
+            "ja-JP"
         ],
         "name": "Ichiro",
         "gender": "Female",
@@ -879,7 +879,7 @@
     {
         "id": "mizuki",
         "language_codes": [
-            "JPJ"
+            "ja-JP"
         ],
         "name": "Mizuki",
         "gender": "Female",
@@ -889,7 +889,7 @@
     {
         "id": "sakura",
         "language_codes": [
-            "JPJ"
+            "ja-JP"
         ],
         "name": "Sakura",
         "gender": "Female",
@@ -899,7 +899,7 @@
     {
         "id": "alpana",
         "language_codes": [
-            "KAI"
+            "kn-IN"
         ],
         "name": "Alpana",
         "gender": "Female",
@@ -909,7 +909,7 @@
     {
         "id": "sora",
         "language_codes": [
-            "KOK"
+            "ko-KR"
         ],
         "name": "Sora",
         "gender": "Female",
@@ -919,8 +919,8 @@
     {
         "id": "yuna-ml",
         "language_codes": [
-            "KOK",
-            "ENU"
+            "ko-KR",
+            "en-US"
         ],
         "name": "Yuna-ml",
         "gender": "Female",
@@ -930,7 +930,7 @@
     {
         "id": "yuna",
         "language_codes": [
-            "KOK"
+            "ko-KR"
         ],
         "name": "Yuna",
         "gender": "Female",
@@ -940,7 +940,7 @@
     {
         "id": "ananya",
         "language_codes": [
-            "MAI"
+            "mr-IN"
         ],
         "name": "Ananya",
         "gender": "Female",
@@ -950,7 +950,7 @@
     {
         "id": "amira",
         "language_codes": [
-            "MSM"
+            "ms-MY"
         ],
         "name": "Amira",
         "gender": "Female",
@@ -960,8 +960,8 @@
     {
         "id": "binbin-ml",
         "language_codes": [
-            "MNC",
-            "ENU"
+            "zh-CN",
+            "en-US"
         ],
         "name": "Binbin-ml",
         "gender": "Female",
@@ -971,8 +971,8 @@
     {
         "id": "lili-ml",
         "language_codes": [
-            "MNC",
-            "ENU"
+            "zh-CN",
+            "en-US"
         ],
         "name": "Lili-ml",
         "gender": "Female",
@@ -982,8 +982,8 @@
     {
         "id": "lili-ml-high",
         "language_codes": [
-            "MNC",
-            "ENU"
+            "zh-CN",
+            "en-US"
         ],
         "name": "Lili-ml",
         "gender": "Female",
@@ -993,7 +993,7 @@
     {
         "id": "lisheng-ml",
         "language_codes": [
-            "MNC"
+            "zh-CN"
         ],
         "name": "Lisheng-ml",
         "gender": "Female",
@@ -1003,8 +1003,8 @@
     {
         "id": "tiantian-ml",
         "language_codes": [
-            "MNC",
-            "ENU"
+            "zh-CN",
+            "en-US"
         ],
         "name": "Tiantian-ml",
         "gender": "Female",
@@ -1014,7 +1014,7 @@
     {
         "id": "tingting-ml",
         "language_codes": [
-            "MNC"
+            "zh-CN"
         ],
         "name": "Tingting-ml",
         "gender": "Female",
@@ -1024,8 +1024,8 @@
     {
         "id": "meijia-ml",
         "language_codes": [
-            "MNT",
-            "ENU"
+            "zh-TW",
+            "en-US"
         ],
         "name": "Meijia-ml",
         "gender": "Female",
@@ -1035,7 +1035,7 @@
     {
         "id": "amira",
         "language_codes": [
-            "MSM"
+            "ms-MY"
         ],
         "name": "Amira",
         "gender": "Female",
@@ -1045,7 +1045,7 @@
     {
         "id": "henrik",
         "language_codes": [
-            "NON"
+            "no-NO"
         ],
         "name": "Henrik",
         "gender": "Female",
@@ -1055,7 +1055,7 @@
     {
         "id": "nora",
         "language_codes": [
-            "NON"
+            "no-NO"
         ],
         "name": "Nora",
         "gender": "Female",
@@ -1065,7 +1065,7 @@
     {
         "id": "ewa",
         "language_codes": [
-            "PLP"
+            "pl-PL"
         ],
         "name": "Ewa",
         "gender": "Female",
@@ -1075,7 +1075,7 @@
     {
         "id": "krzysztof",
         "language_codes": [
-            "PLP"
+            "pl-PL"
         ],
         "name": "Krzysztof",
         "gender": "Female",
@@ -1085,7 +1085,7 @@
     {
         "id": "zosia",
         "language_codes": [
-            "PLP"
+            "pl-PL"
         ],
         "name": "Zosia",
         "gender": "Female",
@@ -1095,7 +1095,7 @@
     {
         "id": "felipe",
         "language_codes": [
-            "PTB"
+            "pt-BR"
         ],
         "name": "Felipe",
         "gender": "Female",
@@ -1105,7 +1105,7 @@
     {
         "id": "fernanda",
         "language_codes": [
-            "PTB"
+            "pt-BR"
         ],
         "name": "Fernanda",
         "gender": "Female",
@@ -1115,7 +1115,7 @@
     {
         "id": "luciana",
         "language_codes": [
-            "PTB"
+            "pt-BR"
         ],
         "name": "Luciana",
         "gender": "Female",
@@ -1125,7 +1125,7 @@
     {
         "id": "luciana",
         "language_codes": [
-            "PTB"
+            "pt-BR"
         ],
         "name": "Luciana",
         "gender": "Female",
@@ -1135,7 +1135,7 @@
     {
         "id": "catarina",
         "language_codes": [
-            "PTP"
+            "pt-PT"
         ],
         "name": "Catarina",
         "gender": "Female",
@@ -1145,7 +1145,7 @@
     {
         "id": "joana",
         "language_codes": [
-            "PTP"
+            "pt-PT"
         ],
         "name": "Joana",
         "gender": "Female",
@@ -1155,7 +1155,7 @@
     {
         "id": "joaquim",
         "language_codes": [
-            "PTP"
+            "pt-PT"
         ],
         "name": "Joaquim",
         "gender": "Female",
@@ -1165,7 +1165,7 @@
     {
         "id": "ioana",
         "language_codes": [
-            "ROR"
+            "ro-RO"
         ],
         "name": "Ioana",
         "gender": "Female",
@@ -1175,8 +1175,8 @@
     {
         "id": "katya-ml",
         "language_codes": [
-            "RUR",
-            "ENG"
+            "ru-RU",
+            "en-GB"
         ],
         "name": "Katya-ml",
         "gender": "Female",
@@ -1186,7 +1186,7 @@
     {
         "id": "milena",
         "language_codes": [
-            "RUR"
+            "ru-RU"
         ],
         "name": "Milena",
         "gender": "Female",
@@ -1196,7 +1196,7 @@
     {
         "id": "yuri",
         "language_codes": [
-            "RUR"
+            "ru-RU"
         ],
         "name": "Yuri",
         "gender": "Female",
@@ -1206,7 +1206,7 @@
     {
         "id": "laura",
         "language_codes": [
-            "SKS"
+            "sk-SK"
         ],
         "name": "Laura",
         "gender": "Female",
@@ -1216,7 +1216,7 @@
     {
         "id": "diego",
         "language_codes": [
-            "SPA"
+            "es-AR"
         ],
         "name": "Diego",
         "gender": "Female",
@@ -1226,7 +1226,7 @@
     {
         "id": "isabela",
         "language_codes": [
-            "SPA"
+            "es-AR"
         ],
         "name": "Isabela",
         "gender": "Female",
@@ -1236,7 +1236,7 @@
     {
         "id": "carlos",
         "language_codes": [
-            "SPC"
+            "es-CO"
         ],
         "name": "Carlos",
         "gender": "Female",
@@ -1246,7 +1246,7 @@
     {
         "id": "soledad",
         "language_codes": [
-            "SPC"
+            "es-CO"
         ],
         "name": "Soledad",
         "gender": "Female",
@@ -1256,7 +1256,7 @@
     {
         "id": "ximena",
         "language_codes": [
-            "SPC"
+            "es-CO"
         ],
         "name": "Ximena",
         "gender": "Female",
@@ -1266,7 +1266,7 @@
     {
         "id": "jorge",
         "language_codes": [
-            "SPE"
+            "es-ES"
         ],
         "name": "Jorge",
         "gender": "Female",
@@ -1276,11 +1276,11 @@
     {
         "id": "marisol-ml",
         "language_codes": [
-            "SPE",
-            "ENG",
-            "GED",
-            "FRF",
-            "ITI"
+            "es-ES",
+            "en-GB",
+            "de-DE",
+            "fr-FR",
+            "it-IT"
         ],
         "name": "Marisol-ml",
         "gender": "Female",
@@ -1290,7 +1290,7 @@
     {
         "id": "marisol-ml-high",
         "language_codes": [
-            "SPE"
+            "es-ES"
         ],
         "name": "Marisol-ml",
         "gender": "Female",
@@ -1300,8 +1300,8 @@
     {
         "id": "monica-ml",
         "language_codes": [
-            "SPE",
-            "ENG"
+            "es-ES",
+            "en-GB"
         ],
         "name": "Monica-ml",
         "gender": "Female",
@@ -1311,7 +1311,7 @@
     {
         "id": "francisca",
         "language_codes": [
-            "SPL"
+            "es-CL"
         ],
         "name": "Francisca",
         "gender": "Female",
@@ -1321,7 +1321,7 @@
     {
         "id": "angelica",
         "language_codes": [
-            "SPM"
+            "es-MX"
         ],
         "name": "Angelica",
         "gender": "Female",
@@ -1331,7 +1331,7 @@
     {
         "id": "javier",
         "language_codes": [
-            "SPM"
+            "es-MX"
         ],
         "name": "Javier",
         "gender": "Female",
@@ -1341,7 +1341,7 @@
     {
         "id": "juan",
         "language_codes": [
-            "SPM"
+            "es-MX"
         ],
         "name": "Juan",
         "gender": "Female",
@@ -1351,9 +1351,9 @@
     {
         "id": "paulina-ml",
         "language_codes": [
-            "SPM",
-            "ENU",
-            "FRF"
+            "es-MX",
+            "en-US",
+            "fr-FR"
         ],
         "name": "Paulina-ml",
         "gender": "Female",
@@ -1363,9 +1363,9 @@
     {
         "id": "paulina-ml-high",
         "language_codes": [
-            "SPM",
-            "ENU",
-            "FRF"
+            "es-MX",
+            "en-US",
+            "fr-FR"
         ],
         "name": "Paulina-ml",
         "gender": "Female",
@@ -1375,7 +1375,7 @@
     {
         "id": "alva",
         "language_codes": [
-            "SWS"
+            "sv-SE"
         ],
         "name": "Alva",
         "gender": "Female",
@@ -1385,7 +1385,7 @@
     {
         "id": "klara",
         "language_codes": [
-            "SWS"
+            "sv-SE"
         ],
         "name": "Klara",
         "gender": "Female",
@@ -1395,7 +1395,7 @@
     {
         "id": "oskar",
         "language_codes": [
-            "SWS"
+            "sv-SE"
         ],
         "name": "Oskar",
         "gender": "Female",
@@ -1405,7 +1405,7 @@
     {
         "id": "vani",
         "language_codes": [
-            "TAI"
+            "ta-IN"
         ],
         "name": "Vani",
         "gender": "Female",
@@ -1415,7 +1415,7 @@
     {
         "id": "geeta",
         "language_codes": [
-            "TEI"
+            "te-IN"
         ],
         "name": "Geeta",
         "gender": "Female",
@@ -1425,7 +1425,7 @@
     {
         "id": "kanya",
         "language_codes": [
-            "THT"
+            "th-TH"
         ],
         "name": "Kanya",
         "gender": "Female",
@@ -1435,7 +1435,7 @@
     {
         "id": "narisa",
         "language_codes": [
-            "THT"
+            "th-TH"
         ],
         "name": "Narisa",
         "gender": "Female",
@@ -1445,8 +1445,8 @@
     {
         "id": "cem-ml",
         "language_codes": [
-            "TRT",
-            "ENG"
+            "tr-TR",
+            "en-GB"
         ],
         "name": "Cem-ml",
         "gender": "Female",
@@ -1456,7 +1456,7 @@
     {
         "id": "yelda",
         "language_codes": [
-            "TRT"
+            "tr-TR"
         ],
         "name": "Yelda",
         "gender": "Female",
@@ -1466,7 +1466,7 @@
     {
         "id": "lesya",
         "language_codes": [
-            "UKU"
+            "uk-UA"
         ],
         "name": "Lesya",
         "gender": "Female",
@@ -1476,7 +1476,7 @@
     {
         "id": "empar",
         "language_codes": [
-            "VAE"
+            "ca-ES-valencia"
         ],
         "name": "Empar",
         "gender": "Female",
@@ -1486,7 +1486,7 @@
     {
         "id": "linh",
         "language_codes": [
-            "VIV"
+            "vi-VN"
         ],
         "name": "Linh",
         "gender": "Female",

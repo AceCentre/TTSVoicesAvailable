@@ -932,7 +932,7 @@
     {
         "id": "biera-standard",
         "language_codes": [
-            "ac-si"
+            "se-NO"
         ],
         "name": "Biera",
         "gender": "Male",
@@ -942,7 +942,7 @@
     {
         "id": "elle-standard",
         "language_codes": [
-            "ac-si"
+            "se-NO"
         ],
         "name": "Elle",
         "gender": "Female",

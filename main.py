@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Query, HTTPException
 from typing import List, Optional, Dict, Any, Union
 from pydantic import BaseModel
-from tts_wrapper import PollyTTS, PollyClient, GoogleTTS, GoogleClient, MicrosoftTTS, MicrosoftClient, WatsonTTS, WatsonClient, ElevenLabsTTS, ElevenLabsClient, WitAiTTS, WitAiClient, MMSTTS, MMSClient
+from tts_wrapper import PollyTTS, PollyClient, GoogleTTS, GoogleClient, MicrosoftTTS, MicrosoftClient, WatsonTTS, WatsonClient, ElevenLabsTTS, ElevenLabsClient, WitAiTTS, WitAiClient, SherpaOnnxTTS, SherpaOnnxClient
 import os
 import json
 from datetime import datetime, timedelta
@@ -20,7 +20,7 @@ app = FastAPI()
 cache = {}
 
 # List of engines for dropdown - we update this im main
-engines_list = ["polly", "google", "microsoft", "watson", "elevenlabs", "witai", "mms"]
+engines_list = ["polly", "google", "microsoft", "watson", "elevenlabs", "witai", "sherpaonnx"]
 
 
 def load_tts_engines(directory):
@@ -137,9 +137,9 @@ def get_client(engine: str):
         token = os.getenv('WITAI_TOKEN')
         logger.info(f"WitAi Token: {token}")
         return WitAiClient(credentials=(token))
-    elif engine == 'mms':
-        logger.info("Creating MMS client")
-        return MMSClient()
+    elif engine == 'sherpaonnx':
+        logger.info("Creating SherpaOnnx client")
+        return SherpaOnnxClient()
     else:
         logger.error(f"Invalid engine: {engine}")
         return None
@@ -158,8 +158,8 @@ def get_tts(engine: str):
         return ElevenLabsTTS(client)
     elif engine == 'witai':
         return WitAiTTS(client)
-    elif engine == 'mms':
-        return MMSTTS(client)
+    elif engine == 'sherpaonnx':
+        return SherpaOnnxTTS(client)
     else:
         return None
 
@@ -194,6 +194,7 @@ def get_cached_voices(engine: str):
 def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code: Optional[str] = None, lang_name: Optional[str] = None, name: Optional[str] = None, gender: Optional[str] = None, page: Optional[int] = 1, page_size: Optional[int] = 50, ignore_cache: Optional[bool] = False):
     voices = []
     if engine:
+        print(f"Fetching voices for engine as engine exists: {engine}")  
         if not ignore_cache:
             voices = get_cached_voices(engine.lower())
         if not voices:
@@ -202,8 +203,11 @@ def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code
                 cache_voices(engine.lower(), voices)
     else:
         for eng in engines_list:
+            print(f"Fetching voices for engine: {eng}")
             if not ignore_cache:
                 eng_voices = get_cached_voices(eng)
+                if eng == 'SherpaOnnx':
+                    print(f"Eng voices: {eng_voices}")
             if not eng_voices:
                 try:
                     eng_voices = load_voices_from_source(eng)

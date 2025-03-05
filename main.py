@@ -9,10 +9,7 @@ from tts_wrapper import (
     ElevenLabsTTS, ElevenLabsClient, 
     WitAiTTS, WitAiClient, 
     SherpaOnnxTTS, SherpaOnnxClient,
-    PlayHTTTS, PlayHTClient,
-    eSpeakTTS, eSpeakClient,
-    AVSynthTTS, AVSynthClient
-)
+    PlayHTTTS, PlayHTClient)
 import os
 import json
 from datetime import datetime, timedelta
@@ -33,7 +30,7 @@ cache = {}
 # List of engines for dropdown - we update this im main
 engines_list = [
     "polly", "google", "microsoft", "watson", "elevenlabs", 
-    "witai", "sherpaonnx", "playht", "espeak", "avsynth"
+    "witai", "sherpaonnx", "playht"
 ]
 
 
@@ -132,9 +129,7 @@ def get_client(engine: str):
         'playht': lambda: PlayHTClient(credentials=(
             os.getenv('PLAYHT_API_KEY'),
             os.getenv('PLAYHT_USER_ID')
-        )),
-        'espeak': lambda: eSpeakClient(),
-        'avsynth': lambda: AVSynthClient()
+        ))
     }
     client_func = clients.get(engine)
     if client_func is None:

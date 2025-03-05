@@ -1,7 +1,18 @@
 from fastapi import FastAPI, Query, HTTPException
 from typing import List, Optional, Dict, Any, Union
 from pydantic import BaseModel
-from tts_wrapper import PollyTTS, PollyClient, GoogleTTS, GoogleClient, MicrosoftTTS, MicrosoftClient, WatsonTTS, WatsonClient, ElevenLabsTTS, ElevenLabsClient, WitAiTTS, WitAiClient, SherpaOnnxTTS, SherpaOnnxClient
+from tts_wrapper import (
+    PollyTTS, PollyClient, 
+    GoogleTTS, GoogleClient, 
+    MicrosoftTTS, MicrosoftClient, 
+    WatsonTTS, WatsonClient, 
+    ElevenLabsTTS, ElevenLabsClient, 
+    WitAiTTS, WitAiClient, 
+    SherpaOnnxTTS, SherpaOnnxClient,
+    PlayHTTTS, PlayHTClient,
+    eSpeakTTS, eSpeakClient,
+    AVSynthTTS, AVSynthClient
+)
 import os
 import json
 from datetime import datetime, timedelta
@@ -20,7 +31,10 @@ app = FastAPI()
 cache = {}
 
 # List of engines for dropdown - we update this im main
-engines_list = ["polly", "google", "microsoft", "watson", "elevenlabs", "witai", "sherpaonnx"]
+engines_list = [
+    "polly", "google", "microsoft", "watson", "elevenlabs", 
+    "witai", "sherpaonnx", "playht", "espeak", "avsynth"
+]
 
 
 def load_tts_engines(directory):
@@ -96,53 +110,39 @@ def load_voices_from_source(engine: str):
 
 def get_client(engine: str):
     logger.info(f"Creating client for engine: {engine}")
-    if engine == 'polly':
-        region = os.getenv('POLLY_REGION')
-        aws_key_id = os.getenv('POLLY_AWS_KEY_ID')
-        aws_access_key = os.getenv('POLLY_AWS_ACCESS_KEY')
-        return PollyClient(credentials=(region, aws_key_id, aws_access_key))
-    elif engine == 'google':
-        creds_path = os.getenv('GOOGLE_CREDS_PATH')
-        google_creds_json = os.getenv("GOOGLE_CREDS_JSON")
-
-        if not google_creds_json:
-            raise ValueError("GOOGLE_CREDS_JSON environment variable is not set")
-        
-        if not creds_path:
-            raise ValueError("GOOGLE_CREDS_PATH environment variable is not set")
-
-        with open(creds_path, "w") as f:
-            f.write(google_creds_json)
-            f.close()
-
-        logger.info(f"Google credentials path: {creds_path}")
-        return GoogleClient(credentials=(creds_path))
-    elif engine == 'microsoft':
-        token = os.getenv('MICROSOFT_TOKEN')
-        region = os.getenv('MICROSOFT_REGION')
-        logger.info(f"Microsoft credentials - Token: {token}, Region: {region}")
-        return MicrosoftClient(credentials=(token, region))
-    elif engine == 'watson':
-        api_key = os.getenv('WATSON_API_KEY')
-        api_url = os.getenv('WATSON_API_URL')
-        region = os.getenv('WATSON_REGION')
-        instance_id = os.getenv('WATSON_INSTANCE_ID')
-        logger.info(f"Watson credentials - API Key: {api_key}, API URL: {api_url}")
-        return WatsonClient(credentials=(api_key, region, instance_id))
-    elif engine == 'elevenlabs':
-        api_key = os.getenv('ELEVENLABS_API_KEY')
-        logger.info(f"ElevenLabs API Key: {api_key}")
-        return ElevenLabsClient(credentials=(api_key))
-    elif engine == 'witai':
-        token = os.getenv('WITAI_TOKEN')
-        logger.info(f"WitAi Token: {token}")
-        return WitAiClient(credentials=(token))
-    elif engine == 'sherpaonnx':
-        logger.info("Creating SherpaOnnx client")
-        return SherpaOnnxClient()
-    else:
-        logger.error(f"Invalid engine: {engine}")
-        return None
+    clients = {
+        'polly': lambda: PollyClient(credentials=(
+            os.getenv('POLLY_REGION'),
+            os.getenv('POLLY_AWS_KEY_ID'),
+            os.getenv('POLLY_AWS_ACCESS_KEY')
+        )),
+        'google': lambda: GoogleClient(credentials=(os.getenv('GOOGLE_CREDS_PATH'))),
+        'microsoft': lambda: MicrosoftClient(credentials=(
+            os.getenv('MICROSOFT_TOKEN'),
+            os.getenv('MICROSOFT_REGION')
+        )),
+        'watson': lambda: WatsonClient(credentials=(
+            os.getenv('WATSON_API_KEY'),
+            os.getenv('WATSON_REGION'),
+            os.getenv('WATSON_INSTANCE_ID')
+        )),
+        'elevenlabs': lambda: ElevenLabsClient(credentials=(os.getenv('ELEVENLABS_API_KEY'))),
+        'witai': lambda: WitAiClient(credentials=(os.getenv('WITAI_TOKEN'))),
+        'sherpaonnx': lambda: SherpaOnnxClient(),
+        'playht': lambda: PlayHTClient(credentials=(
+            os.getenv('PLAYHT_API_KEY'),
+            os.getenv('PLAYHT_USER_ID')
+        )),
+        'espeak': lambda: eSpeakClient(),
+        'avsynth': lambda: AVSynthClient()
+    }
+    client_func = clients.get(engine)
+    if client_func is None:
+        raise HTTPException(
+            status_code=400, 
+            detail=f"Engine '{engine}' not supported. Supported engines are: {list(clients.keys())}"
+        )
+    return client_func()
 
 def get_tts(engine: str):
     client = get_client(engine)
@@ -160,6 +160,12 @@ def get_tts(engine: str):
         return WitAiTTS(client)
     elif engine == 'sherpaonnx':
         return SherpaOnnxTTS(client)
+    elif engine == 'playht':
+        return PlayHTTTS(client)
+    elif engine == 'espeak':
+        return eSpeakTTS(client)
+    elif engine == 'avsynth':
+        return AVSynthTTS(client)
     else:
         return None
 
@@ -220,40 +226,19 @@ def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code
 
     filtered_voices = filter_voices(voices, lang_code, lang_name, name, gender)
 
-    #If page_size is 0, return all voices without pagination.
+    # If page_size is 0, return all voices without pagination.
     if page_size == 0:
         paginated_voices = filtered_voices
     else:
-        start = (page - 1) * page_size
-        end = start + page_size
+        # Add type hints to fix pagination calculation errors
+        start = (page - 1 if page else 0) * (page_size if page_size else 50)
+        end = start + (page_size if page_size else 50)
         paginated_voices = filtered_voices[start:end]
 
     return [Voice(**voice) for voice in paginated_voices]
 
 @app.get("/engines", response_model=List[str])
 def get_available_engines():
-    return engines_list
-
-
-def load_tts_engines(directory):
-    logger.info(f"Loading TTS engines from directory: {directory}")
-    tts_engines = {}
-    for filename in os.listdir(directory):
-        logger.info(f"Filename is: {filename}")
-        if filename.endswith(".json"):
-            filepath = os.path.join(directory, filename)
-            logger.info(f"Loading TTS engine from file: {filepath}")
-            with open(filepath, 'r') as file:
-                engine_data = json.load(file)
-                engine_name = filename.replace('.json', '')
-                tts_engines[engine_name] = engine_data
-    logger.info("TTS engines loaded successfully")
-    return tts_engines
-
-def update_engines_list(engines_list, tts_engines):
-    for engine_name in tts_engines.keys():
-        if engine_name not in engines_list:
-            engines_list.append(engine_name)
     return engines_list
 
 is_development = os.getenv('DEVELOPMENT') == 'True'
@@ -271,3 +256,18 @@ logger.info(f"Updated Engines List:{engines_list}")
 
 for engine_name, engine_data in tts_engines.items():
     logger.info(f"Loaded TTS Engine: {engine_name} with data: {engine_data}")
+
+if __name__ == "__main__":
+    import uvicorn
+    
+    # Configure host and port
+    host = "0.0.0.0"  # Allows external access
+    port = 8000  # Default port for FastAPI
+    
+    # Run the server
+    uvicorn.run(
+        "main:app",
+        host=host,
+        port=port,
+        reload=True  # Enable auto-reload on code changes
+    )

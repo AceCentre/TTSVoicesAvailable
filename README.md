@@ -9,7 +9,6 @@ Note: tts-data/**vendor**-**software**.json is a list of tts engines not support
 To-Do
 
 - Add software specific variants like Smartbox
-- Add in eSpeak-NG
 - Investigate NVDA at some point
 - Add in preview to the Voice class and a way of adding previews in the JSON
 

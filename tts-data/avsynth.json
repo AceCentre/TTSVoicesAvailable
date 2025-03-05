@@ -1,0 +1,1522 @@
+[
+  {
+    "name": "Majed",
+    "gender": "male",
+    "id": "com.apple.voice.compact.ar-001.Maged",
+    "language_codes": [
+      "ar-001"
+    ]
+  },
+  {
+    "id": "com.apple.voice.compact.bg-BG.Daria",
+    "language_codes": [
+      "bg-BG"
+    ],
+    "gender": "female",
+    "name": "Daria"
+  },
+  {
+    "name": "Montse",
+    "language_codes": [
+      "ca-ES"
+    ],
+    "id": "com.apple.voice.compact.ca-ES.Montserrat",
+    "gender": "female"
+  },
+  {
+    "name": "Zuzana",
+    "language_codes": [
+      "cs-CZ"
+    ],
+    "gender": "female",
+    "id": "com.apple.voice.compact.cs-CZ.Zuzana"
+  },
+  {
+    "name": "Sara",
+    "language_codes": [
+      "da-DK"
+    ],
+    "gender": "female",
+    "id": "com.apple.voice.compact.da-DK.Sara"
+  },
+  {
+    "name": "Sandy",
+    "language_codes": [
+      "de-DE"
+    ],
+    "id": "com.apple.eloquence.de-DE.Sandy",
+    "gender": "male"
+  },
+  {
+    "name": "Shelley",
+    "gender": "male",
+    "id": "com.apple.eloquence.de-DE.Shelley",
+    "language_codes": [
+      "de-DE"
+    ]
+  },
+  {
+    "name": "Helena",
+    "gender": "female",
+    "id": "com.apple.ttsbundle.siri_Helena_de-DE_compact",
+    "language_codes": [
+      "de-DE"
+    ]
+  },
+  {
+    "language_codes": [
+      "de-DE"
+    ],
+    "id": "com.apple.eloquence.de-DE.Grandma",
+    "name": "Grandma",
+    "gender": "male"
+  },
+  {
+    "name": "Grandpa",
+    "gender": "male",
+    "id": "com.apple.eloquence.de-DE.Grandpa",
+    "language_codes": [
+      "de-DE"
+    ]
+  },
+  {
+    "gender": "male",
+    "id": "com.apple.eloquence.de-DE.Eddy",
+    "name": "Eddy",
+    "language_codes": [
+      "de-DE"
+    ]
+  },
+  {
+    "id": "com.apple.eloquence.de-DE.Reed",
+    "language_codes": [
+      "de-DE"
+    ],
+    "name": "Reed",
+    "gender": "male"
+  },
+  {
+    "gender": "female",
+    "id": "com.apple.voice.compact.de-DE.Anna",
+    "name": "Anna",
+    "language_codes": [
+      "de-DE"
+    ]
+  },
+  {
+    "id": "com.apple.ttsbundle.siri_Martin_de-DE_compact",
+    "language_codes": [
+      "de-DE"
+    ],
+    "name": "Martin",
+    "gender": "male"
+  },
+  {
+    "language_codes": [
+      "de-DE"
+    ],
+    "id": "com.apple.eloquence.de-DE.Rocko",
+    "name": "Rocko",
+    "gender": "male"
+  },
+  {
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "male",
+    "name": "Flo",
+    "id": "com.apple.eloquence.de-DE.Flo"
+  },
+  {
+    "language_codes": [
+      "el-GR"
+    ],
+    "id": "com.apple.voice.compact.el-GR.Melina",
+    "gender": "female",
+    "name": "Melina"
+  },
+  {
+    "gender": "male",
+    "id": "com.apple.ttsbundle.siri_Gordon_en-AU_compact",
+    "name": "Gordon",
+    "language_codes": [
+      "en-AU"
+    ]
+  },
+  {
+    "gender": "female",
+    "language_codes": [
+      "en-AU"
+    ],
+    "id": "com.apple.voice.compact.en-AU.Karen",
+    "name": "Karen"
+  },
+  {
+    "language_codes": [
+      "en-AU"
+    ],
+    "name": "Catherine",
+    "gender": "female",
+    "id": "com.apple.ttsbundle.siri_Catherine_en-AU_compact"
+  },
+  {
+    "name": "Rocko",
+    "id": "com.apple.eloquence.en-GB.Rocko",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "male"
+  },
+  {
+    "name": "Shelley",
+    "id": "com.apple.eloquence.en-GB.Shelley",
+    "gender": "male",
+    "language_codes": [
+      "en-GB"
+    ]
+  },
+  {
+    "language_codes": [
+      "en-GB"
+    ],
+    "name": "Daniel",
+    "id": "com.apple.voice.compact.en-GB.Daniel",
+    "gender": "male"
+  },
+  {
+    "gender": "female",
+    "name": "Martha",
+    "language_codes": [
+      "en-GB"
+    ],
+    "id": "com.apple.ttsbundle.siri_Martha_en-GB_compact"
+  },
+  {
+    "gender": "male",
+    "language_codes": [
+      "en-GB"
+    ],
+    "name": "Grandma",
+    "id": "com.apple.eloquence.en-GB.Grandma"
+  },
+  {
+    "name": "Grandpa",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.en-GB.Grandpa"
+  },
+  {
+    "name": "Flo",
+    "gender": "male",
+    "id": "com.apple.eloquence.en-GB.Flo",
+    "language_codes": [
+      "en-GB"
+    ]
+  },
+  {
+    "gender": "male",
+    "id": "com.apple.eloquence.en-GB.Eddy",
+    "language_codes": [
+      "en-GB"
+    ],
+    "name": "Eddy"
+  },
+  {
+    "name": "Reed",
+    "id": "com.apple.eloquence.en-GB.Reed",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "male"
+  },
+  {
+    "gender": "male",
+    "language_codes": [
+      "en-GB"
+    ],
+    "id": "com.apple.eloquence.en-GB.Sandy",
+    "name": "Sandy"
+  },
+  {
+    "name": "Arthur",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "male",
+    "id": "com.apple.ttsbundle.siri_Arthur_en-GB_compact"
+  },
+  {
+    "language_codes": [
+      "en-IE"
+    ],
+    "id": "com.apple.voice.compact.en-IE.Moira",
+    "gender": "female",
+    "name": "Moira"
+  },
+  {
+    "id": "com.apple.voice.compact.en-IN.Rishi",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "male",
+    "name": "Rishi"
+  },
+  {
+    "language_codes": [
+      "en-US"
+    ],
+    "id": "com.apple.eloquence.en-US.Flo",
+    "gender": "male",
+    "name": "Flo"
+  },
+  {
+    "name": "Bahh",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "id": "com.apple.speech.synthesis.voice.Bahh"
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.Albert",
+    "language_codes": [
+      "en-US"
+    ],
+    "name": "Albert",
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.Fred",
+    "language_codes": [
+      "en-US"
+    ],
+    "name": "Fred",
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.Hysterical",
+    "gender": "male",
+    "language_codes": [
+      "en-US"
+    ],
+    "name": "Jester"
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.Organ",
+    "gender": "male",
+    "language_codes": [
+      "en-US"
+    ],
+    "name": "Organ"
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.Cellos",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "name": "Cellos"
+  },
+  {
+    "gender": "male",
+    "language_codes": [
+      "en-US"
+    ],
+    "name": "Zarvox",
+    "id": "com.apple.speech.synthesis.voice.Zarvox"
+  },
+  {
+    "id": "com.apple.eloquence.en-US.Rocko",
+    "name": "Rocko",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male"
+  },
+  {
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.en-US.Shelley",
+    "name": "Shelley"
+  },
+  {
+    "name": "Superstar",
+    "gender": "male",
+    "language_codes": [
+      "en-US"
+    ],
+    "id": "com.apple.speech.synthesis.voice.Princess"
+  },
+  {
+    "id": "com.apple.eloquence.en-US.Grandma",
+    "name": "Grandma",
+    "gender": "male",
+    "language_codes": [
+      "en-US"
+    ]
+  },
+  {
+    "language_codes": [
+      "en-US"
+    ],
+    "name": "Eddy",
+    "id": "com.apple.eloquence.en-US.Eddy",
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.Bells",
+    "gender": "male",
+    "name": "Bells",
+    "language_codes": [
+      "en-US"
+    ]
+  },
+  {
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "name": "Grandpa",
+    "id": "com.apple.eloquence.en-US.Grandpa"
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.Trinoids",
+    "gender": "male",
+    "name": "Trinoids",
+    "language_codes": [
+      "en-US"
+    ]
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.Kathy",
+    "gender": "male",
+    "language_codes": [
+      "en-US"
+    ],
+    "name": "Kathy"
+  },
+  {
+    "gender": "male",
+    "name": "Reed",
+    "id": "com.apple.eloquence.en-US.Reed",
+    "language_codes": [
+      "en-US"
+    ]
+  },
+  {
+    "name": "Boing",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "id": "com.apple.speech.synthesis.voice.Boing"
+  },
+  {
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "name": "Whisper",
+    "id": "com.apple.speech.synthesis.voice.Whisper"
+  },
+  {
+    "name": "Good News",
+    "id": "com.apple.speech.synthesis.voice.GoodNews",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male"
+  },
+  {
+    "name": "Wobble",
+    "id": "com.apple.speech.synthesis.voice.Deranged",
+    "gender": "male",
+    "language_codes": [
+      "en-US"
+    ]
+  },
+  {
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "id": "com.apple.ttsbundle.siri_Nicky_en-US_compact",
+    "name": "Nicky"
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.BadNews",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "name": "Bad News"
+  },
+  {
+    "name": "Aaron",
+    "language_codes": [
+      "en-US"
+    ],
+    "id": "com.apple.ttsbundle.siri_Aaron_en-US_compact",
+    "gender": "male"
+  },
+  {
+    "name": "Bubbles",
+    "language_codes": [
+      "en-US"
+    ],
+    "id": "com.apple.speech.synthesis.voice.Bubbles",
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.voice.compact.en-US.Samantha",
+    "name": "Samantha",
+    "gender": "female",
+    "language_codes": [
+      "en-US"
+    ]
+  },
+  {
+    "name": "Sandy",
+    "id": "com.apple.eloquence.en-US.Sandy",
+    "gender": "male",
+    "language_codes": [
+      "en-US"
+    ]
+  },
+  {
+    "name": "Junior",
+    "id": "com.apple.speech.synthesis.voice.Junior",
+    "gender": "male",
+    "language_codes": [
+      "en-US"
+    ]
+  },
+  {
+    "id": "com.apple.speech.synthesis.voice.Ralph",
+    "language_codes": [
+      "en-US"
+    ],
+    "name": "Ralph",
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.voice.compact.en-ZA.Tessa",
+    "language_codes": [
+      "en-ZA"
+    ],
+    "gender": "female",
+    "name": "Tessa"
+  },
+  {
+    "id": "com.apple.eloquence.es-ES.Shelley",
+    "language_codes": [
+      "es-ES"
+    ],
+    "name": "Shelley",
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.eloquence.es-ES.Grandma",
+    "language_codes": [
+      "es-ES"
+    ],
+    "name": "Grandma",
+    "gender": "male"
+  },
+  {
+    "name": "Rocko",
+    "id": "com.apple.eloquence.es-ES.Rocko",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.eloquence.es-ES.Grandpa",
+    "name": "Grandpa",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "male"
+  },
+  {
+    "gender": "male",
+    "name": "Flo",
+    "language_codes": [
+      "es-ES"
+    ],
+    "id": "com.apple.eloquence.es-ES.Flo"
+  },
+  {
+    "language_codes": [
+      "es-ES"
+    ],
+    "id": "com.apple.eloquence.es-ES.Sandy",
+    "name": "Sandy",
+    "gender": "male"
+  },
+  {
+    "gender": "female",
+    "language_codes": [
+      "es-ES"
+    ],
+    "name": "Mónica",
+    "id": "com.apple.voice.compact.es-ES.Monica"
+  },
+  {
+    "language_codes": [
+      "es-ES"
+    ],
+    "id": "com.apple.eloquence.es-ES.Eddy",
+    "name": "Eddy",
+    "gender": "male"
+  },
+  {
+    "gender": "male",
+    "id": "com.apple.eloquence.es-ES.Reed",
+    "name": "Reed",
+    "language_codes": [
+      "es-ES"
+    ]
+  },
+  {
+    "language_codes": [
+      "es-MX"
+    ],
+    "id": "com.apple.eloquence.es-MX.Rocko",
+    "gender": "male",
+    "name": "Rocko"
+  },
+  {
+    "id": "com.apple.voice.compact.es-MX.Paulina",
+    "name": "Paulina",
+    "gender": "female",
+    "language_codes": [
+      "es-MX"
+    ]
+  },
+  {
+    "id": "com.apple.eloquence.es-MX.Flo",
+    "gender": "male",
+    "language_codes": [
+      "es-MX"
+    ],
+    "name": "Flo"
+  },
+  {
+    "gender": "male",
+    "id": "com.apple.eloquence.es-MX.Sandy",
+    "language_codes": [
+      "es-MX"
+    ],
+    "name": "Sandy"
+  },
+  {
+    "name": "Eddy",
+    "language_codes": [
+      "es-MX"
+    ],
+    "id": "com.apple.eloquence.es-MX.Eddy",
+    "gender": "male"
+  },
+  {
+    "name": "Shelley",
+    "id": "com.apple.eloquence.es-MX.Shelley",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "male"
+  },
+  {
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "male",
+    "name": "Grandma",
+    "id": "com.apple.eloquence.es-MX.Grandma"
+  },
+  {
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "male",
+    "name": "Reed",
+    "id": "com.apple.eloquence.es-MX.Reed"
+  },
+  {
+    "gender": "male",
+    "language_codes": [
+      "es-MX"
+    ],
+    "id": "com.apple.eloquence.es-MX.Grandpa",
+    "name": "Grandpa"
+  },
+  {
+    "language_codes": [
+      "fi-FI"
+    ],
+    "name": "Shelley",
+    "gender": "male",
+    "id": "com.apple.eloquence.fi-FI.Shelley"
+  },
+  {
+    "gender": "male",
+    "id": "com.apple.eloquence.fi-FI.Grandma",
+    "name": "Grandma",
+    "language_codes": [
+      "fi-FI"
+    ]
+  },
+  {
+    "gender": "male",
+    "language_codes": [
+      "fi-FI"
+    ],
+    "id": "com.apple.eloquence.fi-FI.Grandpa",
+    "name": "Grandpa"
+  },
+  {
+    "gender": "male",
+    "name": "Sandy",
+    "language_codes": [
+      "fi-FI"
+    ],
+    "id": "com.apple.eloquence.fi-FI.Sandy"
+  },
+  {
+    "language_codes": [
+      "fi-FI"
+    ],
+    "name": "Satu",
+    "gender": "female",
+    "id": "com.apple.voice.compact.fi-FI.Satu"
+  },
+  {
+    "id": "com.apple.eloquence.fi-FI.Eddy",
+    "gender": "male",
+    "name": "Eddy",
+    "language_codes": [
+      "fi-FI"
+    ]
+  },
+  {
+    "language_codes": [
+      "fi-FI"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.fi-FI.Rocko",
+    "name": "Rocko"
+  },
+  {
+    "id": "com.apple.eloquence.fi-FI.Reed",
+    "name": "Reed",
+    "gender": "male",
+    "language_codes": [
+      "fi-FI"
+    ]
+  },
+  {
+    "id": "com.apple.eloquence.fi-FI.Flo",
+    "language_codes": [
+      "fi-FI"
+    ],
+    "gender": "male",
+    "name": "Flo"
+  },
+  {
+    "language_codes": [
+      "fr-CA"
+    ],
+    "id": "com.apple.eloquence.fr-CA.Shelley",
+    "name": "Shelley",
+    "gender": "male"
+  },
+  {
+    "name": "Grandma",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.fr-CA.Grandma"
+  },
+  {
+    "id": "com.apple.eloquence.fr-CA.Grandpa",
+    "gender": "male",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "name": "Grandpa"
+  },
+  {
+    "id": "com.apple.eloquence.fr-CA.Rocko",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "male",
+    "name": "Rocko"
+  },
+  {
+    "name": "Eddy",
+    "id": "com.apple.eloquence.fr-CA.Eddy",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "male"
+  },
+  {
+    "name": "Reed",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "id": "com.apple.eloquence.fr-CA.Reed",
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.voice.compact.fr-CA.Amelie",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "name": "Amélie",
+    "gender": "female"
+  },
+  {
+    "language_codes": [
+      "fr-CA"
+    ],
+    "id": "com.apple.eloquence.fr-CA.Flo",
+    "name": "Flo",
+    "gender": "male"
+  },
+  {
+    "name": "Sandy",
+    "id": "com.apple.eloquence.fr-CA.Sandy",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "male"
+  },
+  {
+    "name": "Grandma",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "id": "com.apple.eloquence.fr-FR.Grandma",
+    "gender": "male"
+  },
+  {
+    "name": "Flo",
+    "gender": "male",
+    "id": "com.apple.eloquence.fr-FR.Flo",
+    "language_codes": [
+      "fr-FR"
+    ]
+  },
+  {
+    "gender": "male",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "name": "Rocko",
+    "id": "com.apple.eloquence.fr-FR.Rocko"
+  },
+  {
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.fr-FR.Grandpa",
+    "name": "Grandpa"
+  },
+  {
+    "language_codes": [
+      "fr-FR"
+    ],
+    "id": "com.apple.eloquence.fr-FR.Sandy",
+    "gender": "male",
+    "name": "Sandy"
+  },
+  {
+    "gender": "male",
+    "name": "Eddy",
+    "id": "com.apple.eloquence.fr-FR.Eddy",
+    "language_codes": [
+      "fr-FR"
+    ]
+  },
+  {
+    "name": "Thomas",
+    "id": "com.apple.voice.compact.fr-FR.Thomas",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "male"
+  },
+  {
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "male",
+    "id": "com.apple.ttsbundle.siri_Dan_fr-FR_compact",
+    "name": "Daniel"
+  },
+  {
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.fr-FR.Jacques",
+    "name": "Jacques"
+  },
+  {
+    "id": "com.apple.ttsbundle.siri_Marie_fr-FR_compact",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "female",
+    "name": "Marie"
+  },
+  {
+    "id": "com.apple.eloquence.fr-FR.Shelley",
+    "name": "Shelley",
+    "gender": "male",
+    "language_codes": [
+      "fr-FR"
+    ]
+  },
+  {
+    "name": "Carmit",
+    "language_codes": [
+      "he-IL"
+    ],
+    "gender": "female",
+    "id": "com.apple.voice.compact.he-IL.Carmit"
+  },
+  {
+    "gender": "female",
+    "name": "Lekha",
+    "id": "com.apple.voice.compact.hi-IN.Lekha",
+    "language_codes": [
+      "hi-IN"
+    ]
+  },
+  {
+    "language_codes": [
+      "hr-HR"
+    ],
+    "id": "com.apple.voice.compact.hr-HR.Lana",
+    "name": "Lana",
+    "gender": "female"
+  },
+  {
+    "language_codes": [
+      "hu-HU"
+    ],
+    "gender": "female",
+    "name": "Tünde",
+    "id": "com.apple.voice.compact.hu-HU.Mariska"
+  },
+  {
+    "gender": "female",
+    "name": "Damayanti",
+    "language_codes": [
+      "id-ID"
+    ],
+    "id": "com.apple.voice.compact.id-ID.Damayanti"
+  },
+  {
+    "name": "Eddy",
+    "id": "com.apple.eloquence.it-IT.Eddy",
+    "gender": "male",
+    "language_codes": [
+      "it-IT"
+    ]
+  },
+  {
+    "gender": "male",
+    "id": "com.apple.eloquence.it-IT.Sandy",
+    "name": "Sandy",
+    "language_codes": [
+      "it-IT"
+    ]
+  },
+  {
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "male",
+    "name": "Reed",
+    "id": "com.apple.eloquence.it-IT.Reed"
+  },
+  {
+    "language_codes": [
+      "it-IT"
+    ],
+    "id": "com.apple.eloquence.it-IT.Shelley",
+    "gender": "male",
+    "name": "Shelley"
+  },
+  {
+    "id": "com.apple.eloquence.it-IT.Grandma",
+    "name": "Grandma",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.eloquence.it-IT.Grandpa",
+    "name": "Grandpa",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "male"
+  },
+  {
+    "name": "Flo",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.it-IT.Flo"
+  },
+  {
+    "gender": "male",
+    "name": "Rocko",
+    "id": "com.apple.eloquence.it-IT.Rocko",
+    "language_codes": [
+      "it-IT"
+    ]
+  },
+  {
+    "gender": "female",
+    "language_codes": [
+      "it-IT"
+    ],
+    "name": "Alice",
+    "id": "com.apple.voice.compact.it-IT.Alice"
+  },
+  {
+    "name": "Eddy",
+    "gender": "male",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "id": "com.apple.eloquence.ja-JP.Eddy"
+  },
+  {
+    "name": "Reed",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.ja-JP.Reed"
+  },
+  {
+    "language_codes": [
+      "ja-JP"
+    ],
+    "id": "com.apple.eloquence.ja-JP.Shelley",
+    "gender": "male",
+    "name": "Shelley"
+  },
+  {
+    "gender": "female",
+    "name": "Kyoko",
+    "id": "com.apple.voice.compact.ja-JP.Kyoko",
+    "language_codes": [
+      "ja-JP"
+    ]
+  },
+  {
+    "id": "com.apple.eloquence.ja-JP.Grandma",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "male",
+    "name": "Grandma"
+  },
+  {
+    "id": "com.apple.eloquence.ja-JP.Rocko",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "male",
+    "name": "Rocko"
+  },
+  {
+    "language_codes": [
+      "ja-JP"
+    ],
+    "id": "com.apple.eloquence.ja-JP.Grandpa",
+    "gender": "male",
+    "name": "Grandpa"
+  },
+  {
+    "gender": "male",
+    "name": "Hattori",
+    "id": "com.apple.ttsbundle.siri_Hattori_ja-JP_compact",
+    "language_codes": [
+      "ja-JP"
+    ]
+  },
+  {
+    "gender": "male",
+    "name": "Sandy",
+    "id": "com.apple.eloquence.ja-JP.Sandy",
+    "language_codes": [
+      "ja-JP"
+    ]
+  },
+  {
+    "gender": "female",
+    "name": "O-Ren",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "id": "com.apple.ttsbundle.siri_O-Ren_ja-JP_compact"
+  },
+  {
+    "id": "com.apple.eloquence.ja-JP.Flo",
+    "name": "Flo",
+    "gender": "male",
+    "language_codes": [
+      "ja-JP"
+    ]
+  },
+  {
+    "name": "Rocko",
+    "id": "com.apple.eloquence.ko-KR.Rocko",
+    "gender": "male",
+    "language_codes": [
+      "ko-KR"
+    ]
+  },
+  {
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.ko-KR.Grandma",
+    "name": "Grandma"
+  },
+  {
+    "language_codes": [
+      "ko-KR"
+    ],
+    "id": "com.apple.eloquence.ko-KR.Grandpa",
+    "gender": "male",
+    "name": "Grandpa"
+  },
+  {
+    "name": "Eddy",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.ko-KR.Eddy"
+  },
+  {
+    "gender": "male",
+    "id": "com.apple.eloquence.ko-KR.Sandy",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "name": "Sandy"
+  },
+  {
+    "gender": "female",
+    "id": "com.apple.voice.compact.ko-KR.Yuna",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "name": "Yuna"
+  },
+  {
+    "gender": "male",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "id": "com.apple.eloquence.ko-KR.Reed",
+    "name": "Reed"
+  },
+  {
+    "gender": "male",
+    "name": "Flo",
+    "id": "com.apple.eloquence.ko-KR.Flo",
+    "language_codes": [
+      "ko-KR"
+    ]
+  },
+  {
+    "name": "Shelley",
+    "id": "com.apple.eloquence.ko-KR.Shelley",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "male"
+  },
+  {
+    "name": "Amira",
+    "id": "com.apple.voice.compact.ms-MY.Amira",
+    "language_codes": [
+      "ms-MY"
+    ],
+    "gender": "female"
+  },
+  {
+    "language_codes": [
+      "nb-NO"
+    ],
+    "gender": "female",
+    "id": "com.apple.voice.compact.nb-NO.Nora",
+    "name": "Nora"
+  },
+  {
+    "name": "Ellen",
+    "id": "com.apple.voice.compact.nl-BE.Ellen",
+    "language_codes": [
+      "nl-BE"
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "com.apple.voice.compact.nl-NL.Xander",
+    "language_codes": [
+      "nl-NL"
+    ],
+    "name": "Xander",
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.voice.compact.pl-PL.Zosia",
+    "language_codes": [
+      "pl-PL"
+    ],
+    "gender": "female",
+    "name": "Zosia"
+  },
+  {
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "male",
+    "name": "Reed",
+    "id": "com.apple.eloquence.pt-BR.Reed"
+  },
+  {
+    "id": "com.apple.voice.compact.pt-BR.Luciana",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "female",
+    "name": "Luciana"
+  },
+  {
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "male",
+    "name": "Shelley",
+    "id": "com.apple.eloquence.pt-BR.Shelley"
+  },
+  {
+    "id": "com.apple.eloquence.pt-BR.Grandma",
+    "name": "Grandma",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.eloquence.pt-BR.Grandpa",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "male",
+    "name": "Grandpa"
+  },
+  {
+    "gender": "male",
+    "name": "Rocko",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "id": "com.apple.eloquence.pt-BR.Rocko"
+  },
+  {
+    "name": "Flo",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "id": "com.apple.eloquence.pt-BR.Flo",
+    "gender": "male"
+  },
+  {
+    "name": "Sandy",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.pt-BR.Sandy"
+  },
+  {
+    "name": "Eddy",
+    "gender": "male",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "id": "com.apple.eloquence.pt-BR.Eddy"
+  },
+  {
+    "name": "Joana",
+    "gender": "female",
+    "id": "com.apple.voice.compact.pt-PT.Joana",
+    "language_codes": [
+      "pt-PT"
+    ]
+  },
+  {
+    "gender": "female",
+    "name": "Ioana",
+    "id": "com.apple.voice.compact.ro-RO.Ioana",
+    "language_codes": [
+      "ro-RO"
+    ]
+  },
+  {
+    "name": "Milena",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "female",
+    "id": "com.apple.voice.compact.ru-RU.Milena"
+  },
+  {
+    "name": "Laura",
+    "gender": "female",
+    "id": "com.apple.voice.compact.sk-SK.Laura",
+    "language_codes": [
+      "sk-SK"
+    ]
+  },
+  {
+    "gender": "female",
+    "id": "com.apple.voice.compact.sl-SI.Tina",
+    "language_codes": [
+      "sl-SI"
+    ],
+    "name": "Tina"
+  },
+  {
+    "language_codes": [
+      "sv-SE"
+    ],
+    "id": "com.apple.voice.compact.sv-SE.Alva",
+    "gender": "female",
+    "name": "Alva"
+  },
+  {
+    "gender": "female",
+    "id": "com.apple.voice.compact.th-TH.Kanya",
+    "name": "Kanya",
+    "language_codes": [
+      "th-TH"
+    ]
+  },
+  {
+    "id": "com.apple.voice.compact.tr-TR.Yelda",
+    "language_codes": [
+      "tr-TR"
+    ],
+    "gender": "female",
+    "name": "Yelda"
+  },
+  {
+    "gender": "female",
+    "id": "com.apple.voice.compact.uk-UA.Lesya",
+    "name": "Lesya",
+    "language_codes": [
+      "uk-UA"
+    ]
+  },
+  {
+    "language_codes": [
+      "vi-VN"
+    ],
+    "name": "Linh",
+    "gender": "female",
+    "id": "com.apple.voice.compact.vi-VN.Linh"
+  },
+  {
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.zh-CN.Eddy",
+    "name": "Eddy"
+  },
+  {
+    "name": "Shelley",
+    "gender": "male",
+    "id": "com.apple.eloquence.zh-CN.Shelley",
+    "language_codes": [
+      "zh-CN"
+    ]
+  },
+  {
+    "gender": "female",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "id": "com.apple.ttsbundle.siri_Yu-Shu_zh-CN_compact",
+    "name": "Yu-shu"
+  },
+  {
+    "language_codes": [
+      "zh-CN"
+    ],
+    "id": "com.apple.eloquence.zh-CN.Grandma",
+    "gender": "male",
+    "name": "Grandma"
+  },
+  {
+    "language_codes": [
+      "zh-CN"
+    ],
+    "id": "com.apple.eloquence.zh-CN.Reed",
+    "gender": "male",
+    "name": "Reed"
+  },
+  {
+    "id": "com.apple.eloquence.zh-CN.Grandpa",
+    "name": "Grandpa",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "male"
+  },
+  {
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "male",
+    "name": "Rocko",
+    "id": "com.apple.eloquence.zh-CN.Rocko"
+  },
+  {
+    "name": "Li-Mu",
+    "id": "com.apple.ttsbundle.siri_Li-Mu_zh-CN_compact",
+    "gender": "male",
+    "language_codes": [
+      "zh-CN"
+    ]
+  },
+  {
+    "name": "Flo",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.zh-CN.Flo"
+  },
+  {
+    "id": "com.apple.voice.compact.zh-CN.Tingting",
+    "name": "Tingting",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "female"
+  },
+  {
+    "name": "Sandy",
+    "gender": "male",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "id": "com.apple.eloquence.zh-CN.Sandy"
+  },
+  {
+    "language_codes": [
+      "zh-HK"
+    ],
+    "gender": "female",
+    "name": "Sinji",
+    "id": "com.apple.voice.compact.zh-HK.Sinji"
+  },
+  {
+    "language_codes": [
+      "zh-TW"
+    ],
+    "name": "Shelley",
+    "id": "com.apple.eloquence.zh-TW.Shelley",
+    "gender": "male"
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Grandma",
+    "gender": "male",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "name": "Grandma"
+  },
+  {
+    "gender": "male",
+    "id": "com.apple.eloquence.zh-TW.Grandpa",
+    "name": "Grandpa",
+    "language_codes": [
+      "zh-TW"
+    ]
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Sandy",
+    "name": "Sandy",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "male"
+  },
+  {
+    "name": "Flo",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "male",
+    "id": "com.apple.eloquence.zh-TW.Flo"
+  },
+  {
+    "name": "Eddy",
+    "id": "com.apple.eloquence.zh-TW.Eddy",
+    "gender": "male",
+    "language_codes": [
+      "zh-TW"
+    ]
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Reed",
+    "name": "Reed",
+    "gender": "male",
+    "language_codes": [
+      "zh-TW"
+    ]
+  },
+  {
+    "language_codes": [
+      "zh-TW"
+    ],
+    "id": "com.apple.voice.compact.zh-TW.Meijia",
+    "name": "Meijia",
+    "gender": "female"
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Rocko",
+    "name": "Rocko",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "male"
+  }
+]

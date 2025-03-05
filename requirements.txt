@@ -1,5 +1,5 @@
 fastapi==0.85.1
 uvicorn[standard]==0.19.0
 pydantic==1.10.2
-py3-tts-wrapper[google,microsoft,sapi,sherpaonnx,elevenlabs,watson,polly,witai,playht,espeak,controllable]
+py3-tts-wrapper[google,microsoft,sapi,sherpaonnx,elevenlabs,watson,polly,witai,playht,controllable]
 fuzzysearch

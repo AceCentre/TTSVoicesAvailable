@@ -33,6 +33,13 @@ engines_list = [
     "witai", "sherpaonnx", "playht"
 ]
 
+# Engine categorization
+ONLINE_ENGINES = ["polly", "google", "microsoft", "elevenlabs", "witai", "playht"]
+OFFLINE_ENGINES = [
+    "sherpaonnx", "nuance-nuance", "cereproc-cereproc", "anreader-andreader",
+    "acapela-mindexpress", "microsoft-sapi", "acapela-sapi", "rhvoice-sapi",
+    "espeak", "avsynth"
+]
 
 def load_tts_engines(directory):
     tts_engines = {}
@@ -58,6 +65,7 @@ class Voice(BaseModel):
     gender: Optional[str] = None
     engine: str
     languages: List[Dict[str, Union[str, float]]] = []  # List of dictionaries for language code and lat-long pairs
+    is_offline: bool  # Add this field
 
 def load_geo_data():
     with open('geo-data.json', 'r') as file:
@@ -72,9 +80,12 @@ def find_geo_info(language_code, geo_data):
 def load_voices_from_source(engine: str):
     tts_engines_directory = os.path.realpath("./tts-data")
     voices = []
-    geo_data = load_geo_data()  # Load geographical data
+    geo_data = load_geo_data()
     
     logger.info(f"Loading voices for engine: {engine}")
+
+    # Determine if engine is offline
+    is_offline = engine.lower() in [e.lower() for e in OFFLINE_ENGINES]
 
     # Load the specific engine's JSON file if it exists
     engine_file_path = os.path.join(tts_engines_directory, f"{engine}.json")
@@ -82,7 +93,7 @@ def load_voices_from_source(engine: str):
         logger.info(f"Loading voices from file: {engine_file_path}")
         with open(engine_file_path, 'r') as file:
             voices_raw = json.load(file)
-            voices = [{"engine": engine, **item} for item in voices_raw]
+            voices = [{"engine": engine, "is_offline": is_offline, **item} for item in voices_raw]
     else:
         logger.info(f"No cached file found, fetching voices from TTS engine: {engine}")
         tts = get_tts(engine)
@@ -90,10 +101,16 @@ def load_voices_from_source(engine: str):
             try:
                 voices_raw = tts.get_voices()
                 logger.info(f"Raw voices from {engine}: {voices_raw}")
-                voices = [{"engine": engine, **voice} for voice in voices_raw]
+                voices = [{"engine": engine, "is_offline": is_offline, **voice} for voice in voices_raw]
             except Exception as e:
                 logger.error(f"Failed to get voices for engine {engine}: {e}")
-                voices = [{"id": "error", "language_codes": [], "name": "Error fetching voices", "engine": engine}]
+                voices = [{
+                    "id": "error",
+                    "language_codes": [],
+                    "name": "Error fetching voices",
+                    "engine": engine,
+                    "is_offline": is_offline
+                }]
         else:
             raise HTTPException(status_code=400, detail="Invalid engine")
 

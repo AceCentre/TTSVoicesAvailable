@@ -73,21 +73,26 @@ def load_voices_from_source(engine: str):
     tts_engines_directory = os.path.realpath("./tts-data")
     voices = []
     geo_data = load_geo_data()  # Load geographical data
+    
+    logger.info(f"Loading voices for engine: {engine}")
 
     # Load the specific engine's JSON file if it exists
     engine_file_path = os.path.join(tts_engines_directory, f"{engine}.json")
     if os.path.isfile(engine_file_path):
+        logger.info(f"Loading voices from file: {engine_file_path}")
         with open(engine_file_path, 'r') as file:
             voices_raw = json.load(file)
             voices = [{"engine": engine, **item} for item in voices_raw]
     else:
+        logger.info(f"No cached file found, fetching voices from TTS engine: {engine}")
         tts = get_tts(engine)
         if tts:
             try:
                 voices_raw = tts.get_voices()
+                logger.info(f"Raw voices from {engine}: {voices_raw}")
                 voices = [{"engine": engine, **voice} for voice in voices_raw]
             except Exception as e:
-                logging.info(f"Failed to get voices for engine {engine}: {e}")
+                logger.error(f"Failed to get voices for engine {engine}: {e}")
                 voices = [{"id": "error", "language_codes": [], "name": "Error fetching voices", "engine": engine}]
         else:
             raise HTTPException(status_code=400, detail="Invalid engine")
@@ -99,10 +104,11 @@ def load_voices_from_source(engine: str):
         for lang_code in voice.get("language_codes", []):
             lat, long, language = find_geo_info(lang_code, geo_data)
             languages.append({"language_code": lang_code, "latitude": lat, "longitude": long, "language": language})
-        updated_voice = voice.copy()  # Create a copy of the voice
+        updated_voice = voice.copy()
         updated_voice["languages"] = languages
-        updated_voices.append(updated_voice)  # Add the updated voice to the list
+        updated_voices.append(updated_voice)
     
+    logger.info(f"Returning {len(updated_voices)} voices for {engine}")
     return updated_voices
 
 def get_client(engine: str):
@@ -205,19 +211,24 @@ def get_voices(engine: Optional[str] = Query(None, enum=engines_list), lang_code
     else:
         for eng in engines_list:
             print(f"Fetching voices for engine: {eng}")
+            eng_voices = None
             if not ignore_cache:
                 eng_voices = get_cached_voices(eng)
-                if eng == 'SherpaOnnx':
-                    print(f"Eng voices: {eng_voices}")
-            if not eng_voices:
+                if eng.lower() == 'sherpaonnx':  # Make case-insensitive
+                    print(f"Cached voices for {eng}: {eng_voices}")
+            
+            if eng_voices is None:  # More explicit check
                 try:
                     eng_voices = load_voices_from_source(eng)
+                    print(f"Loaded voices for {eng}: {eng_voices}")
                 except Exception as e:
-                    logger.error(f"Failed to fetch voices for engine {engine}: {e}")
+                    logger.error(f"Failed to fetch voices for engine {eng}: {e}")
                     continue
                 if not ignore_cache:
                     cache_voices(eng, eng_voices)
-            voices.extend(eng_voices)
+            
+            if eng_voices:  # Only extend if we have voices
+                voices.extend(eng_voices)
 
     filtered_voices = filter_voices(voices, lang_code, lang_name, name, gender)
 
